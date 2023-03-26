@@ -1,4 +1,4 @@
-package com.ohCom.ftmProject.config;
+package com.ohCom.ftmProject.config.tiles;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

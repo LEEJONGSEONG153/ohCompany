@@ -4,5 +4,52 @@ spring:
       prefix: /WEB-INF/views/
       suffix: .jsp
 
+  profiles:
+    include: oauth
+
+
+
+  # h2 database web으로 확인
+  .h2:
+    console:
+      enabled: true
+      path: /h2-console
+  # spring - h2 연결
+  datasource:
+    driverClassName: org.h2.Driver
+    #url: jdbc:h2.~/spring-qna-db  # embedded Mode : db 데이터 저장 위치 :  ~/spring-qna-db
+    url: jdbc:h2:mem:test;NON_KEYWORDS=USER
+
+
+    #spring.datasource.url=jdbc:h2:mem:test # In-Memory mode
+    username: sa
+    password:
+  sql:
+    init:
+      mode: always
+  #spring.sql.init.schema-locations=classpath:schema.sql
+  #spring.sql.init.data-locations=classpath:data.sql
+
+# model 프로퍼티 camel case 설정
+#mybatis:
+#  configuration:
+#    map-underscore-to-camel-case: true
+# Mybatis mapper 위치 설정
+  #mapper-locations: mapper/*.xml
+mybatis:
+  configuration:
+    multiple-result-sets-enabled: false
+    map-underscore-to-camel-case: true
+    call-setters-on-nulls: true
+    jdbc-type-for-null: varchar
+    default-fetch-size: 500
+  mapper-locations: classpath:mapper/*.xml
+
+
 server:
   port: 8080
+
+
+
+
+

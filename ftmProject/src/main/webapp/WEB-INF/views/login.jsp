@@ -22,6 +22,7 @@
 
     <!-- 나의 스타일 추가 -->
     <link rel="stylesheet" href="${path}/resources/css/login.css">
+<%--    <link rel="stylesheet" href="../../resources/css/login.css">--%>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
 
 </head>
@@ -39,7 +40,7 @@
             <div class="input-form-box"><span>아이디 </span><input type="text" name="uid" class="form-control"></div>
             <div class="input-form-box"><span>비밀번호 </span><input type="password" name="upw" class="form-control"></div>
             <div class="button-login-box" >
-                <button type="button" class="btn btn-primary btn-xs" id="loginBtn" style="width:100%">로그인</button>
+                <button type="button" onclick="location.href='/oauth2/authorization/google'" class="btn btn-primary btn-xs" id="loginBtn" style="width:100%">로그인</button>
             </div>
         </div>
 
@@ -50,11 +51,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script>
 
-    document.getElementById("loginBtn").onclick = function () {
+    <%--document.getElementById("loginBtn").onclick = function () {--%>
 
-        console.log('ddddd');
-        alert('ddd');
-    }
+    <%--    console.log('${path}');--%>
+    <%--    alert('ddd');--%>
+    <%--}--%>
 
 </script>
 </body>
