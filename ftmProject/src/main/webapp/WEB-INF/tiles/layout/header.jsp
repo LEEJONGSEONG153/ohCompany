@@ -12,5 +12,6 @@
 </head>
 <body>
     <h2>header</h2>
+    <button onclick="location.href='/logout'">로그아웃</button>
 </body>
 </html>

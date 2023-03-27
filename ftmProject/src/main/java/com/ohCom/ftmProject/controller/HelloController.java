@@ -30,17 +30,13 @@ public class HelloController {
         }
 
 
-
-
         return "login";
     }
 
-    @GetMapping("/main2")
+    @GetMapping("/main")
     public String helloMainPage() {
 
-
-
-        return "login";
+        return "main/index";
     }
 
 
