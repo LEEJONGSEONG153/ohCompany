@@ -41,8 +41,8 @@
             <div class="input-form-box"><span>비밀번호 </span><input type="password" name="upw" class="form-control"></div>
             <div class="button-login-box" >
                 <button type="button" onclick="location.href='/oauth2/authorization/google'" class="btn btn-primary btn-xs" id="loginBtnG" style="width:33%">google 로그인</button>
-                <button type="button" onclick="location.href='/auth/kakao'" class="btn btn-primary btn-xs" id="loginBtnK" style="width:33%">kakao 로그인</button>
-                <button type="button" onclick="location.href='/oauth2/authorization/google'" class="btn btn-primary btn-xs" id="loginBtnN" style="width:33%">naver 로그인</button>
+                <button type="button" onclick="location.href='/oauth2/authorization/kakao'" class="btn btn-primary btn-xs" id="loginBtnK" style="width:33%">kakao 로그인</button>
+                <button type="button" onclick="location.href='/oauth2/authorization/naver'" class="btn btn-primary btn-xs" id="loginBtnN" style="width:33%">naver 로그인</button>
             </div>
         </div>
 
