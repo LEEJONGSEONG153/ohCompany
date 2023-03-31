@@ -1,6 +1,8 @@
 package com.ohCom.ftmProject.domain.user;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 @Getter
@@ -13,4 +15,5 @@ public enum Role {
 
     private final String key;
     private final String title;
+
 }

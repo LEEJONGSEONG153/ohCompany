@@ -6,12 +6,11 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
-    <h2>header</h2>
-    <button onclick="location.href='/logout'">로그아웃</button>
-</body>
-</html>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="path" value="${pageContext.request.contextPath}"/>
+
+<jsp:include page="${path}/resources/src/partials/navbar/main-absolute-top.jsp" flush="false" >
+    <jsp:param name="category" value="" />
+    <jsp:param name="link" value="index.html" />
+    <jsp:param name="userName" value="${userName}" />
+</jsp:include>

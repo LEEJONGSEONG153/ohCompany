@@ -28,16 +28,23 @@ public class HelloController {
             System.out.println(user.getName());
             System.out.println(user.getEmail());
             System.out.println(user.getPicture());
-
-            return "main/index";
-        }else {
-            return "login";
         }
-
+        return "main/index";
     }
 
     @GetMapping("/main")
-    public String helloMainPage() {
+    public String helloMainPage(Model model) {
+
+        SessionUser user = (SessionUser)httpSession.getAttribute("user");
+
+        if(user != null) {
+            model.addAttribute("userName", user.getName());
+
+            System.out.println(user.getName());
+            System.out.println(user.getEmail());
+            System.out.println(user.getPicture());
+        }
+
 
         return "main/index";
     }

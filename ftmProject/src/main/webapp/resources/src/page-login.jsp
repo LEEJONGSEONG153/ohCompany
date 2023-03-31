@@ -9,18 +9,18 @@
   <title>Log In | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
   <link href="@@vars.themeFont" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
 </head>
 
 <body class="d-flex align-items-center min-h-100 bg-dark">
@@ -33,8 +33,8 @@
           <!-- ========== HEADER ========== -->
           <header id="header" class="navbar navbar-height navbar-light mb-3">
             <div class="container">
-              <a class="navbar-brand mx-auto" href="@@autopath/index.html" aria-label="Unify">
-                <img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo-white.svg" alt="Image Description">
+              <a class="navbar-brand mx-auto" href="${path}/resources/src/index.html" aria-label="Unify">
+                <img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo-white.svg" alt="Image Description">
               </a>
             </div>
           </header>
@@ -53,9 +53,9 @@
                           <h3 class="card-title">Login to Unify</h3>
                         </div>
 
-                        <a class="btn btn-white btn-lg d-grid mb-4" href="#">
+                        <a class="btn btn-white btn-lg d-grid mb-4" href="/oauth2/authorization/google">
                           <span class="d-flex justify-content-center align-items-center">
-                            <img class="avatar avatar-xss me-2" src="@@autopath/assets/svg/brands/google-icon.svg" alt="Image Description">
+                            <img class="avatar avatar-xss me-2" src="${path}/resources/src/assets/svg/brands/google-icon.svg" alt="Image Description">
                             Log in with Google
                           </span>
                         </a>
@@ -93,20 +93,20 @@
                       <!-- End Form -->
 
                       <div class="d-flex justify-content-end mb-4">
-                        <a class="form-label-link" href="@@autopath/page-reset-password.html">Forgot Password?</a>
+                        <a class="form-label-link" href="${path}/resources/src/page-reset-password.html">Forgot Password?</a>
                       </div>
 
                       <div class="d-grid gap-4">
                         <button type="submit" class="btn btn-primary btn-lg">Sign in</button>
-                        <p class="card-text text-muted">Don't have an account yet? <a class="link" href="@@autopath/page-signup.html">Sign up here</a></p>
+                        <p class="card-text text-muted">Don't have an account yet? <a class="link" href="${path}/resources/src/page-signup.html">Sign up here</a></p>
                       </div>
                     </form>
                     <!-- End Form -->
                   </div>
                 </div>
                 <!-- End Col -->
-                  
-                <div class="col-md-4 d-md-flex justify-content-center flex-column bg-soft-primary p-8 p-md-5" style="background-image: url(@@autopath/assets/svg/components/wave-pattern.svg);">
+
+                <div class="col-md-4 d-md-flex justify-content-center flex-column bg-soft-primary p-8 p-md-5" style="background-image: url(${path}/resources/src/assets/svg/components/wave-pattern.svg);">
                   <h5 class="mb-4">Build digital products with:</h5>
 
                   <!-- List Checked -->
@@ -128,13 +128,13 @@
 
             <!-- SVG Shape -->
             <figure class="position-absolute top-0 end-0 zi-n1 d-none d-sm-block mt-n7 me-n10" style="width: 4rem;">
-              <img class="img-fluid" src="@@autopath/assets/svg/components/pointer-up.svg" alt="Image Description">
+              <img class="img-fluid" src="${path}/resources/src/assets/svg/components/pointer-up.svg" alt="Image Description">
             </figure>
             <!-- End SVG Shape -->
 
             <!-- SVG Shape -->
             <figure class="position-absolute bottom-0 start-0 d-none d-sm-block ms-n10 mb-n10" style="width: 15rem;">
-              <img class="img-fluid" src="@@autopath/assets/svg/components/curved-shape.svg" alt="Image Description">
+              <img class="img-fluid" src="${path}/resources/src/assets/svg/components/curved-shape.svg" alt="Image Description">
             </figure>
             <!-- End SVG Shape -->
           </div>
@@ -146,16 +146,16 @@
   <!-- ========== END MAIN CONTENT ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-toggle-password/dist/js/hs-toggle-password.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-toggle-password/dist/js/hs-toggle-password.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
-  <script src="@@autopath/assets/js/hs.bs-validation.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
+  <script src="${path}/resources/src/assets/js/hs.bs-validation.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>

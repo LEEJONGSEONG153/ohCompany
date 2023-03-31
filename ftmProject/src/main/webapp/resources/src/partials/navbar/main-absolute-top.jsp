@@ -1,4 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <header id="header" class="navbar navbar-expand-lg navbar-end navbar-light navbar-absolute-top navbar-show-hide"
         data-hs-header-options='{
           "fixMoment": 0,
@@ -27,22 +29,41 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <div class="navbar-absolute-top-scroller">
           <ul class="navbar-nav nav-pills">
-            @@include("../navbar/navbar-nav-menu.html", {
-              "category": "@@category",
-              "subcategory": "@@subcategory",
-              "link": "@@link"
-            })
+<%--            @@include("../navbar/navbar-nav-menu.html", {--%>
+<%--              "category": "@@category",--%>
+<%--              "subcategory": "@@subcategory",--%>
+<%--              "link": "@@link"--%>
+<%--            })--%>
+                 <jsp:include page="../navbar/navbar-nav-menu.jsp" flush="false" >
+                    <jsp:param name="category" value="" />
+                    <jsp:param name="link" value="${param.link}"/>
+                </jsp:include>
 
             <!-- Log in -->
-            <li class="nav-item ms-lg-auto">
-              <a class="btn btn-ghost-dark me-2 me-lg-0" href="${path}/resources/src/page-login.html">Log in</a>
-              <a class="btn btn-dark d-lg-none" href="${path}/resources/src/page-signup.html">Sign up</a>
-            </li>
+                <li class="nav-item ms-lg-auto">
+                    <c:choose>
+                        <c:when test="${empty param.userName}">
+                            <a class="btn btn-ghost-dark me-2 me-lg-0" href="${path}/resources/src/page-login.jsp">Log in</a>
+                            <a class="btn btn-dark d-lg-none" href="${path}/resources/src/page-signup.html">Sign up</a>
+                        </c:when>
+                        <c:otherwise>
+                           ${param.userName} 안녕하슈
+                        </c:otherwise>
+                    </c:choose>
+                </li>
             <!-- End Log in -->
 
             <!-- Sign up -->
             <li class="nav-item">
-              <a class="btn btn-dark d-none d-lg-inline-block" href="${path}/resources/src/page-signup.html">Sign up</a>
+<%--                <a class="btn btn-dark d-none d-lg-inline-block" href="${path}/resources/src/page-signup.html">Sign up</a>--%>
+                <c:choose>
+                    <c:when test="${empty param.userName}">
+                        <a class="btn btn-dark d-none d-lg-inline-block" href="${path}/resources/src/page-signup.html">Sign up</a>
+                    </c:when>
+                    <c:otherwise>
+                        <a class="btn btn-dark d-none d-lg-inline-block" href="/logout">Log out</a>
+                    </c:otherwise>
+                </c:choose>
             </li>
             <!-- End Sign up -->
           </ul>

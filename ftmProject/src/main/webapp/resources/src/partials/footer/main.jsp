@@ -169,22 +169,22 @@
             <div class="btn-group">
               <a class="link link-light link-light-75" href="javascript:;" id="selectLanguage" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="d-flex align-items-center">
-                  <img class="avatar avatar-xss avatar-circle me-2" src="@@autopath/node_modules/flag-icon-css/flags/1x1/us.svg" alt="Image description" width="16"/>
+                  <img class="avatar avatar-xss avatar-circle me-2" src="${path}/resources/src/node_modules/flag-icon-css/flags/1x1/us.svg" alt="Image description" width="16"/>
                   <span>English</span>
                 </span>
               </a>
 
               <div class="dropdown-menu">
                 <a class="dropdown-item d-flex align-items-center active" href="#">
-                  <img class="avatar avatar-xss avatar-circle me-2" src="@@autopath/node_modules/flag-icon-css/flags/1x1/us.svg" alt="Image description" width="16"/>
+                  <img class="avatar avatar-xss avatar-circle me-2" src="${path}/resources/src/node_modules/flag-icon-css/flags/1x1/us.svg" alt="Image description" width="16"/>
                   <span>English</span>
                 </a>
                 <a class="dropdown-item d-flex align-items-center" href="#">
-                  <img class="avatar avatar-xss avatar-circle me-2" src="@@autopath/node_modules/flag-icon-css/flags/1x1/de.svg" alt="Image description" width="16"/>
+                  <img class="avatar avatar-xss avatar-circle me-2" src="${path}/resources/src/node_modules/flag-icon-css/flags/1x1/de.svg" alt="Image description" width="16"/>
                   <span>Deutsch</span>
                 </a>
                 <a class="dropdown-item d-flex align-items-center" href="#">
-                  <img class="avatar avatar-xss avatar-circle me-2" src="@@autopath/node_modules/flag-icon-css/flags/1x1/es.svg" alt="Image description" width="16"/>
+                  <img class="avatar avatar-xss avatar-circle me-2" src="${path}/resources/src/node_modules/flag-icon-css/flags/1x1/es.svg" alt="Image description" width="16"/>
                   <span>Español</span>
                 </a>
               </div>
