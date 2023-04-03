@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="@@languageDirection.lang">
+<html lang="en">
 <head>
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -12,11 +12,12 @@
   <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+<%--  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">--%>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
   <!-- bundlecss:vendor [${path}/resources/src] -->
-  <link rel="stylesheet" href="${path}/resources/src/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
 
   <!-- CSS Unify Template -->
   <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
@@ -93,12 +94,12 @@
                       <!-- End Form -->
 
                       <div class="d-flex justify-content-end mb-4">
-                        <a class="form-label-link" href="${path}/resources/src/page-reset-password.html">Forgot Password?</a>
+                        <a class="form-label-link" href="${path}/resources/src/page-reset-password.jsp">Forgot Password?</a>
                       </div>
 
                       <div class="d-grid gap-4">
                         <button type="submit" class="btn btn-primary btn-lg">Sign in</button>
-                        <p class="card-text text-muted">Don't have an account yet? <a class="link" href="${path}/resources/src/page-signup.html">Sign up here</a></p>
+                        <p class="card-text text-muted">Don't have an account yet? <a class="link" href="${path}/resources/src/page-signup.jsp">Sign up here</a></p>
                       </div>
                     </form>
                     <!-- End Form -->
@@ -146,7 +147,7 @@
   <!-- ========== END MAIN CONTENT ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="${path}/resources/src/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
   <!-- bundlejs:vendor [${path}/resources/src] -->

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="@@languageDirection.lang">
+<html lang="en">
 <head>
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -9,25 +9,25 @@
   <title>Corporate | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
-  <link rel="stylesheet" href="@@autopath/node_modules/swiper/swiper-bundle.min.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
 </head>
 
 <body>
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/navbar/main-absolute-top.html", {
+  @@include("${path}/resources/src/partials/navbar/main-absolute-top.html", {
     "category": "",
     "link": "index.html"
   })
@@ -54,10 +54,10 @@
         <div class="col-lg-6">
           <div class="position-relative">
             <div class="position-relative">
-              <img class="img-fluid" src="@@autopath/assets/img/950x950/img1.jpg" alt="Image Description">
+              <img class="img-fluid" src="${path}/resources/src/assets/img/950x950/img1.jpg" alt="Image Description">
 
               <div class="position-absolute bottom-0 end-0">
-                <img class="w-100" src="@@autopath/assets/svg/illustrations/cubics.svg" alt="SVG" style="max-width: 30rem;">
+                <img class="w-100" src="${path}/resources/src/assets/svg/illustrations/cubics.svg" alt="SVG" style="max-width: 30rem;">
               </div>
             </div>
 
@@ -66,7 +66,7 @@
               <div class="d-flex align-items-center">
                 <div class="flex-shrink-0">
                   <span class="avatar avatar-sm avatar-circle">
-                    <img class="avatar-img" src="@@autopath/assets/img/160x160/img10.jpg" alt="Image Description">
+                    <img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img10.jpg" alt="Image Description">
                   </span>
                 </div>
                 <div class="flex-grow-1 ms-2">
@@ -82,7 +82,7 @@
               <div class="d-flex align-items-center">
                 <div class="flex-shrink-0">
                   <span class="avatar avatar-sm avatar-circle">
-                    <img class="avatar-img" src="@@autopath/assets/img/160x160/img3.jpg" alt="Image Description">
+                    <img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img3.jpg" alt="Image Description">
                   </span>
                 </div>
                 <div class="flex-grow-1 ms-2">
@@ -170,17 +170,17 @@
           <div class="col-lg-7 me-auto ms-lg-n10 mb-5 mb-lg-0">
             <div class="row align-items-center">
               <div class="col-4">
-                <img class="img-fluid rounded-3" src="@@autopath/assets/img/580x480/img1.jpg" alt="Image Description">
+                <img class="img-fluid rounded-3" src="${path}/resources/src/assets/img/580x480/img1.jpg" alt="Image Description">
               </div>
               <!-- End Col -->
               
               <div class="col-3">
-                <img class="img-fluid rounded-3" src="@@autopath/assets/img/350x700/img1.jpg" alt="Image Description">
+                <img class="img-fluid rounded-3" src="${path}/resources/src/assets/img/350x700/img1.jpg" alt="Image Description">
               </div>
               <!-- End Col -->
 
               <div class="col-5">
-                <img class="img-fluid rounded-3" src="@@autopath/assets/img/400x700/img1.jpg" alt="Image Description">
+                <img class="img-fluid rounded-3" src="${path}/resources/src/assets/img/400x700/img1.jpg" alt="Image Description">
               </div>
               <!-- End Col -->
             </div>
@@ -280,7 +280,7 @@
     <div class="container content-space-t-2 content-space-t-lg-3">
       <div class="row justify-content-lg-between align-items-lg-center">
         <div class="col-lg-6 mb-5 mb-lg-0">
-          <img class="img-fluid rounded-3" src="@@autopath/assets/img/950x950/img2.jpg" alt="Image Description">
+          <img class="img-fluid rounded-3" src="${path}/resources/src/assets/img/950x950/img2.jpg" alt="Image Description">
         </div>
         <!-- End Col -->
 
@@ -322,7 +322,7 @@
             <figcaption class="blockquote-footer">
               <div class="d-flex align-items-center">
                 <div class="flex-shrink-0">
-                  <img class="avatar avatar-circle" src="@@autopath/assets/img/160x160/img3.jpg" alt="Image Description">
+                  <img class="avatar avatar-circle" src="${path}/resources/src/assets/img/160x160/img3.jpg" alt="Image Description">
                 </div>
 
                 <div class="flex-grow-1 ms-3">
@@ -373,27 +373,27 @@
       <div class="js-swiper-clients swiper text-center">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/mailchimp-dark.svg" alt="Logo">
+            <img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/mailchimp-dark.svg" alt="Logo">
           </div>
           <!-- End Slide -->
 
           <div class="swiper-slide">
-            <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/sass-dark.svg" alt="Logo">
+            <img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/sass-dark.svg" alt="Logo">
           </div>
           <!-- End Slide -->
 
           <div class="swiper-slide">
-            <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/forbes-dark.svg" alt="Logo">
+            <img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/forbes-dark.svg" alt="Logo">
           </div>
           <!-- End Slide -->
 
           <div class="swiper-slide">
-            <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/gitlab-dark.svg" alt="Logo">
+            <img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/gitlab-dark.svg" alt="Logo">
           </div>
           <!-- End Slide -->
 
           <div class="swiper-slide">
-            <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/hubspot-dark.svg" alt="Logo">
+            <img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/hubspot-dark.svg" alt="Logo">
           </div>
           <!-- End Slide -->
         </div>
@@ -414,9 +414,9 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
         <div class="col mb-5 mb-md-0">
           <!-- Card -->
-          <a class="card card-ghost card-transition-zoom h-100" href="@@autopath/blog-article.html">
+          <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.html">
             <div class="card-transition-zoom-item">
-              <img class="card-img" src="@@autopath/assets/img/580x480/img1.jpg" alt="Image Description">
+              <img class="card-img" src="${path}/resources/src/assets/img/580x480/img1.jpg" alt="Image Description">
             </div>
 
             <div class="card-body">
@@ -434,9 +434,9 @@
 
         <div class="col mb-5 mb-md-0">
           <!-- Card -->
-          <a class="card card-ghost card-transition-zoom h-100" href="@@autopath/blog-article.html">
+          <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.html">
             <div class="card-pinned card-transition-zoom-item">
-              <img class="card-img" src="@@autopath/assets/img/580x480/img2.jpg" alt="Image Description">
+              <img class="card-img" src="${path}/resources/src/assets/img/580x480/img2.jpg" alt="Image Description">
               <span class="badge bg-dark text-white card-pinned-top-end">Sponsored</span>
             </div>
 
@@ -455,9 +455,9 @@
 
         <div class="col">
           <!-- Card -->
-          <a class="card card-ghost card-transition-zoom h-100" href="@@autopath/blog-article.html">
+          <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.html">
             <div class="card-transition-zoom-item">
-              <img class="card-img" src="@@autopath/assets/img/580x480/img3.jpg" alt="Image Description">
+              <img class="card-img" src="${path}/resources/src/assets/img/580x480/img3.jpg" alt="Image Description">
             </div>
 
             <div class="card-body">
@@ -480,27 +480,28 @@
   <!-- ========== END MAIN CONTENT ========== -->
 
   <!-- ========== FOOTER ========== -->
-  @@include("@@autopath/partials/footer/main.html")
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/>
   <!-- ========== END FOOTER ========== -->
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/node_modules/swiper/swiper-bundle.min.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>

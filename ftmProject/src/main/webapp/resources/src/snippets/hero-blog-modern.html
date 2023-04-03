@@ -9,26 +9,26 @@
   <title>Hero - Blog: Modern - Snippets | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
-  <link rel="stylesheet" href="@@autopath/node_modules/swiper/swiper-bundle.min.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
-  <link rel="stylesheet" href="@@autopath/assets/css/snippets.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/snippets.css">
 </head>
 
 <body>
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/navbar/main.html", {
+  @@include("${path}/resources/src/partials/navbar/main.html", {
     "category": "",
     "link": ""
   })
@@ -41,7 +41,7 @@
       <!-- Swiper Main Slider -->
       <div class="js-swiper-blog-modern-hero swiper swiper-equal-height">
         <div class="swiper-wrapper">
-          <div class="swiper-slide bg-img-start content-space-2 content-space-t-sm-3 content-space-b-sm-4" style="background-image: url(@@autopath/assets/img/1920x1080/img1.jpg);">
+          <div class="swiper-slide bg-img-start content-space-2 content-space-t-sm-3 content-space-b-sm-4" style="background-image: url(${path}/resources/src/assets/img/1920x1080/img1.jpg);">
             <!-- Container -->
             <div class="container content-space-b-sm-2">
               <div class="row">
@@ -50,12 +50,12 @@
                   <div class="d-flex align-items-center mb-3">
                     <div class="flex-shrink-0">
                       <div class="avatar avatar-circle">
-                        <img class="avatar-img" src="@@autopath/assets/img/160x160/img10.jpg" alt="Image Description">
+                        <img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img10.jpg" alt="Image Description">
                       </div>
                     </div>
 
                     <div class="flex-grow-1 ms-3">
-                      <a class="text-white" href="@@autopath/blog-article.html">Louise Donadieu</a>
+                      <a class="text-white" href="${path}/resources/src/blog-article.html">Louise Donadieu</a>
                     </div>
                   </div>
                   <!-- End Media -->
@@ -64,7 +64,7 @@
                     <h2 class="h1 text-white">Unify Corporate - let's work together</h2>
                   </div>
                   
-                  <a class="btn btn-light btn-pointer" href="@@autopath/blog-article.html">Read article</a>
+                  <a class="btn btn-light btn-pointer" href="${path}/resources/src/blog-article.html">Read article</a>
                 </div>
                 <!-- End Col -->
               </div>
@@ -73,7 +73,7 @@
             <!-- End Container -->
           </div>
 
-          <div class="swiper-slide bg-img-start content-space-2 content-space-t-sm-3 content-space-b-sm-4" style="background-image: url(@@autopath/assets/img/1920x1080/img12.jpg);">
+          <div class="swiper-slide bg-img-start content-space-2 content-space-t-sm-3 content-space-b-sm-4" style="background-image: url(${path}/resources/src/assets/img/1920x1080/img12.jpg);">
             <!-- Container -->
             <div class="container content-space-b-sm-2">
               <div class="row">
@@ -82,12 +82,12 @@
                   <div class="d-flex align-items-center mb-3">
                     <div class="flex-shrink-0">
                       <div class="avatar avatar-circle">
-                        <img class="avatar-img" src="@@autopath/assets/img/160x160/img10.jpg" alt="Image Description">
+                        <img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img10.jpg" alt="Image Description">
                       </div>
                     </div>
 
                     <div class="flex-grow-1 ms-3">
-                      <a class="text-white" href="@@autopath/blog-article.html">Louise Donadieu</a>
+                      <a class="text-white" href="${path}/resources/src/blog-article.html">Louise Donadieu</a>
                     </div>
                   </div>
                   <!-- End Media -->
@@ -96,7 +96,7 @@
                     <h2 class="h1 text-white">How Google Assistant now helps you record stories</h2>
                   </div>
                   
-                  <a class="btn btn-light btn-pointer" href="@@autopath/blog-article.html">Read article</a>
+                  <a class="btn btn-light btn-pointer" href="${path}/resources/src/blog-article.html">Read article</a>
                 </div>
                 <!-- End Col -->
               </div>
@@ -105,7 +105,7 @@
             <!-- End Container -->
           </div>
 
-          <div class="swiper-slide bg-img-start content-space-2 content-space-t-sm-3 content-space-b-sm-4" style="background-image: url(@@autopath/assets/img/1920x1080/img3.jpg);">
+          <div class="swiper-slide bg-img-start content-space-2 content-space-t-sm-3 content-space-b-sm-4" style="background-image: url(${path}/resources/src/assets/img/1920x1080/img3.jpg);">
             <!-- Container -->
             <div class="container content-space-b-sm-2">
               <div class="row">
@@ -114,11 +114,11 @@
                   <div class="d-flex align-items-center mb-3">
                     <div class="flex-shrink-0">
                       <div class="avatar avatar-circle">
-                        <img class="avatar-img" src="@@autopath/assets/img/160x160/img4.jpg" alt="Image Description">
+                        <img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img4.jpg" alt="Image Description">
                       </div>
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <a class="text-white" href="@@autopath/blog-article.html">Jeff Fisher</a>
+                      <a class="text-white" href="${path}/resources/src/blog-article.html">Jeff Fisher</a>
                     </div>
                   </div>
                   <!-- End Media -->
@@ -127,7 +127,7 @@
                     <h2 class="h1 text-white">Unify Interview with a Lead Designer of the Hubble</h2>
                   </div>
                   
-                  <a class="btn btn-light btn-pointer" href="@@autopath/blog-article.html">Read article</a>
+                  <a class="btn btn-light btn-pointer" href="${path}/resources/src/blog-article.html">Read article</a>
                 </div>
                 <!-- End Col -->
               </div>
@@ -203,7 +203,7 @@
                   &lt;!-- Swiper Main Slider --&gt;
                   &lt;div class="js-swiper-blog-modern-hero swiper swiper-equal-height"&gt;
                     &lt;div class="swiper-wrapper"&gt;
-                      &lt;div class="swiper-slide bg-img-start content-space-2 content-space-t-sm-3 content-space-b-sm-4" style="background-image: url(@@autopath/assets/img/1920x1080/img1.jpg);"&gt;
+                      &lt;div class="swiper-slide bg-img-start content-space-2 content-space-t-sm-3 content-space-b-sm-4" style="background-image: url(${path}/resources/src/assets/img/1920x1080/img1.jpg);"&gt;
                         &lt;!-- Container --&gt;
                         &lt;div class="container content-space-b-sm-2"&gt;
                           &lt;div class="row"&gt;
@@ -212,12 +212,12 @@
                               &lt;div class="d-flex align-items-center mb-3"&gt;
                                 &lt;div class="flex-shrink-0"&gt;
                                   &lt;div class="avatar avatar-circle"&gt;
-                                    &lt;img class="avatar-img" src="@@autopath/assets/img/160x160/img10.jpg" alt="Image Description"&gt;
+                                    &lt;img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img10.jpg" alt="Image Description"&gt;
                                   &lt;/div&gt;
                                 &lt;/div&gt;
 
                                 &lt;div class="flex-grow-1 ms-3"&gt;
-                                  &lt;a class="text-white" href="@@autopath/blog-article.html"&gt;Louise Donadieu&lt;/a&gt;
+                                  &lt;a class="text-white" href="${path}/resources/src/blog-article.html"&gt;Louise Donadieu&lt;/a&gt;
                                 &lt;/div&gt;
                               &lt;/div&gt;
                               &lt;!-- End Media --&gt;
@@ -226,7 +226,7 @@
                                 &lt;h2 class="h1 text-white"&gt;Unify Corporate - let's work together&lt;/h2&gt;
                               &lt;/div&gt;
                               
-                              &lt;a class="btn btn-light btn-pointer" href="@@autopath/blog-article.html"&gt;Read article&lt;/a&gt;
+                              &lt;a class="btn btn-light btn-pointer" href="${path}/resources/src/blog-article.html"&gt;Read article&lt;/a&gt;
                             &lt;/div&gt;
                             &lt;!-- End Col --&gt;
                           &lt;/div&gt;
@@ -235,7 +235,7 @@
                         &lt;!-- End Container --&gt;
                       &lt;/div&gt;
 
-                      &lt;div class="swiper-slide bg-img-start content-space-2 content-space-t-sm-3 content-space-b-sm-4" style="background-image: url(@@autopath/assets/img/1920x1080/img12.jpg);"&gt;
+                      &lt;div class="swiper-slide bg-img-start content-space-2 content-space-t-sm-3 content-space-b-sm-4" style="background-image: url(${path}/resources/src/assets/img/1920x1080/img12.jpg);"&gt;
                         &lt;!-- Container --&gt;
                         &lt;div class="container content-space-b-sm-2"&gt;
                           &lt;div class="row"&gt;
@@ -244,12 +244,12 @@
                               &lt;div class="d-flex align-items-center mb-3"&gt;
                                 &lt;div class="flex-shrink-0"&gt;
                                   &lt;div class="avatar avatar-circle"&gt;
-                                    &lt;img class="avatar-img" src="@@autopath/assets/img/160x160/img10.jpg" alt="Image Description"&gt;
+                                    &lt;img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img10.jpg" alt="Image Description"&gt;
                                   &lt;/div&gt;
                                 &lt;/div&gt;
 
                                 &lt;div class="flex-grow-1 ms-3"&gt;
-                                  &lt;a class="text-white" href="@@autopath/blog-article.html"&gt;Louise Donadieu&lt;/a&gt;
+                                  &lt;a class="text-white" href="${path}/resources/src/blog-article.html"&gt;Louise Donadieu&lt;/a&gt;
                                 &lt;/div&gt;
                               &lt;/div&gt;
                               &lt;!-- End Media --&gt;
@@ -258,7 +258,7 @@
                                 &lt;h2 class="h1 text-white"&gt;How Google Assistant now helps you record stories&lt;/h2&gt;
                               &lt;/div&gt;
                               
-                              &lt;a class="btn btn-light btn-pointer" href="@@autopath/blog-article.html"&gt;Read article&lt;/a&gt;
+                              &lt;a class="btn btn-light btn-pointer" href="${path}/resources/src/blog-article.html"&gt;Read article&lt;/a&gt;
                             &lt;/div&gt;
                             &lt;!-- End Col --&gt;
                           &lt;/div&gt;
@@ -267,7 +267,7 @@
                         &lt;!-- End Container --&gt;
                       &lt;/div&gt;
 
-                      &lt;div class="swiper-slide bg-img-start content-space-2 content-space-t-sm-3 content-space-b-sm-4" style="background-image: url(@@autopath/assets/img/1920x1080/img3.jpg);"&gt;
+                      &lt;div class="swiper-slide bg-img-start content-space-2 content-space-t-sm-3 content-space-b-sm-4" style="background-image: url(${path}/resources/src/assets/img/1920x1080/img3.jpg);"&gt;
                         &lt;!-- Container --&gt;
                         &lt;div class="container content-space-b-sm-2"&gt;
                           &lt;div class="row"&gt;
@@ -276,11 +276,11 @@
                               &lt;div class="d-flex align-items-center mb-3"&gt;
                                 &lt;div class="flex-shrink-0"&gt;
                                   &lt;div class="avatar avatar-circle"&gt;
-                                    &lt;img class="avatar-img" src="@@autopath/assets/img/160x160/img4.jpg" alt="Image Description"&gt;
+                                    &lt;img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img4.jpg" alt="Image Description"&gt;
                                   &lt;/div&gt;
                                 &lt;/div&gt;
                                 &lt;div class="flex-grow-1 ms-3"&gt;
-                                  &lt;a class="text-white" href="@@autopath/blog-article.html"&gt;Jeff Fisher&lt;/a&gt;
+                                  &lt;a class="text-white" href="${path}/resources/src/blog-article.html"&gt;Jeff Fisher&lt;/a&gt;
                                 &lt;/div&gt;
                               &lt;/div&gt;
                               &lt;!-- End Media --&gt;
@@ -289,7 +289,7 @@
                                 &lt;h2 class="h1 text-white"&gt;Unify Interview with a Lead Designer of the Hubble&lt;/h2&gt;
                               &lt;/div&gt;
                               
-                              &lt;a class="btn btn-light btn-pointer" href="@@autopath/blog-article.html"&gt;Read article&lt;/a&gt;
+                              &lt;a class="btn btn-light btn-pointer" href="${path}/resources/src/blog-article.html"&gt;Read article&lt;/a&gt;
                             &lt;/div&gt;
                             &lt;!-- End Col --&gt;
                           &lt;/div&gt;
@@ -340,7 +340,7 @@
           <div class="tab-pane fade" id="nav-css1" role="tabpanel" aria-labelledby="nav-cssTab1">
             <pre>
               <code class="language-markup" data-lang="html">
-                &lt;link rel="stylesheet" href="@@autopath/node_modules/swiper/swiper-bundle.min.css"&gt;
+                &lt;link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.css"&gt;
               </code>
             </pre>
           </div>
@@ -348,7 +348,7 @@
           <div class="tab-pane fade" id="nav-js1" role="tabpanel" aria-labelledby="nav-jsTab1">
             <pre>
               <code class="language-markup" data-lang="html">
-                &lt;script src="@@autopath/node_modules/swiper/swiper-bundle.min.js"&gt;&lt;/script&gt;
+                &lt;script src="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.js"&gt;&lt;/script&gt;
 
                 &lt;!-- JS Plugins Init. --&gt;
                 &lt;script&gt;
@@ -387,21 +387,21 @@
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
-  <script src="@@autopath/node_modules/swiper/swiper-bundle.min.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/prism/prism.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>

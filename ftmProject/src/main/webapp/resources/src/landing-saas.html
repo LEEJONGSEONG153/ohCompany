@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="@@languageDirection.lang">
+<html lang="en">
 <head>
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -9,24 +9,24 @@
   <title>SaaS | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
 </head>
 
 <body>
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/navbar/main.html", {
+  @@include("${path}/resources/src/partials/navbar/main.html", {
     "category": "",
     "link": "landing-saas.html"
   })
@@ -53,16 +53,16 @@
                 <div class="col-sm-auto">
                   <div class="pe-sm-4">
                     <div class="d-flex gap-1 mb-2">
-                      <img src="@@autopath/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
-                      <img src="@@autopath/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
-                      <img src="@@autopath/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
-                      <img src="@@autopath/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
-                      <img src="@@autopath/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
+                      <img src="${path}/resources/src/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
+                      <img src="${path}/resources/src/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
+                      <img src="${path}/resources/src/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
+                      <img src="${path}/resources/src/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
+                      <img src="${path}/resources/src/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
                     </div>
                     <!-- End Rating -->
                     
                     <span class="d-block fs-5 mb-3"><span class="fw-bold text-dark">4.6</span> /5 - from 12k reviews</span>
-                    <img class="avatar avatar-4x3" src="@@autopath/assets/svg/brands/google-dark.svg" alt="Logo">
+                    <img class="avatar avatar-4x3" src="${path}/resources/src/assets/svg/brands/google-dark.svg" alt="Logo">
                   </div>
                 </div>
                 <!-- End Col -->
@@ -70,16 +70,16 @@
                 <div class="col-sm-auto">
                   <div class="ps-sm-4">
                     <div class="d-flex gap-1 mb-2">
-                      <img src="@@autopath/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
-                      <img src="@@autopath/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
-                      <img src="@@autopath/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
-                      <img src="@@autopath/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
-                      <img src="@@autopath/assets/svg/illustrations/star-half.svg" alt="Review rating" width="18">
+                      <img src="${path}/resources/src/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
+                      <img src="${path}/resources/src/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
+                      <img src="${path}/resources/src/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
+                      <img src="${path}/resources/src/assets/svg/illustrations/star.svg" alt="Review rating" width="18">
+                      <img src="${path}/resources/src/assets/svg/illustrations/star-half.svg" alt="Review rating" width="18">
                     </div>
                     <!-- End Rating -->
                     
                     <span class="d-block fs-5 mb-3"><span class="fw-bold text-dark">4.8</span> /5 - from 5k reviews</span>
-                    <img class="avatar avatar-4x3" src="@@autopath/assets/svg/brands/forbes-dark.svg" alt="Logo">
+                    <img class="avatar avatar-4x3" src="${path}/resources/src/assets/svg/brands/forbes-dark.svg" alt="Logo">
                   </div>
                 </div>
                 <!-- End Col -->
@@ -153,7 +153,7 @@
 
               <!-- SVG Shape -->
               <figure class="position-absolute top-0 end-0 zi-n1 d-none d-sm-block me-n10" style="width: 4rem;">
-                <img class="img-fluid" src="@@autopath/assets/svg/components/pointer-up.svg" alt="Image Description">
+                <img class="img-fluid" src="${path}/resources/src/assets/svg/components/pointer-up.svg" alt="Image Description">
               </figure>
               <!-- End SVG Shape -->
             </div>
@@ -209,7 +209,7 @@
               <!-- End Col -->
 
               <div class="col-lg-7">
-                <img class="img-fluid" src="@@autopath/assets/img/mockups/img1.png" alt="Image Description">
+                <img class="img-fluid" src="${path}/resources/src/assets/img/mockups/img1.png" alt="Image Description">
               </div>
               <!-- End Col -->
             </div>
@@ -246,7 +246,7 @@
               <!-- End Col -->
 
               <div class="col-lg-7">
-                <img class="img-fluid" src="@@autopath/assets/img/mockups/img2.png" alt="Image Description">
+                <img class="img-fluid" src="${path}/resources/src/assets/img/mockups/img2.png" alt="Image Description">
               </div>
               <!-- End Col -->
             </div>
@@ -283,7 +283,7 @@
               <!-- End Col -->
 
               <div class="col-lg-7">
-                <img class="img-fluid" src="@@autopath/assets/img/mockups/img3.png" alt="Image Description">
+                <img class="img-fluid" src="${path}/resources/src/assets/img/mockups/img3.png" alt="Image Description">
               </div>
               <!-- End Col -->
             </div>
@@ -332,7 +332,7 @@
           <div class="col-lg-5 align-self-lg-end mb-7 mb-lg-0">
             <h2>For people and companies who have a story to tell</h2>
             <div class="d-none d-lg-flex justify-content-center mt-7" style="width: 15rem;">
-              <img class="img-fluid" src="@@autopath/assets/svg/illustrations/plane.svg" alt="Image Description">
+              <img class="img-fluid" src="${path}/resources/src/assets/svg/illustrations/plane.svg" alt="Image Description">
             </div>
           </div>
           <!-- End Col -->
@@ -421,7 +421,7 @@
       </div>
       <!-- End Heading -->
 
-      <div class="position-relative w-lg-75 bg-img-center min-vh-35 min-vh-md-75 rounded-3 mx-lg-auto" style="background-image: url(@@autopath/assets/img/900x600/img1.jpg);">
+      <div class="position-relative w-lg-75 bg-img-center min-vh-35 min-vh-md-75 rounded-3 mx-lg-auto" style="background-image: url(${path}/resources/src/assets/img/900x600/img1.jpg);">
         <div class="position-absolute bottom-0 start-0 start-md-auto end-0 text-center text-md-start p-4 mx-auto mx-md-0" style="max-width: 20rem;">
           <div class="d-inline-block bg-white rounded-3 p-3 p-md-5">
             <div class="d-none d-md-block mb-10">
@@ -459,7 +459,7 @@
                 <!-- Media -->
                 <div class="d-sm-flex">
                   <div class="flex-shrink-0 mb-3 mb-sm-0">
-                    <img class="avatar avatar-lg avatar-circle" src="@@autopath/assets/img/160x160/img3.jpg" alt="Image Description">
+                    <img class="avatar avatar-lg avatar-circle" src="${path}/resources/src/assets/img/160x160/img3.jpg" alt="Image Description">
                   </div>
 
                   <div class="flex-grow-1 ms-sm-4">
@@ -488,7 +488,7 @@
                 <!-- Media -->
                 <div class="d-sm-flex">
                   <div class="flex-shrink-0 mb-3 mb-sm-0">
-                    <img class="avatar avatar-lg avatar-circle" src="@@autopath/assets/img/160x160/img5.jpg" alt="Image Description">
+                    <img class="avatar avatar-lg avatar-circle" src="${path}/resources/src/assets/img/160x160/img5.jpg" alt="Image Description">
                   </div>
 
                   <div class="flex-grow-1 ms-sm-4">
@@ -517,7 +517,7 @@
                 <!-- Media -->
                 <div class="d-sm-flex">
                   <div class="flex-shrink-0 mb-3 mb-sm-0">
-                    <img class="avatar avatar-lg avatar-circle" src="@@autopath/assets/img/160x160/img9.jpg" alt="Image Description">
+                    <img class="avatar avatar-lg avatar-circle" src="${path}/resources/src/assets/img/160x160/img9.jpg" alt="Image Description">
                   </div>
 
                   <div class="flex-grow-1 ms-sm-4">
@@ -546,7 +546,7 @@
                 <!-- Media -->
                 <div class="d-sm-flex">
                   <div class="flex-shrink-0 mb-3 mb-sm-0">
-                    <img class="avatar avatar-lg avatar-circle" src="@@autopath/assets/img/160x160/img10.jpg" alt="Image Description">
+                    <img class="avatar avatar-lg avatar-circle" src="${path}/resources/src/assets/img/160x160/img10.jpg" alt="Image Description">
                   </div>
 
                   <div class="flex-grow-1 ms-sm-4">
@@ -583,57 +583,57 @@
 
       <div class="row justify-content-center text-center">
         <div class="col-4 col-sm-3 col-md-2 py-3">
-          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/amazon-dark.svg" alt="Logo">
+          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/amazon-dark.svg" alt="Logo">
         </div>
         <!-- End Col -->
 
         <div class="col-4 col-sm-3 col-md-2 py-3">
-          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/kaplan-dark.svg" alt="Logo">
+          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/kaplan-dark.svg" alt="Logo">
         </div>
         <!-- End Col -->
 
         <div class="col-4 col-sm-3 col-md-2 py-3">
-          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/google-dark.svg" alt="Logo">
+          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/google-dark.svg" alt="Logo">
         </div>
         <!-- End Col -->
 
         <div class="col-4 col-sm-3 col-md-2 py-3">
-          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/airbnb-dark.svg" alt="Logo">
+          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/airbnb-dark.svg" alt="Logo">
         </div>
         <!-- End Col -->
 
         <div class="col-4 col-sm-3 col-md-2 py-3">
-          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/shopify-dark.svg" alt="Logo">
+          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/shopify-dark.svg" alt="Logo">
         </div>
         <!-- End Col -->
 
         <div class="col-4 col-sm-3 col-md-2 py-3">
-          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/vidados-dark.svg" alt="Logo">
+          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/vidados-dark.svg" alt="Logo">
         </div>
         <!-- End Col -->
 
         <div class="col-4 col-sm-3 col-md-2 py-3">
-          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/capsule-dark.svg" alt="Logo">
+          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/capsule-dark.svg" alt="Logo">
         </div>
         <!-- End Col -->
 
         <div class="col-4 col-sm-3 col-md-2 py-3">
-          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/forbes-dark.svg" alt="Logo">
+          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/forbes-dark.svg" alt="Logo">
         </div>
         <!-- End Col -->
 
         <div class="col-4 col-sm-3 col-md-2 py-3">
-          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/business-insider-dark.svg" alt="Logo">
+          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/business-insider-dark.svg" alt="Logo">
         </div>
         <!-- End Col -->
 
         <div class="col-4 col-sm-3 col-md-2 py-3">
-          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/hubspot-dark.svg" alt="Logo">
+          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/hubspot-dark.svg" alt="Logo">
         </div>
         <!-- End Col -->
 
         <div class="col-4 col-sm-3 col-md-2 py-3">
-          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/sass-dark.svg" alt="Logo">
+          <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/sass-dark.svg" alt="Logo">
         </div>
         <!-- End Col -->
       </div>
@@ -644,27 +644,28 @@
   <!-- ========== END MAIN CONTENT ========== -->
 
   <!-- ========== FOOTER ========== -->
-  @@include("@@autopath/partials/footer/main.html")
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/>
   <!-- ========== END FOOTER ========== -->
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/node_modules/fslightbox/index.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/fslightbox/index.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>

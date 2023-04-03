@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!-- Landings -->
 <li class="hs-has-mega-menu nav-item"
     data-hs-mega-menu-item-options='{
@@ -5,7 +6,7 @@
         "maxWidth": "40rem"
       }
     }'>
-  <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle @@if(category=='landings'){active}" aria-current="page" href="#" role="button" aria-expanded="false">Landings</a>
+  <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle <c:if test='${param.category eq "landings"}'>active</c:if>" aria-current="page" href="#" role="button" aria-expanded="false">Landings</a>
 
   <!-- Mega Menu -->
   <div class="hs-mega-menu dropdown-menu" aria-labelledby="landingsMegaMenu" style="min-width: 25rem;">
@@ -25,11 +26,11 @@
       <div class="col-sm">
         <div class="navbar-dropdown-menu-inner">
           <span class="dropdown-header">Classic</span>
-          <a class="dropdown-item @@if(link=='index.html'){active}" href="${path}/resources/src/index.html"><i class="bi-building me-2"></i> Corporate</a>
-          <a class="dropdown-item @@if(link=='landing-business.html'){active}" href="${path}/resources/src/landing-business.html"><i class="bi-briefcase me-2"></i> Business <span class="badge text-primary">New</span></a>
-          <a class="dropdown-item @@if(link=='landing-consulting.html'){active}" href="${path}/resources/src/landing-consulting.html"><i class="bi-chat-right-dots me-2"></i> Consulting <span class="badge text-primary">New</span></a>
-          <a class="dropdown-item @@if(link=='landing-saas.html'){active}" href="${path}/resources/src/landing-saas.html"><i class="bi-tropical-storm me-2"></i> SaaS</a>
-          <a class="dropdown-item @@if(link=='landing-services.html'){active}" href="${path}/resources/src/landing-services.html"><i class="bi-gear me-2"></i> Services</a>
+          <a class="dropdown-item <c:if test='${param.link eq "index.jsp"}'>active</c:if>" href="${path}/resources/src/index.jsp"><i class="bi-building me-2"></i> Corporate</a>
+          <a class="dropdown-item <c:if test='${param.link eq "landing-business.jsp"}'>active</c:if>" href="${path}/resources/src/landing-business.jsp"><i class="bi-briefcase me-2"></i> Business <span class="badge text-primary">New</span></a>
+          <a class="dropdown-item <c:if test='${param.link eq "landing-consulting.jsp"}'>active</c:if>" href="${path}/resources/src/landing-consulting.jsp"><i class="bi-chat-right-dots me-2"></i> Consulting <span class="badge text-primary">New</span></a>
+          <a class="dropdown-item <c:if test='${param.link eq "landing-saas.jsp"}'>active</c:if>" href="${path}/resources/src/landing-saas.jsp"><i class="bi-tropical-storm me-2"></i> SaaS</a>
+          <a class="dropdown-item <c:if test='${param.link eq "landing-services.jsp"}'>active</c:if>" href="${path}/resources/src/landing-services.jsp"><i class="bi-gear me-2"></i> Services</a>
         </div>
       </div>
     </div>
@@ -41,7 +42,7 @@
 
 <!-- Pages -->
 <li class="hs-has-mega-menu nav-item">
-  <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle @@if(category=='pages'){active}" href="#" role="button" aria-expanded="false">Pages</a>
+  <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle <c:if test='${param.category eq "pages"}'>active</c:if>" href="#" role="button" aria-expanded="false">Pages</a>
 
   <!-- Mega Menu -->
   <div class="hs-mega-menu hs-position-right dropdown-menu w-100" aria-labelledby="pagesMegaMenu" style="min-width: 42rem;">
@@ -50,40 +51,40 @@
       <div class="row">
         <div class="col-sm-6 col-lg-3">
           <span class="dropdown-header">Company${param.link}</span>
-          <a class="dropdown-item @@if(link=='page-about.html'){active}" href="${path}/resources/src/page-about.html">About</a>
-          <a class="dropdown-item @@if(link=='page-customer-stories.html'){active}" href="${path}/resources/src/page-customer-stories.html">Customer Stories</a>
-          <a class="dropdown-item @@if(link=='page-customer-story.html'){active}" href="${path}/resources/src/page-customer-story.html">Customer Story</a>
-          <a class="dropdown-item @@if(link=='page-help-center.html'){active}" href="${path}/resources/src/page-help-center.html">Help Center</a>
-          <a class="dropdown-item @@if(link=='page-help-center-categories.html'){active}" href="${path}/resources/src/page-help-center-categories.html">Help Center: Categories</a>
-          <a class="dropdown-item @@if(link=='page-help-center-article.html'){active}" href="${path}/resources/src/page-help-center-article.html">Help Center: Article</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-about.jsp"}'>active</c:if>" href="${path}/resources/src/page-about.jsp">About</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-customer-stories.jsp"}'>active</c:if>" href="${path}/resources/src/page-customer-stories.jsp">Customer Stories</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-customer-story.jsp"}'>active</c:if>" href="${path}/resources/src/page-customer-story.jsp">Customer Story</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-help-center.jsp"}'>active</c:if>" href="${path}/resources/src/page-help-center.jsp">Help Center</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-help-center-categories.jsp"}'>active</c:if>" href="${path}/resources/src/page-help-center-categories.jsp">Help Center: Categories</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-help-center-article.jsp"}'>active</c:if>" href="${path}/resources/src/page-help-center-article.jsp">Help Center: Article</a>
         </div>
 
         <div class="col-sm-6 col-lg-3 mt-n5 mt-sm-0 mb-3 mb-lg-0">
           <span class="dropdown-header invisible">Company</span>
-          <a class="dropdown-item @@if(link=='page-careers.html'){active}" href="${path}/resources/src/page-careers.html">Careers</a>
-          <a class="dropdown-item @@if(link=='page-careers-role-overview.html'){active}" href="${path}/resources/src/page-careers-role-overview.html">Careers: Role Overview</a>
-          <a class="dropdown-item @@if(link=='page-careers-apply.html'){active}" href="${path}/resources/src/page-careers-apply.html">Careers: Apply</a>
-          <a class="dropdown-item @@if(link=='page-hire-us.html'){active}" href="${path}/resources/src/page-hire-us.html">Hire Us</a>
-          <a class="dropdown-item @@if(link=='page-login.html'){active}" href="${path}/resources/src/page-login.html">Log In</a>
-          <a class="dropdown-item @@if(link=='page-signup.html'){active}" href="${path}/resources/src/page-signup.html">Sign Up</a>
-          <a class="dropdown-item @@if(link=='page-reset-password.html'){active}" href="${path}/resources/src/page-reset-password.html">Forgot Password</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-careers.jsp"}'>active</c:if>" href="${path}/resources/src/page-careers.jsp">Careers</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-careers-role-overview.jsp"}'>active</c:if>" href="${path}/resources/src/page-careers-role-overview.jsp">Careers: Role Overview</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-careers-apply.jsp"}'>active</c:if>" href="${path}/resources/src/page-careers-apply.jsp">Careers: Apply</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-hire-us.jsp"}'>active</c:if>" href="${path}/resources/src/page-hire-us.jsp">Hire Us</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-login.jsp"}'>active</c:if>" href="${path}/resources/src/page-login.jsp">Log In</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-signup.jsp"}'>active</c:if>" href="${path}/resources/src/page-signup.jsp">Sign Up</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-reset-password.jsp"}'>active</c:if>" href="${path}/resources/src/page-reset-password.jsp">Forgot Password</a>
         </div>
 
         <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
           <span class="dropdown-header">Portfolio</span>
-          <a class="dropdown-item @@if(link=='portfolio-modern.html'){active}" href="${path}/resources/src/portfolio-modern.html">Modern</a>
-          <a class="dropdown-item @@if(link=='portfolio-case-study.html'){active}" href="${path}/resources/src/portfolio-case-study.html">Case Study</a>
+          <a class="dropdown-item <c:if test='${param.link eq "portfolio-modern.jsp"}'>active</c:if>" href="${path}/resources/src/portfolio-modern.jsp">Modern</a>
+          <a class="dropdown-item <c:if test='${param.link eq "portfolio-case-study.jsp"}'>active</c:if>" href="${path}/resources/src/portfolio-case-study.jsp">Case Study</a>
         </div>
 
         <div class="col-sm-6 col-lg-3">
           <span class="dropdown-header">Specialty pages</span>
-          <a class="dropdown-item @@if(link=='page-pricing.html'){active}" href="${path}/resources/src/page-pricing.html">Pricing</a>
-          <a class="dropdown-item @@if(link=='page-contacts.html'){active}" href="${path}/resources/src/page-contacts.html">Contacts</a>
-          <a class="dropdown-item @@if(link=='page-coming-soon.html'){active}" href="${path}/resources/src/page-coming-soon.html">Coming Soon</a>
-          <a class="dropdown-item @@if(link=='page-coming-soon-simple.html'){active}" href="${path}/resources/src/page-coming-soon-simple.html">Coming Soon: Simple</a>
-          <a class="dropdown-item @@if(link=='page-error-404.html'){active}" href="${path}/resources/src/page-error-404.html">Error 404</a>
-          <a class="dropdown-item @@if(link=='page-terms.html'){active}" href="${path}/resources/src/page-terms.html">Terms &amp; Conditions</a>
-          <a class="dropdown-item @@if(link=='page-privacy.html'){active}" href="${path}/resources/src/page-privacy.html">Privacy &amp; Policy</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-pricing.jsp"}'>active</c:if>" href="${path}/resources/src/page-pricing.jsp">Pricing</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-contacts.jsp"}'>active</c:if>" href="${path}/resources/src/page-contacts.jsp">Contacts</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-coming-soon.jsp"}'>active</c:if>" href="${path}/resources/src/page-coming-soon.jsp">Coming Soon</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-coming-soon-simple.jsp"}'>active</c:if>" href="${path}/resources/src/page-coming-soon-simple.jsp">Coming Soon: Simple</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-error-404.jsp"}'>active</c:if>" href="${path}/resources/src/page-error-404.jsp">Error 404</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-terms.jsp"}'>active</c:if>" href="${path}/resources/src/page-terms.jsp">Terms &amp; Conditions</a>
+          <a class="dropdown-item <c:if test='${param.link eq "page-privacy.jsp"}'>active</c:if>" href="${path}/resources/src/page-privacy.jsp">Privacy &amp; Policy</a>
         </div>
       </div>
       <!-- End Row -->
@@ -101,7 +102,7 @@
         "maxWidth": "50rem"
       }
     }'>
-  <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle @@if(category=='blog'){active}" href="#" role="button" aria-expanded="false">Blog</a>
+  <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle <c:if test='${param.category eq "blog"}'>active</c:if>" href="#" role="button" aria-expanded="false">Blog</a>
 
   <!-- Mega Menu -->
   <div class="hs-mega-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 12rem;">
@@ -114,7 +115,7 @@
           <div class="row">
             <div class="col-md-6 mb-3 mb-md-0">
               <!-- Card -->
-              <a class="d-block" href="${path}/resources/src/documentation/index.html">
+              <a class="d-block" href="${path}/resources/src/documentation/index.jsp">
                 <img class="img-fluid rounded-2 mb-2" src="${path}/resources/src/assets/svg/components/card-1.svg" alt="Image Description">
 
                 <span class="fs-4 fw-medium text-dark text-inherit">Documentation</span>
@@ -127,7 +128,7 @@
 
             <div class="col-md-6">
               <!-- Card -->
-              <a class="d-block" href="${path}/resources/src/snippets/index.html">
+              <a class="d-block" href="${path}/resources/src/snippets/index.jsp">
                 <img class="img-fluid rounded-2 mb-2" src="${path}/resources/src/assets/svg/components/card-2.svg" alt="Image Description">
 
                 <span class="fs-4 fw-medium text-dark text-inherit">Snippets</span>
@@ -145,11 +146,11 @@
       <div class="col-lg-4">
         <div class="navbar-dropdown-menu-inner">
           <span class="dropdown-header">Classic</span>
-          <a class="dropdown-item @@if(link=='blog-modern.html'){active}" href="${path}/resources/src/blog-modern.html">Modern <span class="badge text-primary">New</span></a>
-          <a class="dropdown-item @@if(link=='blog-grid.html'){active}" href="${path}/resources/src/blog-grid.html">Grid</a>
-          <a class="dropdown-item @@if(link=='blog-list.html'){active}" href="${path}/resources/src/blog-list.html">List</a>
-          <a class="dropdown-item @@if(link=='blog-article.html'){active}" href="${path}/resources/src/blog-article.html">Article <span class="badge text-primary">New</span></a>
-          <a class="dropdown-item @@if(link=='blog-author-profile.html'){active}" href="${path}/resources/src/blog-author-profile.html">Author Profile</a>
+          <a class="dropdown-item <c:if test='${param.link eq "blog-modern.jsp"}'>active</c:if>" href="${path}/resources/src/blog-modern.jsp">Modern <span class="badge text-primary">New</span></a>
+          <a class="dropdown-item <c:if test='${param.link eq "blog-grid.jsp"}'>active</c:if>" href="${path}/resources/src/blog-grid.jsp">Grid</a>
+          <a class="dropdown-item <c:if test='${param.link eq "blog-list.jsp"}'>active</c:if>" href="${path}/resources/src/blog-list.jsp">List</a>
+          <a class="dropdown-item <c:if test='${param.link eq "blog-article.jsp"}'>active</c:if>" href="${path}/resources/src/blog-article.jsp">Article <span class="badge text-primary">New</span></a>
+          <a class="dropdown-item <c:if test='${param.link eq "blog-author-profile.jsp"}'>active</c:if>" href="${path}/resources/src/blog-author-profile.jsp">Author Profile</a>
         </div>
       </div>
     </div>
@@ -166,12 +167,12 @@
         "maxWidth": "20rem"
       }
     }'>
-  <a id="docsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle @@if(category=='docs'){active}" href="#" role="button" aria-expanded="false">Docs</a>
+  <a id="docsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle <c:if test='${param.category eq "docs"}'>active</c:if>" href="#" role="button" aria-expanded="false">Docs</a>
 
   <!-- Mega Menu -->
   <div class="hs-mega-menu hs-position-right-fix dropdown-menu" aria-labelledby="docsMegaMenu" style="min-width: 20rem;">
     <!-- Link -->
-    <a class="navbar-dropdown-menu-media-link" href="${path}/resources/src/documentation/index.html">
+    <a class="navbar-dropdown-menu-media-link" href="${path}/resources/src/documentation/index.jsp">
       <div class="d-flex">
         <div class="flex-shrink-0">
           <i class="bi-file-earmark-text fs-2 text-dark"></i>
@@ -188,7 +189,7 @@
     <div class="dropdown-divider"></div>
 
     <!-- Link -->
-    <a class="navbar-dropdown-menu-media-link" href="${path}/resources/src/snippets/index.html">
+    <a class="navbar-dropdown-menu-media-link" href="${path}/resources/src/snippets/index.jsp">
       <div class="d-flex">
         <div class="flex-shrink-0">
           <i class="bi-layers fs-2 text-dark"></i>

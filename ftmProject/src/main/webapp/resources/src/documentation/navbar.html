@@ -9,31 +9,31 @@
   <title>Navbar - Documentation | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
-  <link rel="stylesheet" href="@@autopath/assets/css/docs.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/docs.css">
 </head>
 
 <body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/docs/docs-navbar.html")
+  @@include("${path}/resources/src/partials/docs/docs-navbar.html")
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Navbar -->
-    @@include("@@autopath/partials/docs/docs-sidebar.html", {
+    @@include("${path}/resources/src/partials/docs/docs-sidebar.html", {
       "link": "navbar.html"
     })
     <!-- End Navbar -->
@@ -54,7 +54,7 @@
 
       <!-- Alert -->
       <div class="alert alert-soft-dark" role="alert">
-        <span class="fw-bold">Heads up!</span> HS-Header does not need to be used with the pure Bootstrap navbar examples, but should only be included only in these <a class="link link-bordered" href="@@autopath/documentation/navbar.html#methods">cases</a>.
+        <span class="fw-bold">Heads up!</span> HS-Header does not need to be used with the pure Bootstrap navbar examples, but should only be included only in these <a class="link link-bordered" href="${path}/resources/src/documentation/navbar.html#methods">cases</a>.
       </div>
       <!-- End Alert -->
 
@@ -68,7 +68,7 @@
 
       <pre class="rounded mb-4">
         <code class="language-html" data-lang="html">
-          &lt;script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"&gt;&lt;/script&gt;
+          &lt;script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"&gt;&lt;/script&gt;
         </code>
       </pre>
 
@@ -96,7 +96,7 @@
 
       <pre class="rounded mb-4">
         <code class="language-html" data-lang="html">
-          &lt;link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css"&gt;
+          &lt;link rel="stylesheet" href="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css"&gt;
         </code>
       </pre>
 
@@ -104,7 +104,7 @@
 
       <pre class="rounded mb-4">
         <code class="language-html" data-lang="html">
-          &lt;script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"&gt;&lt;/script&gt;
+          &lt;script src="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"&gt;&lt;/script&gt;
         </code>
       </pre>
 
@@ -155,8 +155,8 @@
               <div class="container">
                 <div class="navbar-nav-wrap">
                   <!-- Logo -->
-                  <a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify">
-                    <img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo">
+                  <a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify">
+                    <img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo">
                   </a>
                   <!-- End Logo -->
 
@@ -248,8 +248,8 @@
               <div class="container">
                 <div class="navbar-nav-wrap">
                   <!-- Logo -->
-                  <a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify">
-                    <img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo">
+                  <a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify">
+                    <img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo">
                   </a>
                   <!-- End Logo -->
 
@@ -341,8 +341,8 @@
               <div class="container">
                 <div class="navbar-nav-wrap">
                   <!-- Logo -->
-                  <a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify">
-                    <img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo-white.svg" alt="Logo">
+                  <a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify">
+                    <img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo-white.svg" alt="Logo">
                   </a>
                   <!-- End Logo -->
 
@@ -439,8 +439,8 @@
                     &lt;div class="navbar-nav-wrap"&gt;
                       &lt;div class="navbar-brand-wrapper"&gt;
                         &lt;!-- Logo --&gt;
-                        &lt;a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify"&gt;
-                          &lt;img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo"&gt;
+                        &lt;a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify"&gt;
+                          &lt;img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo"&gt;
                         &lt;/a&gt;
                         &lt;!-- End Logo --&gt;
                       &lt;/div&gt;
@@ -534,8 +534,8 @@
                     &lt;div class="navbar-nav-wrap"&gt;
                       &lt;div class="navbar-brand-wrapper"&gt;
                         &lt;!-- Logo --&gt;
-                        &lt;a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify"&gt;
-                          &lt;img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo"&gt;
+                        &lt;a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify"&gt;
+                          &lt;img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo"&gt;
                         &lt;/a&gt;
                         &lt;!-- End Logo --&gt;
                       &lt;/div&gt;
@@ -629,8 +629,8 @@
                     &lt;div class="navbar-nav-wrap"&gt;
                       &lt;div class="navbar-brand-wrapper"&gt;
                         &lt;!-- Logo --&gt;
-                        &lt;a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify"&gt;
-                          &lt;img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo-white.svg" alt="Logo"&gt;
+                        &lt;a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify"&gt;
+                          &lt;img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo-white.svg" alt="Logo"&gt;
                         &lt;/a&gt;
                         &lt;!-- End Logo --&gt;
                       &lt;/div&gt;
@@ -758,8 +758,8 @@
               <div class="container">
                 <div class="navbar-nav-wrap">
                   <!-- Logo -->
-                  <a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify">
-                    <img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo">
+                  <a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify">
+                    <img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo">
                   </a>
                   <!-- End Logo -->
 
@@ -856,8 +856,8 @@
                     &lt;div class="navbar-nav-wrap"&gt;
                       &lt;div class="navbar-brand-wrapper"&gt;
                         &lt;!-- Logo --&gt;
-                        &lt;a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify"&gt;
-                          &lt;img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo"&gt;
+                        &lt;a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify"&gt;
+                          &lt;img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo"&gt;
                         &lt;/a&gt;
                         &lt;!-- End Logo --&gt;
                       &lt;/div&gt;
@@ -985,8 +985,8 @@
               <div class="container">
                 <div class="navbar-nav-wrap">
                   <!-- Logo -->
-                  <a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify">
-                    <img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo">
+                  <a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify">
+                    <img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo">
                   </a>
                   <!-- End Logo -->
 
@@ -1083,8 +1083,8 @@
                     &lt;div class="navbar-nav-wrap"&gt;
                       &lt;div class="navbar-brand-wrapper"&gt;
                         &lt;!-- Logo --&gt;
-                        &lt;a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify"&gt;
-                          &lt;img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo"&gt;
+                        &lt;a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify"&gt;
+                          &lt;img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo"&gt;
                         &lt;/a&gt;
                         &lt;!-- End Logo --&gt;
                       &lt;/div&gt;
@@ -1212,8 +1212,8 @@
               <div class="container">
                 <div class="navbar-nav-wrap">
                   <!-- Logo -->
-                  <a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify">
-                    <img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo">
+                  <a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify">
+                    <img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo">
                   </a>
                   <!-- End Logo -->
 
@@ -1310,8 +1310,8 @@
                     &lt;div class="navbar-nav-wrap"&gt;
                       &lt;div class="navbar-brand-wrapper"&gt;
                         &lt;!-- Logo --&gt;
-                        &lt;a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify"&gt;
-                          &lt;img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo"&gt;
+                        &lt;a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify"&gt;
+                          &lt;img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo"&gt;
                         &lt;/a&gt;
                         &lt;!-- End Logo --&gt;
                       &lt;/div&gt;
@@ -1433,8 +1433,8 @@
               <div class="container">
                 <div class="navbar-nav-wrap">
                   <!-- Logo -->
-                  <a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify">
-                    <img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo">
+                  <a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify">
+                    <img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo">
                   </a>
                   <!-- End Logo -->
 
@@ -1531,8 +1531,8 @@
                     &lt;div class="navbar-nav-wrap"&gt;
                       &lt;div class="navbar-brand-wrapper"&gt;
                         &lt;!-- Logo --&gt;
-                        &lt;a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify"&gt;
-                          &lt;img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo"&gt;
+                        &lt;a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify"&gt;
+                          &lt;img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo"&gt;
                         &lt;/a&gt;
                         &lt;!-- End Logo --&gt;
                       &lt;/div&gt;
@@ -1660,7 +1660,7 @@
 
         <!-- Alert -->
         <div class="alert alert-soft-dark card-alert" role="alert">
-          This example uses <a class="alert-link" href="@@autopath/documentation/mega-menu.html">HS Mega Menu <i class="bi-link-45deg"></i></a> library.
+          This example uses <a class="alert-link" href="${path}/resources/src/documentation/mega-menu.html">HS Mega Menu <i class="bi-link-45deg"></i></a> library.
         </div>
         <!-- End Alert -->
 
@@ -1672,8 +1672,8 @@
               <div class="container">
                 <div class="js-mega-menu navbar-nav-wrap">
                   <!-- Logo -->
-                  <a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify">
-                    <img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo">
+                  <a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify">
+                    <img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo">
                   </a>
                   <!-- End Logo -->
 
@@ -1787,8 +1787,8 @@
                   &lt;div class="container"&gt;
                     &lt;div class="js-mega-menu navbar-nav-wrap"&gt;
                       &lt;!-- Logo --&gt;
-                      &lt;a class="navbar-brand" href="@@autopath/index.html" aria-label="Unify"&gt;
-                        &lt;img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Logo"&gt;
+                      &lt;a class="navbar-brand" href="${path}/resources/src/index.html" aria-label="Unify"&gt;
+                        &lt;img class="navbar-brand-logo" src="${path}/resources/src/assets/svg/logos/logo.svg" alt="Logo"&gt;
                       &lt;/a&gt;
                       &lt;!-- End Logo --&gt;
 
@@ -1899,7 +1899,7 @@
           <div class="tab-pane fade" id="nav-css3" role="tabpanel" aria-labelledby="nav-cssTab3">
             <pre>
               <code class="language-markup" data-lang="html">
-                &lt;link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css"&gt;
+                &lt;link rel="stylesheet" href="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css"&gt;
               </code>
             </pre>
           </div>
@@ -1908,7 +1908,7 @@
             <pre>
               <code class="language-markup" data-lang="html">
                 &lt;!-- JS Implementing Plugins --&gt;
-                &lt;script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"&gt;&lt;/script&gt;
+                &lt;script src="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"&gt;&lt;/script&gt;
 
                 &lt;script&gt;
                   (function() {
@@ -2453,25 +2453,25 @@
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
-  <script src="@@autopath/node_modules/list.js/dist/list.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
-  <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/list.js/dist/list.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/prism/prism.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
-  <script src="@@autopath/assets/js/hs.list.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
+  <script src="${path}/resources/src/assets/js/hs.list.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -2496,7 +2496,7 @@
 
       // GET JSON FILE RESULTS
       // =======================================================
-      fetch('@@autopath/assets/json/docs-search.json')
+      fetch('${path}/resources/src/assets/json/docs-search.json')
       .then(response => response.json())
       .then(data => {
         docsSearch.getItem(0).add(data)

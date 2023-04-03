@@ -9,30 +9,30 @@
   <title>Form Layouts: Search - Snippets | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
-  <link rel="stylesheet" href="@@autopath/assets/css/snippets.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/snippets.css">
 </head>
 
 <body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/docs/snippets-navbar.html")
+  @@include("${path}/resources/src/partials/docs/snippets-navbar.html")
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Navbar -->
-    @@include("@@autopath/partials/docs/snippets-sidebar.html", {
+    @@include("${path}/resources/src/partials/docs/snippets-sidebar.html", {
       "category": "",
       "link": "form-layouts-search.html"
     })
@@ -101,13 +101,13 @@
 
                       <!-- SVG Shape -->
                       <figure class="position-absolute top-0 end-0 d-none d-sm-block mt-n7 me-n10" style="width: 4rem;">
-                        <img class="img-fluid" src="@@autopath/assets/svg/components/pointer-up.svg" alt="Image Description">
+                        <img class="img-fluid" src="${path}/resources/src/assets/svg/components/pointer-up.svg" alt="Image Description">
                       </figure>
                       <!-- End SVG Shape -->
 
                       <!-- SVG Shape -->
                       <figure class="position-absolute bottom-0 start-0 mb-n7" style="width: 12rem; margin-left: -10rem;">
-                        <img class="img-fluid" src="@@autopath/assets/svg/components/curved-shape.svg" alt="Image Description">
+                        <img class="img-fluid" src="${path}/resources/src/assets/svg/components/curved-shape.svg" alt="Image Description">
                       </figure>
                       <!-- End SVG Shape -->
                     </div>
@@ -146,13 +146,13 @@
 
                           &lt;!-- SVG Shape --&gt;
                           &lt;figure class="position-absolute top-0 end-0 d-none d-sm-block zi-n1 mt-n7 me-n10" style="width: 4rem;"&gt;
-                            &lt;img class="img-fluid" src="@@autopath/assets/svg/components/pointer-up.svg" alt="Image Description"&gt;
+                            &lt;img class="img-fluid" src="${path}/resources/src/assets/svg/components/pointer-up.svg" alt="Image Description"&gt;
                           &lt;/figure&gt;
                           &lt;!-- End SVG Shape --&gt;
 
                           &lt;!-- SVG Shape --&gt;
                           &lt;figure class="position-absolute bottom-0 start-0 zi-n1 mb-n7" style="width: 12rem; margin-left: -10rem;"&gt;
-                            &lt;img class="img-fluid" src="@@autopath/assets/svg/components/curved-shape.svg" alt="Image Description"&gt;
+                            &lt;img class="img-fluid" src="${path}/resources/src/assets/svg/components/curved-shape.svg" alt="Image Description"&gt;
                           &lt;/figure&gt;
                           &lt;!-- End SVG Shape --&gt;
                         &lt;/div&gt;
@@ -175,24 +175,24 @@
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
-  <script src="@@autopath/node_modules/list.js/dist/list.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/list.js/dist/list.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/prism/prism.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
-  <script src="@@autopath/assets/js/hs.list.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
+  <script src="${path}/resources/src/assets/js/hs.list.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -217,7 +217,7 @@
 
       // GET JSON FILE RESULTS
       // =======================================================
-      fetch('@@autopath/assets/json/snippets-search.json')
+      fetch('${path}/resources/src/assets/json/snippets-search.json')
       .then(response => response.json())
       .then(data => {
         snippetsSearch.getItem(0).add(data)

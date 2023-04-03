@@ -9,31 +9,31 @@
   <title>Swiper - Documentation | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="@@autopath/node_modules/swiper/swiper-bundle.min.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
-  <link rel="stylesheet" href="@@autopath/assets/css/docs.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/docs.css">
 </head>
 
 <body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/docs/docs-navbar.html")
+  @@include("${path}/resources/src/partials/docs/docs-navbar.html")
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Navbar -->
-    @@include("@@autopath/partials/docs/docs-sidebar.html", {
+    @@include("${path}/resources/src/partials/docs/docs-sidebar.html", {
       "link": "swiper.html"
     })
     <!-- End Navbar -->
@@ -62,7 +62,7 @@
 
       <pre class="rounded mb-4">
         <code class="language-html" data-lang="html">
-          &lt;link rel="stylesheet" href="@@autopath/node_modules/swiper/swiper-bundle.min.css"&gt;
+          &lt;link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.css"&gt;
         </code>
       </pre>
 
@@ -70,7 +70,7 @@
 
       <pre class="rounded mb-4">
         <code class="language-html" data-lang="html">
-          &lt;script src="@@autopath/node_modules/swiper/swiper-bundle.min.js"&gt;&lt;/script&gt;
+          &lt;script src="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.js"&gt;&lt;/script&gt;
         </code>
       </pre>
 
@@ -118,22 +118,22 @@
             <div class="js-swiper swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
             </div>
@@ -147,22 +147,22 @@
                 &lt;div class="js-swiper swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
@@ -208,22 +208,22 @@
             <div class="js-swiper-navigation swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -241,22 +241,22 @@
                 &lt;div class="js-swiper-navigation swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -326,22 +326,22 @@
             <div class="js-swiper-pagination swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
             </div>
@@ -358,22 +358,22 @@
                 &lt;div class="js-swiper-pagination swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
@@ -447,22 +447,22 @@
             <div class="js-swiper-pagination-dynamic swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
             </div>
@@ -479,22 +479,22 @@
                 &lt;div class="js-swiper-pagination-dynamic swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
@@ -566,22 +566,22 @@
 
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -602,22 +602,22 @@
 
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -693,13 +693,13 @@
             <div class="js-swiper-pagination-progress-with-thumbs-main swiper mb-5">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
               </div>
             </div>
@@ -746,13 +746,13 @@
                 &lt;div class="js-swiper-pagination-progress-with-thumbs-main swiper mb-5"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
@@ -879,22 +879,22 @@
             <div class="js-swiper-pagination-fraction swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -915,22 +915,22 @@
                 &lt;div class="js-swiper-pagination-fraction swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -1010,22 +1010,22 @@
             <div class="js-swiper-vertical swiper" style="height: 37rem;">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -1042,22 +1042,22 @@
                 &lt;div class="js-swiper-vertical swiper" style="height: 37rem;"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -1127,22 +1127,22 @@
             <div class="js-swiper-space-between swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
             </div>
@@ -1159,22 +1159,22 @@
                 &lt;div class="js-swiper-space-between swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
@@ -1244,22 +1244,22 @@
             <div class="js-swiper-slides-per-view swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -1280,22 +1280,22 @@
                 &lt;div class="js-swiper-slides-per-view swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -1374,22 +1374,22 @@
             <div class="js-swiper-slides-per-view-auto swiper swiper-equal-height">
               <div class="swiper-wrapper">
                 <div class="swiper-slide" style="width: 60%">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide" style="width: 60%">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide" style="width: 30%">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide" style="width: 50%">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide" style="width: 20%">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide" style="width: 60%">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -1410,22 +1410,22 @@
                 &lt;div class="js-swiper-slides-per-view-auto swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide" style="width: 60%"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide" style="width: 60%"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide" style="width: 30%"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide" style="width: 50%"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide" style="width: 20%"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide" style="width: 60%"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -1500,22 +1500,22 @@
             <div class="js-swiper-responsive-breakpoint swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -1536,22 +1536,22 @@
                 &lt;div class="js-swiper-responsive-breakpoint swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -1640,22 +1640,22 @@
             <div class="js-swiper-centered swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -1676,22 +1676,22 @@
                 &lt;div class="js-swiper-centered swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -1767,22 +1767,22 @@
             <div class="js-swiper-centered-auto swiper swiper-equal-height">
               <div class="swiper-wrapper">
                 <div class="swiper-slide" style="width: 60%">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide" style="width: 60%">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide" style="width: 30%">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide" style="width: 50%">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide" style="width: 20%">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide" style="width: 60%">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -1803,22 +1803,22 @@
                 &lt;div class="js-swiper-centered-auto swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide" style="width: 60%"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide" style="width: 60%"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide" style="width: 30%"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide" style="width: 50%"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide" style="width: 20%"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide" style="width: 60%"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -1894,22 +1894,22 @@
             <div class="js-swiper-freemode swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -1930,22 +1930,22 @@
                 &lt;div class="js-swiper-freemode swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -2021,22 +2021,22 @@
             <div class="js-swiper-infinite-loop swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -2057,22 +2057,22 @@
                 &lt;div class="js-swiper-infinite-loop swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -2152,22 +2152,22 @@
             <div class="js-swiper-effect-fade swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -2188,22 +2188,22 @@
                 &lt;div class="js-swiper-effect-fade swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -2282,22 +2282,22 @@
             <div class="js-swiper-mousewheel swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -2318,22 +2318,22 @@
                 &lt;div class="js-swiper-mousewheel swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -2413,22 +2413,22 @@
             <div class="js-swiper-autoplay swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -2449,22 +2449,22 @@
                 &lt;div class="js-swiper-autoplay swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -3015,13 +3015,13 @@
             <div class="js-swiper-gallery-main swiper mb-2">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -3035,13 +3035,13 @@
             <div class="js-swiper-gallery-thumbs swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3.jpg" alt="Image Description">
                 </div>
               </div>
             </div>
@@ -3055,13 +3055,13 @@
                 &lt;div class="js-swiper-gallery-main swiper mb-2"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -3075,13 +3075,13 @@
                 &lt;div class="js-swiper-gallery-thumbs swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
@@ -3159,22 +3159,22 @@
             <div class="js-swiper-preloader swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description">
                 </div>
                 <div class="swiper-slide">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description">
                 </div>
               </div>
 
@@ -3203,22 +3203,22 @@
                 &lt;div class="js-swiper-preloader swiper"&gt;
                   &lt;div class="swiper-wrapper"&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img1-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img2-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img3-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img4-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img5-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;div class="swiper-slide"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img6-lg.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
@@ -3284,25 +3284,25 @@
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
-  <script src="@@autopath/node_modules/list.js/dist/list.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
-  <script src="@@autopath/node_modules/swiper/swiper-bundle.min.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/list.js/dist/list.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/prism/prism.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
-  <script src="@@autopath/assets/js/hs.list.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
+  <script src="${path}/resources/src/assets/js/hs.list.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -3327,7 +3327,7 @@
 
       // GET JSON FILE RESULTS
       // =======================================================
-      fetch('@@autopath/assets/json/docs-search.json')
+      fetch('${path}/resources/src/assets/json/docs-search.json')
       .then(response => response.json())
       .then(data => {
         docsSearch.getItem(0).add(data)

@@ -9,30 +9,30 @@
   <title>Form Layouts: Subscribe - Snippets | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
-  <link rel="stylesheet" href="@@autopath/assets/css/snippets.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/snippets.css">
 </head>
 
 <body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/docs/snippets-navbar.html")
+  @@include("${path}/resources/src/partials/docs/snippets-navbar.html")
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Navbar -->
-    @@include("@@autopath/partials/docs/snippets-sidebar.html", {
+    @@include("${path}/resources/src/partials/docs/snippets-sidebar.html", {
       "category": "",
       "link": "form-layouts-subscribe.html"
     })
@@ -99,7 +99,7 @@
                         <!-- End Input Card -->
                       </form>
 
-                      <a class="link link-pointer" href="@@autopath/page-login.html">Create a free account</a>
+                      <a class="link link-pointer" href="${path}/resources/src/page-login.html">Create a free account</a>
                     </div>
                     <!-- End Col -->
                   </div>
@@ -107,13 +107,13 @@
 
                   <!-- SVG Shape -->
                   <figure class="position-absolute top-0 end-0 d-none d-md-block mt-10 me-n10" style="width: 4rem;">
-                    <img class="img-fluid" src="@@autopath/assets/svg/components/pointer-up.svg" alt="Image Description">
+                    <img class="img-fluid" src="${path}/resources/src/assets/svg/components/pointer-up.svg" alt="Image Description">
                   </figure>
                   <!-- End SVG Shape -->
 
                   <!-- SVG Shape -->
                   <figure class="position-absolute bottom-0 start-0 ms-n10 mb-n10" style="width: 15rem;">
-                    <img class="img-fluid" src="@@autopath/assets/svg/components/curved-shape.svg" alt="Image Description">
+                    <img class="img-fluid" src="${path}/resources/src/assets/svg/components/curved-shape.svg" alt="Image Description">
                   </figure>
                   <!-- End SVG Shape -->
                 </div>
@@ -148,7 +148,7 @@
                             &lt;!-- End Input Card --&gt;
                           &lt;/form&gt;
 
-                          &lt;a class="link link-pointer" href="@@autopath/page-login.html"&gt;Create a free account&lt;/a&gt;
+                          &lt;a class="link link-pointer" href="${path}/resources/src/page-login.html"&gt;Create a free account&lt;/a&gt;
                         &lt;/div&gt;
                         &lt;!-- End Col --&gt;
                       &lt;/div&gt;
@@ -156,13 +156,13 @@
 
                       &lt;!-- SVG Shape --&gt;
                       &lt;figure class="position-absolute top-0 end-0 zi-n1 d-none d-md-block mt-10 me-n10" style="width: 4rem;"&gt;
-                        &lt;img class="img-fluid" src="@@autopath/assets/svg/components/pointer-up.svg" alt="Image Description"&gt;
+                        &lt;img class="img-fluid" src="${path}/resources/src/assets/svg/components/pointer-up.svg" alt="Image Description"&gt;
                       &lt;/figure&gt;
                       &lt;!-- End SVG Shape --&gt;
 
                       &lt;!-- SVG Shape --&gt;
                       &lt;figure class="position-absolute bottom-0 start-0 zi-n1 ms-n10 mb-n10" style="width: 15rem;"&gt;
-                        &lt;img class="img-fluid" src="@@autopath/assets/svg/components/curved-shape.svg" alt="Image Description"&gt;
+                        &lt;img class="img-fluid" src="${path}/resources/src/assets/svg/components/curved-shape.svg" alt="Image Description"&gt;
                       &lt;/figure&gt;
                       &lt;!-- End SVG Shape --&gt;
                     &lt;/div&gt;
@@ -224,7 +224,7 @@
                   <!-- End Input Card -->
                 </form>
 
-                <a class="link" href="@@autopath/page-login.html">Create a free account <i class="bi-chevron-right small ms-1"></i></a>
+                <a class="link" href="${path}/resources/src/page-login.html">Create a free account <i class="bi-chevron-right small ms-1"></i></a>
               </div>
             </div>
             <!-- End Subscribe -->
@@ -254,7 +254,7 @@
                       &lt;!-- End Input Card --&gt;
                     &lt;/form&gt;
 
-                    &lt;a class="link" href="@@autopath/page-login.html"&gt;Create a free account &lt;i class="bi-chevron-right small ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
+                    &lt;a class="link" href="${path}/resources/src/page-login.html"&gt;Create a free account &lt;i class="bi-chevron-right small ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
                 &lt;!-- End Subscribe --&gt;
@@ -300,7 +300,7 @@
               <div class="container d-sm-flex align-items-sm-center vh-sm-100 content-space-t-3 content-space-b-1 content-space-b-sm-3 content-space-sm-0">
                 <div class="row justify-content-md-between align-items-md-center flex-grow-1">
                   <div class="col-9 col-md-5 col-md-4 mb-5 mb-md-0">
-                    <img class="img-fluid" src="@@autopath/assets/svg/illustrations/plane.svg" alt="SVG Illustration">
+                    <img class="img-fluid" src="${path}/resources/src/assets/svg/illustrations/plane.svg" alt="SVG Illustration">
                   </div>
                   <!-- End Col -->
 
@@ -367,7 +367,7 @@
                   &lt;div class="container d-sm-flex align-items-sm-center vh-sm-100 content-space-t-3 content-space-b-1 content-space-b-sm-3 content-space-sm-0"&gt;
                     &lt;div class="row justify-content-md-between align-items-md-center flex-grow-1"&gt;
                       &lt;div class="col-9 col-md-5 col-md-4 mb-5 mb-md-0"&gt;
-                        &lt;img class="img-fluid" src="@@autopath/assets/svg/illustrations/plane.svg" alt="SVG Illustration"&gt;
+                        &lt;img class="img-fluid" src="${path}/resources/src/assets/svg/illustrations/plane.svg" alt="SVG Illustration"&gt;
                       &lt;/div&gt;
                       &lt;!-- End Col --&gt;
 
@@ -432,8 +432,8 @@
             <pre>
               <code class="language-markup" data-lang="html">
                 &lt;!-- JS Implementing Plugins --&gt;
-                &lt;!-- bundlejs:vendor [@@autopath] --&gt;
-                &lt;script src="@@autopath/node_modules/countdown/countdown.js"&gt;&lt;/script&gt;
+                &lt;!-- bundlejs:vendor [${path}/resources/src] --&gt;
+                &lt;script src="${path}/resources/src/dist/assets/vendor/countdown/countdown.js"&gt;&lt;/script&gt;
 
                 &lt;!-- JS Plugins Init. --&gt;
                 &lt;script&gt;
@@ -489,25 +489,25 @@
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
-  <script src="@@autopath/node_modules/list.js/dist/list.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
-  <script src="@@autopath/node_modules/countdown/countdown.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/list.js/dist/list.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/prism/prism.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/countdown/countdown.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
-  <script src="@@autopath/assets/js/hs.list.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
+  <script src="${path}/resources/src/assets/js/hs.list.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -532,7 +532,7 @@
 
       // GET JSON FILE RESULTS
       // =======================================================
-      fetch('@@autopath/assets/json/snippets-search.json')
+      fetch('${path}/resources/src/assets/json/snippets-search.json')
       .then(response => response.json())
       .then(data => {
         snippetsSearch.getItem(0).add(data)

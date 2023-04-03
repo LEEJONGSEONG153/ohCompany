@@ -9,30 +9,30 @@
   <title>Cards - Documentation | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
-  <link rel="stylesheet" href="@@autopath/assets/css/docs.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/docs.css">
 </head>
 
 <body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/docs/docs-navbar.html")
+  @@include("${path}/resources/src/partials/docs/docs-navbar.html")
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Navbar -->
-    @@include("@@autopath/partials/docs/docs-sidebar.html", {
+    @@include("${path}/resources/src/partials/docs/docs-sidebar.html", {
       "link": "cards.html"
     })
     <!-- End Navbar -->
@@ -81,7 +81,7 @@
           <div class="tab-pane fade p-4 show active" id="nav-result1" role="tabpanel" aria-labelledby="nav-resultTab1">
             <!-- Card -->
             <div class="card" style="max-width: 20rem;">
-              <img class="card-img-top" src="@@autopath/assets/svg/components/placeholder-lg.svg" alt="Card image cap">
+              <img class="card-img-top" src="${path}/resources/src/assets/svg/components/placeholder-lg.svg" alt="Card image cap">
               <div class="card-body">
                 <h3 class="card-title">Card title</h3>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -98,7 +98,7 @@
               <code class="language-markup" data-lang="html">
                 &lt;!-- Card --&gt;
                 &lt;div class="card" style="max-width: 20rem;"&gt;
-                  &lt;img class="card-img-top" src="@@autopath/assets/svg/components/placeholder-lg.svg" alt="Card image cap"&gt;
+                  &lt;img class="card-img-top" src="${path}/resources/src/assets/svg/components/placeholder-lg.svg" alt="Card image cap"&gt;
                   &lt;div class="card-body"&gt;
                     &lt;h3 class="card-title"&gt;Card title&lt;/h3&gt;
                     &lt;p class="card-text"&gt;This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
@@ -451,7 +451,7 @@
           <div class="tab-pane fade p-4 show active" id="nav-result33" role="tabpanel" aria-labelledby="nav-resultTab33">
             <!-- Card -->
             <div class="card card-xs" style="max-width: 20rem;">
-              <img class="card-img-top" src="@@autopath/assets/svg/components/placeholder-lg.svg" alt="Card image cap">
+              <img class="card-img-top" src="${path}/resources/src/assets/svg/components/placeholder-lg.svg" alt="Card image cap">
               <div class="card-body">
                 <h3 class="card-title">Card title</h3>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -468,7 +468,7 @@
               <code class="language-markup" data-lang="html">
                 &lt;!-- Card --&gt;
                 &lt;div class="card card-xs" style="max-width: 20rem;"&gt;
-                  &lt;img class="card-img-top" src="@@autopath/assets/svg/components/placeholder-lg.svg" alt="Card image cap"&gt;
+                  &lt;img class="card-img-top" src="${path}/resources/src/assets/svg/components/placeholder-lg.svg" alt="Card image cap"&gt;
                   &lt;div class="card-body"&gt;
                     &lt;h3 class="card-title"&gt;Card title&lt;/h3&gt;
                     &lt;p class="card-text"&gt;This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
@@ -510,7 +510,7 @@
           <div class="tab-pane fade p-4 show active" id="nav-result6" role="tabpanel" aria-labelledby="nav-resultTab6">
             <!-- Card -->
             <div class="card card-sm" style="max-width: 20rem;">
-              <img class="card-img-top" src="@@autopath/assets/svg/components/placeholder-lg.svg" alt="Card image cap">
+              <img class="card-img-top" src="${path}/resources/src/assets/svg/components/placeholder-lg.svg" alt="Card image cap">
               <div class="card-body">
                 <h3 class="card-title">Card title</h3>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -527,7 +527,7 @@
               <code class="language-markup" data-lang="html">
                 &lt;!-- Card --&gt;
                 &lt;div class="card card-sm" style="max-width: 20rem;"&gt;
-                  &lt;img class="card-img-top" src="@@autopath/assets/svg/components/placeholder-lg.svg" alt="Card image cap"&gt;
+                  &lt;img class="card-img-top" src="${path}/resources/src/assets/svg/components/placeholder-lg.svg" alt="Card image cap"&gt;
                   &lt;div class="card-body"&gt;
                     &lt;h3 class="card-title"&gt;Card title&lt;/h3&gt;
                     &lt;p class="card-text"&gt;This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
@@ -569,7 +569,7 @@
           <div class="tab-pane fade p-4 show active" id="nav-result7" role="tabpanel" aria-labelledby="nav-resultTab7">
             <!-- Card -->
             <div class="card card-lg" style="max-width: 20rem;">
-              <img class="card-img-top" src="@@autopath/assets/svg/components/placeholder-lg.svg" alt="Card image cap">
+              <img class="card-img-top" src="${path}/resources/src/assets/svg/components/placeholder-lg.svg" alt="Card image cap">
               <div class="card-body">
                 <h3 class="card-title">Card title</h3>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -586,7 +586,7 @@
               <code class="language-markup" data-lang="html">
                 &lt;!-- Card --&gt;
                 &lt;div class="card card-lg" style="max-width: 20rem;"&gt;
-                  &lt;img class="card-img-top" src="@@autopath/assets/svg/components/placeholder-lg.svg" alt="Card image cap"&gt;
+                  &lt;img class="card-img-top" src="${path}/resources/src/assets/svg/components/placeholder-lg.svg" alt="Card image cap"&gt;
                   &lt;div class="card-body"&gt;
                     &lt;h3 class="card-title"&gt;Card title&lt;/h3&gt;
                     &lt;p class="card-text"&gt;This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
@@ -642,7 +642,7 @@
           <div class="tab-pane fade p-4 show active" id="nav-result25" role="tabpanel" aria-labelledby="nav-resultTab25">
             <!-- Card -->
             <div class="card mb-3" style="max-width: 20rem;">
-              <img class="card-img-top" src="@@autopath/assets/svg/components/placeholder-lg.svg" alt="Card image cap">
+              <img class="card-img-top" src="${path}/resources/src/assets/svg/components/placeholder-lg.svg" alt="Card image cap">
               <div class="card-body">
                 <h3 class="card-title">Card title</h3>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -656,7 +656,7 @@
               <code class="language-markup" data-lang="html">
                 &lt;!-- Card --&gt;
                 &lt;div class="card mb-3"&gt;
-                  &lt;img class="card-img-top" src="@@autopath/assets/svg/components/placeholder-lg.svg" alt="Card image cap"&gt;
+                  &lt;img class="card-img-top" src="${path}/resources/src/assets/svg/components/placeholder-lg.svg" alt="Card image cap"&gt;
                   &lt;div class="card-body"&gt;
                     &lt;h3 class="card-title"&gt;Card title&lt;/h3&gt;
                     &lt;p class="card-text"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
@@ -701,7 +701,7 @@
           <div class="tab-pane fade p-4 show active" id="nav-result26" role="tabpanel" aria-labelledby="nav-resultTab26">
             <!-- Card -->
             <div class="card">
-              <img class="card-img card-img-top" src="@@autopath/assets/svg/components/placeholder-lg.svg" alt="Card image cap">
+              <img class="card-img card-img-top" src="${path}/resources/src/assets/svg/components/placeholder-lg.svg" alt="Card image cap">
               <div class="card-img-overlay">
                 <h3 class="card-title">Card title</h3>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -716,7 +716,7 @@
               <code class="language-markup" data-lang="html">
                 &lt;!-- Card --&gt;
                 &lt;div class="card"&gt;
-                  &lt;img class="card-img card-img-top" src="@@autopath/assets/svg/components/placeholder-lg.svg" alt="Card image cap"&gt;
+                  &lt;img class="card-img card-img-top" src="${path}/resources/src/assets/svg/components/placeholder-lg.svg" alt="Card image cap"&gt;
                   &lt;div class="card-img-overlay"&gt;
                     &lt;h3 class="card-title"&gt;Card title&lt;/h3&gt;
                     &lt;p class="card-text"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
@@ -770,7 +770,7 @@
             <div class="card mb-3" style="max-width: 540px;">
               <div class="row no-gutters">
                 <div class="col-md-4">
-                  <img class="img-fluid" src="@@autopath/assets/img/documentation/img8.jpg" alt="Card image cap">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img8.jpg" alt="Card image cap">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -791,7 +791,7 @@
                 &lt;div class="card mb-3" style="max-width: 540px;"&gt;
                   &lt;div class="row no-gutters"&gt;
                     &lt;div class="col-md-4"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/documentation/img8.jpg" alt="Card image cap"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/documentation/img8.jpg" alt="Card image cap"&gt;
                     &lt;/div&gt;
                     &lt;div class="col-md-8"&gt;
                       &lt;div class="card-body"&gt;
@@ -849,7 +849,7 @@
           <div class="tab-pane fade p-4 show active" id="nav-result34" role="tabpanel" aria-labelledby="nav-resultTab34">
             <!-- Card -->
             <a class="card card-transition" href="#" style="max-width: 20rem;">
-              <img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description">
+              <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description">
               <div class="card-body">
                 <h3 class="card-title">Card title</h3>
                 <p class="card-text text-body">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -866,7 +866,7 @@
               <code class="language-markup" data-lang="html">
                 &lt;!-- Card --&gt;
                 &lt;a class="card card-transition" href="#"&gt;
-                  &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
+                  &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
                   &lt;div class="card-body"&gt;
                     &lt;h3 class="card-title"&gt;Card title&lt;/h3&gt;
                     &lt;p class="card-text text-body"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
@@ -913,7 +913,7 @@
             <!-- Card -->
             <a class="card card-transition-zoom" href="#" style="max-width: 20rem;">
               <div class="card-transition-zoom-item">
-                <img class="card-img" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description">
+                <img class="card-img" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description">
               </div>
 
               <div class="card-body">
@@ -933,7 +933,7 @@
                 &lt;!-- Card --&gt;
                 &lt;a class="card card-transition-zoom" href="#" style="max-width: 20rem;"&gt;
                   &lt;div class="card-transition-zoom-item"&gt;
-                    &lt;img class="card-img" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
                   &lt;/div&gt;
 
                   &lt;div class="card-body"&gt;
@@ -985,7 +985,7 @@
             <div class="card card-flush" style="max-width: 40rem;">
               <div class="row align-items-center">
                 <div class="col-sm-5">
-                  <img class="card-img" src="@@autopath/assets/img/documentation/img8.jpg" alt="Image Description">
+                  <img class="card-img" src="${path}/resources/src/assets/img/documentation/img8.jpg" alt="Image Description">
                 </div>
                 <!-- End Col -->
 
@@ -997,7 +997,7 @@
                     </div>
 
                     <h3 class="card-title">
-                      <a class="text-dark" href="@@autopath/blog-article.html">Announcing a free plan for small teams</a>
+                      <a class="text-dark" href="${path}/resources/src/blog-article.html">Announcing a free plan for small teams</a>
                     </h3>
 
                     <p class="card-text">At Wake, our mission has always been focused on bringing openness.</p>
@@ -1018,7 +1018,7 @@
                 &lt;div class="card card-flush" style="max-width: 40rem;"&gt;
                   &lt;div class="row align-items-center"&gt;
                     &lt;div class="col-sm-5"&gt;
-                      &lt;img class="card-img" src="@@autopath/assets/img/documentation/img8.jpg" alt="Image Description"&gt;
+                      &lt;img class="card-img" src="${path}/resources/src/assets/img/documentation/img8.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
@@ -1030,7 +1030,7 @@
                         &lt;/div&gt;
 
                         &lt;h3 class="card-title"&gt;
-                          &lt;a class="text-dark" href="@@autopath/blog-article.html"&gt;Announcing a free plan for small teams&lt;/a&gt;
+                          &lt;a class="text-dark" href="${path}/resources/src/blog-article.html"&gt;Announcing a free plan for small teams&lt;/a&gt;
                         &lt;/h3&gt;
 
                         &lt;p class="card-text"&gt;At Wake, our mission has always been focused on bringing openness.&lt;/p&gt;
@@ -1082,7 +1082,7 @@
             <div class="card card-flush card-stretched-vertical" style="max-width: 40rem;">
               <div class="row">
                 <div class="col-sm-5">
-                  <img class="card-img" src="@@autopath/assets/img/400x500/img5.jpg" alt="Image Description">
+                  <img class="card-img" src="${path}/resources/src/assets/img/400x500/img5.jpg" alt="Image Description">
                 </div>
                 <!-- End Col -->
 
@@ -1094,7 +1094,7 @@
                     </div>
 
                     <h3 class="card-title">
-                      <a class="text-dark" href="@@autopath/blog-article.html">Announcing a free plan for small teams</a>
+                      <a class="text-dark" href="${path}/resources/src/blog-article.html">Announcing a free plan for small teams</a>
                     </h3>
                     
                     <p class="card-text">At Wake, our mission has always been focused on bringing openness.</p>
@@ -1104,7 +1104,7 @@
                       <div class="d-flex">
                         <div class="flex-shrink-0">
                           <a class="avatar avatar-circle" href="#">
-                            <img class="avatar-img" src="@@autopath/assets/img/160x160/img9.jpg" alt="Image Description">
+                            <img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img9.jpg" alt="Image Description">
                           </a>
                         </div>
                       
@@ -1132,7 +1132,7 @@
                 &lt;div class="card card-flush card-stretched-vertical" style="max-width: 40rem;"&gt;
                   &lt;div class="row"&gt;
                     &lt;div class="col-sm-5"&gt;
-                      &lt;img class="card-img" src="@@autopath/assets/img/400x500/img5.jpg" alt="Image Description"&gt;
+                      &lt;img class="card-img" src="${path}/resources/src/assets/img/400x500/img5.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
@@ -1144,7 +1144,7 @@
                         &lt;/div&gt;
 
                         &lt;h3 class="card-title"&gt;
-                          &lt;a class="text-dark" href="@@autopath/blog-article.html"&gt;Announcing a free plan for small teams&lt;/a&gt;
+                          &lt;a class="text-dark" href="${path}/resources/src/blog-article.html"&gt;Announcing a free plan for small teams&lt;/a&gt;
                         &lt;/h3&gt;
                         
                         &lt;p class="card-text"&gt;At Wake, our mission has always been focused on bringing openness.&lt;/p&gt;
@@ -1154,7 +1154,7 @@
                           &lt;div class="d-flex"&gt;
                             &lt;div class="flex-shrink-0"&gt;
                               &lt;a class="avatar avatar-circle" href="#"&gt;
-                                &lt;img class="avatar-img" src="@@autopath/assets/img/160x160/img9.jpg" alt="Image Description"&gt;
+                                &lt;img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img9.jpg" alt="Image Description"&gt;
                               &lt;/a&gt;
                             &lt;/div&gt;
                           
@@ -1211,7 +1211,7 @@
           <div class="tab-pane fade p-4 show active" id="nav-result28" role="tabpanel" aria-labelledby="nav-resultTab28">
             <div class="card-group">
               <div class="card">
-                <img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description">
+                <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -1219,7 +1219,7 @@
                 </div>
               </div>
               <div class="card">
-                <img class="card-img-top" src="@@autopath/assets/img/documentation/img2.jpg" alt="Image Description">
+                <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img2.jpg" alt="Image Description">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -1227,7 +1227,7 @@
                 </div>
               </div>
               <div class="card">
-                <img class="card-img-top" src="@@autopath/assets/img/documentation/img3.jpg" alt="Image Description">
+                <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img3.jpg" alt="Image Description">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -1242,7 +1242,7 @@
               <code class="language-markup" data-lang="html">
                 &lt;div class="card-group"&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
@@ -1250,7 +1250,7 @@
                     &lt;/div&gt;
                   &lt;/div&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img2.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img2.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;
@@ -1258,7 +1258,7 @@
                     &lt;/div&gt;
                   &lt;/div&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img3.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img3.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;
@@ -1298,7 +1298,7 @@
           <div class="tab-pane fade p-4 show active" id="nav-result29" role="tabpanel" aria-labelledby="nav-resultTab29">
             <div class="card-group">
               <div class="card">
-                <img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description">
+                <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -1308,7 +1308,7 @@
                 </div>
               </div>
               <div class="card">
-                <img class="card-img-top" src="@@autopath/assets/img/documentation/img2.jpg" alt="Image Description">
+                <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img2.jpg" alt="Image Description">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -1318,7 +1318,7 @@
                 </div>
               </div>
               <div class="card">
-                <img class="card-img-top" src="@@autopath/assets/img/documentation/img3.jpg" alt="Image Description">
+                <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img3.jpg" alt="Image Description">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -1335,7 +1335,7 @@
               <code class="language-markup" data-lang="html">
                 &lt;div class="card-group"&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
@@ -1345,7 +1345,7 @@
                     &lt;/div&gt;
                   &lt;/div&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img2.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img2.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;
@@ -1355,7 +1355,7 @@
                     &lt;/div&gt;
                   &lt;/div&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img3.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img3.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;
@@ -1403,7 +1403,7 @@
           <div class="tab-pane fade p-4 show active" id="nav-result30" role="tabpanel" aria-labelledby="nav-resultTab30">
             <div class="card-group card-group-sm-break">
               <div class="card">
-                <img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description">
+                <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -1413,7 +1413,7 @@
                 </div>
               </div>
               <div class="card">
-                <img class="card-img-top" src="@@autopath/assets/img/documentation/img2.jpg" alt="Image Description">
+                <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img2.jpg" alt="Image Description">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -1423,7 +1423,7 @@
                 </div>
               </div>
               <div class="card">
-                <img class="card-img-top" src="@@autopath/assets/img/documentation/img3.jpg" alt="Image Description">
+                <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img3.jpg" alt="Image Description">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -1440,7 +1440,7 @@
               <code class="language-markup" data-lang="html">
                 &lt;div class="card-group card-group-sm-break"&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
@@ -1450,7 +1450,7 @@
                     &lt;/div&gt;
                   &lt;/div&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img2.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img2.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;
@@ -1460,7 +1460,7 @@
                     &lt;/div&gt;
                   &lt;/div&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img3.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img3.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;
@@ -1510,7 +1510,7 @@
               <div class="col-md mb-3 mb-md-0">
                 <!-- Card -->
                 <div class="card">
-                  <img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description">
+                  <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -1526,7 +1526,7 @@
               <div class="col-md mb-3 mb-md-0">
                 <!-- Card -->
                 <div class="card">
-                  <img class="card-img-top" src="@@autopath/assets/img/documentation/img2.jpg" alt="Image Description">
+                  <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img2.jpg" alt="Image Description">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -1542,7 +1542,7 @@
               <div class="col-md">
                 <!-- Card -->
                 <div class="card">
-                  <img class="card-img-top" src="@@autopath/assets/img/documentation/img3.jpg" alt="Image Description">
+                  <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img3.jpg" alt="Image Description">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -1562,7 +1562,7 @@
               <code class="language-markup" data-lang="html">
                 &lt;div class="card-group card-group-sm-break"&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
@@ -1572,7 +1572,7 @@
                     &lt;/div&gt;
                   &lt;/div&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img2.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img2.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;
@@ -1582,7 +1582,7 @@
                     &lt;/div&gt;
                   &lt;/div&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img3.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img3.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;
@@ -1632,7 +1632,7 @@
               <div class="col-md mb-3 mb-md-0">
                 <!-- Card -->
                 <div class="card">
-                  <img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description">
+                  <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -1648,7 +1648,7 @@
               <div class="col-md mb-3 mb-md-0">
                 <!-- Card -->
                 <div class="card">
-                  <img class="card-img-top" src="@@autopath/assets/img/documentation/img2.jpg" alt="Image Description">
+                  <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img2.jpg" alt="Image Description">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -1664,7 +1664,7 @@
               <div class="col-md mb-3 mb-md-0">
                 <!-- Card -->
                 <div class="card">
-                  <img class="card-img-top" src="@@autopath/assets/img/documentation/img3.jpg" alt="Image Description">
+                  <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img3.jpg" alt="Image Description">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -1707,7 +1707,7 @@
               <code class="language-markup" data-lang="html">
                 &lt;div class="card-group card-group-sm-break"&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
@@ -1717,7 +1717,7 @@
                     &lt;/div&gt;
                   &lt;/div&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img2.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img2.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;
@@ -1727,7 +1727,7 @@
                     &lt;/div&gt;
                   &lt;/div&gt;
                   &lt;div class="card"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img3.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img3.jpg" alt="Image Description"&gt;
                     &lt;div class="card-body"&gt;
                       &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
                       &lt;p class="card-text"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;
@@ -1776,7 +1776,7 @@
             <!-- Card -->
             <div class="card h-100" style="max-width: 20rem;">
               <div class="card-pinned">
-                <img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description">
+                <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description">
 
                 <span class="badge bg-dark card-pinned-top-start">Top start aligned</span>
               </div>
@@ -1799,7 +1799,7 @@
                 &lt;!-- Card --&gt;
                 &lt;div class="card h-100" style="max-width: 20rem;"&gt;
                   &lt;div class="card-pinned"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
 
                     &lt;span class="badge bg-dark card-pinned-top-start"&gt;Top start aligned&lt;/span&gt;
                   &lt;/div&gt;
@@ -1847,7 +1847,7 @@
             <!-- Card -->
             <div class="card h-100" style="max-width: 20rem;">
               <div class="card-pinned">
-                <img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description">
+                <img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description">
 
                 <span class="badge bg-dark card-pinned-top-end">Top end aligned</span>
               </div>
@@ -1870,7 +1870,7 @@
                 &lt;!-- Card --&gt;
                 &lt;div class="card h-100" style="max-width: 20rem;"&gt;
                   &lt;div class="card-pinned"&gt;
-                    &lt;img class="card-img-top" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-top" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
 
                     &lt;span class="badge bg-dark card-pinned-top-end"&gt;Top end aligned&lt;/span&gt;
                   &lt;/div&gt;
@@ -1918,7 +1918,7 @@
             <!-- Card -->
             <div class="card h-100" style="max-width: 20rem;">
               <div class="card-pinned">
-                <img class="card-img-bottom" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description">
+                <img class="card-img-bottom" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description">
 
                 <span class="badge bg-dark card-pinned-bottom-start">Top start aligned</span>
               </div>
@@ -1941,7 +1941,7 @@
                 &lt;!-- Card --&gt;
                 &lt;div class="card h-100" style="max-width: 20rem;"&gt;
                   &lt;div class="card-pinned"&gt;
-                    &lt;img class="card-img-bottom" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-bottom" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
 
                     &lt;span class="badge bg-dark card-pinned-bottom-start"&gt;Top start aligned&lt;/span&gt;
                   &lt;/div&gt;
@@ -1989,7 +1989,7 @@
             <!-- Card -->
             <div class="card h-100" style="max-width: 20rem;">
               <div class="card-pinned">
-                <img class="card-img-bottom" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description">
+                <img class="card-img-bottom" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description">
 
                 <span class="badge bg-dark card-pinned-bottom-end">Top end aligned</span>
               </div>
@@ -2012,7 +2012,7 @@
                 &lt;!-- Card --&gt;
                 &lt;div class="card h-100" style="max-width: 20rem;"&gt;
                   &lt;div class="card-pinned"&gt;
-                    &lt;img class="card-img-bottom" src="@@autopath/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
+                    &lt;img class="card-img-bottom" src="${path}/resources/src/assets/img/documentation/img1.jpg" alt="Image Description"&gt;
 
                     &lt;span class="badge bg-dark card-pinned-bottom-end"&gt;Top end aligned&lt;/span&gt;
                   &lt;/div&gt;
@@ -2153,7 +2153,7 @@
                       45 Roker Terrace<br>
                       Latheronwheel<br>
                       KW5 8NW, London<br>
-                      UK <img class="avatar avatar-xss avatar-circle me-1" src="@@autopath/node_modules/flag-icon-css/flags/1x1/gb.svg" alt="Great Britain Flag">
+                      UK <img class="avatar avatar-xss avatar-circle me-1" src="${path}/resources/src/dist/assets/vendor/flag-icon-css/flags/1x1/gb.svg" alt="Great Britain Flag">
                     </address>
                   </div>
                 </div>
@@ -2171,7 +2171,7 @@
                       27 Thornton St<br>
                       Hundleby<br>
                       PE23 0ZJ, Manchester<br>
-                      UK <img class="avatar avatar-xss avatar-circle me-1" src="@@autopath/node_modules/flag-icon-css/flags/1x1/gb.svg" alt="Great Britain Flag">
+                      UK <img class="avatar avatar-xss avatar-circle me-1" src="${path}/resources/src/dist/assets/vendor/flag-icon-css/flags/1x1/gb.svg" alt="Great Britain Flag">
                     </address>
                   </div>
                 </div>
@@ -2210,7 +2210,7 @@
                           45 Roker Terrace&lt;br&gt;
                           Latheronwheel&lt;br&gt;
                           KW5 8NW, London&lt;br&gt;
-                          UK &lt;img class="avatar avatar-xss avatar-circle me-1" src="@@autopath/node_modules/flag-icon-css/flags/1x1/gb.svg" alt="Great Britain Flag"&gt;
+                          UK &lt;img class="avatar avatar-xss avatar-circle me-1" src="${path}/resources/src/dist/assets/vendor/flag-icon-css/flags/1x1/gb.svg" alt="Great Britain Flag"&gt;
                         &lt;/address&gt;
                       &lt;/div&gt;
                     &lt;/div&gt;
@@ -2228,7 +2228,7 @@
                           27 Thornton St&lt;br&gt;
                           Hundleby&lt;br&gt;
                           PE23 0ZJ, Manchester&lt;br&gt;
-                          UK &lt;img class="avatar avatar-xss avatar-circle me-1" src="@@autopath/node_modules/flag-icon-css/flags/1x1/gb.svg" alt="Great Britain Flag"&gt;
+                          UK &lt;img class="avatar avatar-xss avatar-circle me-1" src="${path}/resources/src/dist/assets/vendor/flag-icon-css/flags/1x1/gb.svg" alt="Great Britain Flag"&gt;
                         &lt;/address&gt;
                       &lt;/div&gt;
                     &lt;/div&gt;
@@ -2309,7 +2309,7 @@
                         <a class="d-flex" href="#">
                           <div class="flex-shrink-0">
                             <div class="avatar avatar-circle">
-                              <img class="avatar-img" src="@@autopath/assets/img/160x160/img10.jpg" alt="Image Description">
+                              <img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img10.jpg" alt="Image Description">
                             </div>
                           </div>
                           <div class="flex-grow-1 ms-3">
@@ -2357,7 +2357,7 @@
                         <a class="d-flex" href="#">
                           <div class="flex-shrink-0">
                             <div class="avatar avatar-circle">
-                              <img class="avatar-img" src="@@autopath/assets/img/160x160/img3.jpg" alt="Image Description">
+                              <img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img3.jpg" alt="Image Description">
                             </div>
                           </div>
                           <div class="flex-grow-1 ms-3">
@@ -2381,7 +2381,7 @@
                         <a class="d-flex" href="#">
                           <div class="flex-shrink-0">
                             <div class="avatar avatar-circle">
-                              <img class="avatar-img" src="@@autopath/assets/img/160x160/img5.jpg" alt="Image Description">
+                              <img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img5.jpg" alt="Image Description">
                             </div>
                           </div>
                           <div class="flex-grow-1 ms-3">
@@ -2458,7 +2458,7 @@
                             &lt;a class="d-flex" href="#"&gt;
                               &lt;div class="flex-shrink-0"&gt;
                                 &lt;div class="avatar avatar-circle"&gt;
-                                  &lt;img class="avatar-img" src="@@autopath/assets/img/160x160/img10.jpg" alt="Image Description"&gt;
+                                  &lt;img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img10.jpg" alt="Image Description"&gt;
                                 &lt;/div&gt;
                               &lt;/div&gt;
                               &lt;div class="flex-grow-1 ms-3"&gt;
@@ -2506,7 +2506,7 @@
                             &lt;a class="d-flex" href="#"&gt;
                               &lt;div class="flex-shrink-0"&gt;
                                 &lt;div class="avatar avatar-circle"&gt;
-                                  &lt;img class="avatar-img" src="@@autopath/assets/img/160x160/img3.jpg" alt="Image Description"&gt;
+                                  &lt;img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img3.jpg" alt="Image Description"&gt;
                                 &lt;/div&gt;
                               &lt;/div&gt;
                               &lt;div class="flex-grow-1 ms-3"&gt;
@@ -2530,7 +2530,7 @@
                             &lt;a class="d-flex" href="#"&gt;
                               &lt;div class="flex-shrink-0"&gt;
                                 &lt;div class="avatar avatar-circle"&gt;
-                                  &lt;img class="avatar-img" src="@@autopath/assets/img/160x160/img5.jpg" alt="Image Description"&gt;
+                                  &lt;img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img5.jpg" alt="Image Description"&gt;
                                 &lt;/div&gt;
                               &lt;/div&gt;
                               &lt;div class="flex-grow-1 ms-3"&gt;
@@ -2592,24 +2592,24 @@
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
-  <script src="@@autopath/node_modules/list.js/dist/list.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/list.js/dist/list.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/prism/prism.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
-  <script src="@@autopath/assets/js/hs.list.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
+  <script src="${path}/resources/src/assets/js/hs.list.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -2634,7 +2634,7 @@
 
       // GET JSON FILE RESULTS
       // =======================================================
-      fetch('@@autopath/assets/json/docs-search.json')
+      fetch('${path}/resources/src/assets/json/docs-search.json')
       .then(response => response.json())
       .then(data => {
         docsSearch.getItem(0).add(data)

@@ -9,31 +9,31 @@
   <title>Clients - Snippets | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="@@autopath/node_modules/swiper/swiper-bundle.min.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
-  <link rel="stylesheet" href="@@autopath/assets/css/snippets.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/snippets.css">
 </head>
 
 <body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/docs/snippets-navbar.html")
+  @@include("${path}/resources/src/partials/docs/snippets-navbar.html")
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Navbar -->
-    @@include("@@autopath/partials/docs/snippets-sidebar.html", {
+    @@include("${path}/resources/src/partials/docs/snippets-sidebar.html", {
       "category": "",
       "link": "clients.html"
     })
@@ -89,27 +89,27 @@
               <div class="js-swiper-clients swiper text-center">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/mailchimp-dark.svg" alt="Logo">
+                    <img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/mailchimp-dark.svg" alt="Logo">
                   </div>
                   <!-- End Slide -->
 
                   <div class="swiper-slide">
-                    <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/sass-dark.svg" alt="Logo">
+                    <img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/sass-dark.svg" alt="Logo">
                   </div>
                   <!-- End Slide -->
 
                   <div class="swiper-slide">
-                    <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/forbes-dark.svg" alt="Logo">
+                    <img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/forbes-dark.svg" alt="Logo">
                   </div>
                   <!-- End Slide -->
 
                   <div class="swiper-slide">
-                    <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/gitlab-dark.svg" alt="Logo">
+                    <img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/gitlab-dark.svg" alt="Logo">
                   </div>
                   <!-- End Slide -->
 
                   <div class="swiper-slide">
-                    <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/hubspot-dark.svg" alt="Logo">
+                    <img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/hubspot-dark.svg" alt="Logo">
                   </div>
                   <!-- End Slide -->
                 </div>
@@ -128,27 +128,27 @@
                   &lt;div class="js-swiper-clients swiper text-center"&gt;
                     &lt;div class="swiper-wrapper"&gt;
                       &lt;div class="swiper-slide"&gt;
-                        &lt;img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/mailchimp-dark.svg" alt="Logo"&gt;
+                        &lt;img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/mailchimp-dark.svg" alt="Logo"&gt;
                       &lt;/div&gt;
                       &lt;!-- End Slide --&gt;
 
                       &lt;div class="swiper-slide"&gt;
-                        &lt;img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/sass-dark.svg" alt="Logo"&gt;
+                        &lt;img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/sass-dark.svg" alt="Logo"&gt;
                       &lt;/div&gt;
                       &lt;!-- End Slide --&gt;
 
                       &lt;div class="swiper-slide"&gt;
-                        &lt;img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/forbes-dark.svg" alt="Logo"&gt;
+                        &lt;img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/forbes-dark.svg" alt="Logo"&gt;
                       &lt;/div&gt;
                       &lt;!-- End Slide --&gt;
 
                       &lt;div class="swiper-slide"&gt;
-                        &lt;img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/gitlab-dark.svg" alt="Logo"&gt;
+                        &lt;img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/gitlab-dark.svg" alt="Logo"&gt;
                       &lt;/div&gt;
                       &lt;!-- End Slide --&gt;
 
                       &lt;div class="swiper-slide"&gt;
-                        &lt;img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/hubspot-dark.svg" alt="Logo"&gt;
+                        &lt;img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/hubspot-dark.svg" alt="Logo"&gt;
                       &lt;/div&gt;
                       &lt;!-- End Slide --&gt;
                     &lt;/div&gt;
@@ -163,7 +163,7 @@
           <div class="tab-pane fade" id="nav-css1" role="tabpanel" aria-labelledby="nav-cssTab1">
             <pre>
               <code class="language-markup" data-lang="html">
-                &lt;link rel="stylesheet" href="@@autopath/node_modules/swiper/swiper-bundle.min.css"&gt;
+                &lt;link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.css"&gt;
               </code>
             </pre>
           </div>
@@ -171,7 +171,7 @@
           <div class="tab-pane fade" id="nav-js1" role="tabpanel" aria-labelledby="nav-jsTab1">
             <pre>
               <code class="language-markup" data-lang="html">
-                &lt;script src="@@autopath/node_modules/swiper/swiper-bundle.min.js"&gt;&lt;/script&gt;
+                &lt;script src="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.js"&gt;&lt;/script&gt;
 
                 &lt;!-- JS Plugins Init. --&gt;
                 &lt;script&gt;
@@ -241,57 +241,57 @@
 
               <div class="row justify-content-center text-center">
                 <div class="col-4 col-sm-3 col-md-2 py-3">
-                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/amazon-dark.svg" alt="Logo">
+                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/amazon-dark.svg" alt="Logo">
                 </div>
                 <!-- End Col -->
 
                 <div class="col-4 col-sm-3 col-md-2 py-3">
-                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/kaplan-dark.svg" alt="Logo">
+                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/kaplan-dark.svg" alt="Logo">
                 </div>
                 <!-- End Col -->
 
                 <div class="col-4 col-sm-3 col-md-2 py-3">
-                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/google-dark.svg" alt="Logo">
+                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/google-dark.svg" alt="Logo">
                 </div>
                 <!-- End Col -->
 
                 <div class="col-4 col-sm-3 col-md-2 py-3">
-                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/airbnb-dark.svg" alt="Logo">
+                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/airbnb-dark.svg" alt="Logo">
                 </div>
                 <!-- End Col -->
 
                 <div class="col-4 col-sm-3 col-md-2 py-3">
-                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/shopify-dark.svg" alt="Logo">
+                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/shopify-dark.svg" alt="Logo">
                 </div>
                 <!-- End Col -->
 
                 <div class="col-4 col-sm-3 col-md-2 py-3">
-                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/vidados-dark.svg" alt="Logo">
+                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/vidados-dark.svg" alt="Logo">
                 </div>
                 <!-- End Col -->
 
                 <div class="col-4 col-sm-3 col-md-2 py-3">
-                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/capsule-dark.svg" alt="Logo">
+                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/capsule-dark.svg" alt="Logo">
                 </div>
                 <!-- End Col -->
 
                 <div class="col-4 col-sm-3 col-md-2 py-3">
-                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/forbes-dark.svg" alt="Logo">
+                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/forbes-dark.svg" alt="Logo">
                 </div>
                 <!-- End Col -->
 
                 <div class="col-4 col-sm-3 col-md-2 py-3">
-                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/business-insider-dark.svg" alt="Logo">
+                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/business-insider-dark.svg" alt="Logo">
                 </div>
                 <!-- End Col -->
 
                 <div class="col-4 col-sm-3 col-md-2 py-3">
-                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/hubspot-dark.svg" alt="Logo">
+                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/hubspot-dark.svg" alt="Logo">
                 </div>
                 <!-- End Col -->
 
                 <div class="col-4 col-sm-3 col-md-2 py-3">
-                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/sass-dark.svg" alt="Logo">
+                  <img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/sass-dark.svg" alt="Logo">
                 </div>
                 <!-- End Col -->
               </div>
@@ -313,57 +313,57 @@
 
                   &lt;div class="row justify-content-center text-center"&gt;
                     &lt;div class="col-4 col-sm-3 col-md-2 py-3"&gt;
-                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/amazon-dark.svg" alt="Logo"&gt;
+                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/amazon-dark.svg" alt="Logo"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-4 col-sm-3 col-md-2 py-3"&gt;
-                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/kaplan-dark.svg" alt="Logo"&gt;
+                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/kaplan-dark.svg" alt="Logo"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-4 col-sm-3 col-md-2 py-3"&gt;
-                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/google-dark.svg" alt="Logo"&gt;
+                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/google-dark.svg" alt="Logo"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-4 col-sm-3 col-md-2 py-3"&gt;
-                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/airbnb-dark.svg" alt="Logo"&gt;
+                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/airbnb-dark.svg" alt="Logo"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-4 col-sm-3 col-md-2 py-3"&gt;
-                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/shopify-dark.svg" alt="Logo"&gt;
+                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/shopify-dark.svg" alt="Logo"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-4 col-sm-3 col-md-2 py-3"&gt;
-                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/vidados-dark.svg" alt="Logo"&gt;
+                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/vidados-dark.svg" alt="Logo"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-4 col-sm-3 col-md-2 py-3"&gt;
-                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/capsule-dark.svg" alt="Logo"&gt;
+                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/capsule-dark.svg" alt="Logo"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-4 col-sm-3 col-md-2 py-3"&gt;
-                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/forbes-dark.svg" alt="Logo"&gt;
+                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/forbes-dark.svg" alt="Logo"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-4 col-sm-3 col-md-2 py-3"&gt;
-                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/business-insider-dark.svg" alt="Logo"&gt;
+                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/business-insider-dark.svg" alt="Logo"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-4 col-sm-3 col-md-2 py-3"&gt;
-                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/hubspot-dark.svg" alt="Logo"&gt;
+                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/hubspot-dark.svg" alt="Logo"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-4 col-sm-3 col-md-2 py-3"&gt;
-                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="@@autopath/assets/svg/brands/sass-dark.svg" alt="Logo"&gt;
+                      &lt;img class="avatar avatar-lg avatar-4x3 avatar-centered" src="${path}/resources/src/assets/svg/brands/sass-dark.svg" alt="Logo"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
                   &lt;/div&gt;
@@ -417,7 +417,7 @@
                 <div class="col-auto">
                   <div class="text-center">
                     <div class="avatar avatar-4x3 shadow-sm rounded-3 p-3 mx-auto mb-3">
-                      <img class="avatar-img" src="@@autopath/assets/svg/brands/jira-icon.svg" alt="Image Description">
+                      <img class="avatar-img" src="${path}/resources/src/assets/svg/brands/jira-icon.svg" alt="Image Description">
                     </div>
                     <h6 class="fw-medium">Jira</h6>
                   </div>
@@ -427,7 +427,7 @@
                 <div class="col-auto">
                   <div class="text-center">
                     <div class="avatar avatar-4x3 shadow-sm rounded-3 p-3 mx-auto mb-3">
-                      <img class="avatar-img" src="@@autopath/assets/svg/brands/google-icon.svg" alt="Image Description">
+                      <img class="avatar-img" src="${path}/resources/src/assets/svg/brands/google-icon.svg" alt="Image Description">
                     </div>
                     <h6 class="fw-medium">Google</h6>
                   </div>
@@ -437,7 +437,7 @@
                 <div class="col-auto">
                   <div class="text-center">
                     <div class="avatar avatar-4x3 shadow-sm rounded-3 p-3 mx-auto mb-3">
-                      <img class="avatar-img" src="@@autopath/assets/svg/brands/asana-icon.svg" alt="Image Description">
+                      <img class="avatar-img" src="${path}/resources/src/assets/svg/brands/asana-icon.svg" alt="Image Description">
                     </div>
                     <h6 class="fw-medium">Asana</h6>
                   </div>
@@ -447,7 +447,7 @@
                 <div class="col-auto">
                   <div class="text-center">
                     <div class="avatar avatar-4x3 shadow-sm rounded-3 p-3 mx-auto mb-3">
-                      <img class="avatar-img" src="@@autopath/assets/svg/brands/slack-icon.svg" alt="Image Description">
+                      <img class="avatar-img" src="${path}/resources/src/assets/svg/brands/slack-icon.svg" alt="Image Description">
                     </div>
                     <h6 class="fw-medium">Slack</h6>
                   </div>
@@ -457,7 +457,7 @@
                 <div class="col-auto">
                   <div class="text-center">
                     <div class="avatar avatar-4x3 shadow-sm rounded-3 p-3 mx-auto mb-3">
-                      <img class="avatar-img" src="@@autopath/assets/svg/brands/dropbox-icon.svg" alt="Image Description">
+                      <img class="avatar-img" src="${path}/resources/src/assets/svg/brands/dropbox-icon.svg" alt="Image Description">
                     </div>
                     <h6 class="fw-medium">Dropbox</h6>
                   </div>
@@ -467,7 +467,7 @@
                 <div class="col-auto">
                   <div class="text-center">
                     <div class="avatar avatar-4x3 shadow-sm rounded-3 p-3 mx-auto">
-                      <img class="avatar-img" src="@@autopath/assets/svg/components/plus-icon.svg" alt="Image Description">
+                      <img class="avatar-img" src="${path}/resources/src/assets/svg/components/plus-icon.svg" alt="Image Description">
                     </div>
                   </div>
                 </div>
@@ -498,7 +498,7 @@
                     &lt;div class="col-auto"&gt;
                       &lt;div class="text-center"&gt;
                         &lt;div class="avatar avatar-4x3 shadow-sm rounded-3 p-3 mx-auto mb-3"&gt;
-                          &lt;img class="avatar-img" src="@@autopath/assets/svg/brands/jira-icon.svg" alt="Image Description"&gt;
+                          &lt;img class="avatar-img" src="${path}/resources/src/assets/svg/brands/jira-icon.svg" alt="Image Description"&gt;
                         &lt;/div&gt;
                         &lt;h6 class="fw-medium"&gt;Jira&lt;/h6&gt;
                       &lt;/div&gt;
@@ -508,7 +508,7 @@
                     &lt;div class="col-auto"&gt;
                       &lt;div class="text-center"&gt;
                         &lt;div class="avatar avatar-4x3 shadow-sm rounded-3 p-3 mx-auto mb-3"&gt;
-                          &lt;img class="avatar-img" src="@@autopath/assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
+                          &lt;img class="avatar-img" src="${path}/resources/src/assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
                         &lt;/div&gt;
                         &lt;h6 class="fw-medium"&gt;Google&lt;/h6&gt;
                       &lt;/div&gt;
@@ -518,7 +518,7 @@
                     &lt;div class="col-auto"&gt;
                       &lt;div class="text-center"&gt;
                         &lt;div class="avatar avatar-4x3 shadow-sm rounded-3 p-3 mx-auto mb-3"&gt;
-                          &lt;img class="avatar-img" src="@@autopath/assets/svg/brands/asana-icon.svg" alt="Image Description"&gt;
+                          &lt;img class="avatar-img" src="${path}/resources/src/assets/svg/brands/asana-icon.svg" alt="Image Description"&gt;
                         &lt;/div&gt;
                         &lt;h6 class="fw-medium"&gt;Asana&lt;/h6&gt;
                       &lt;/div&gt;
@@ -528,7 +528,7 @@
                     &lt;div class="col-auto"&gt;
                       &lt;div class="text-center"&gt;
                         &lt;div class="avatar avatar-4x3 shadow-sm rounded-3 p-3 mx-auto mb-3"&gt;
-                          &lt;img class="avatar-img" src="@@autopath/assets/svg/brands/slack-icon.svg" alt="Image Description"&gt;
+                          &lt;img class="avatar-img" src="${path}/resources/src/assets/svg/brands/slack-icon.svg" alt="Image Description"&gt;
                         &lt;/div&gt;
                         &lt;h6 class="fw-medium"&gt;Slack&lt;/h6&gt;
                       &lt;/div&gt;
@@ -538,7 +538,7 @@
                     &lt;div class="col-auto"&gt;
                       &lt;div class="text-center"&gt;
                         &lt;div class="avatar avatar-4x3 shadow-sm rounded-3 p-3 mx-auto mb-3"&gt;
-                          &lt;img class="avatar-img" src="@@autopath/assets/svg/brands/dropbox-icon.svg" alt="Image Description"&gt;
+                          &lt;img class="avatar-img" src="${path}/resources/src/assets/svg/brands/dropbox-icon.svg" alt="Image Description"&gt;
                         &lt;/div&gt;
                         &lt;h6 class="fw-medium"&gt;Dropbox&lt;/h6&gt;
                       &lt;/div&gt;
@@ -548,7 +548,7 @@
                     &lt;div class="col-auto"&gt;
                       &lt;div class="text-center"&gt;
                         &lt;div class="avatar avatar-4x3 shadow-sm rounded-3 p-3 mx-auto"&gt;
-                          &lt;img class="avatar-img" src="@@autopath/assets/svg/components/plus-icon.svg" alt="Image Description"&gt;
+                          &lt;img class="avatar-img" src="${path}/resources/src/assets/svg/components/plus-icon.svg" alt="Image Description"&gt;
                         &lt;/div&gt;
                       &lt;/div&gt;
                     &lt;/div&gt;
@@ -635,7 +635,7 @@
                     <div class="col-3 mb-4">
                       <!-- Logo -->
                       <div class="d-block avatar avatar-lg rounded-circle shadow-sm p-3 mt-n3 ms-5">
-                        <img class="avatar-img" src="@@autopath/assets/svg/brands/google-icon.svg" alt="Image Description">
+                        <img class="avatar-img" src="${path}/resources/src/assets/svg/brands/google-icon.svg" alt="Image Description">
                       </div>
                       <!-- End Logo -->
                     </div>
@@ -644,7 +644,7 @@
                     <div class="col-4 mb-4">
                       <!-- Logo -->
                       <div class="d-block avatar avatar-xl rounded-circle shadow-sm p-4 mx-auto mt-5">
-                        <img class="avatar-img" src="@@autopath/assets/svg/brands/dropbox-icon.svg" alt="Image Description">
+                        <img class="avatar-img" src="${path}/resources/src/assets/svg/brands/dropbox-icon.svg" alt="Image Description">
                       </div>
                       <!-- End Logo -->
                     </div>
@@ -653,7 +653,7 @@
                     <div class="col-4 mb-4">
                       <!-- Logo -->
                       <div class="d-block avatar avatar-xl rounded-circle shadow-sm p-4 ms-auto">
-                        <img class="avatar-img" src="@@autopath/assets/svg/brands/google-icon.svg" alt="Image Description">
+                        <img class="avatar-img" src="${path}/resources/src/assets/svg/brands/google-icon.svg" alt="Image Description">
                       </div>
                       <!-- End Logo -->
                     </div>
@@ -665,7 +665,7 @@
                     <div class="col-3 offset-1 my-4">
                       <!-- Logo -->
                       <div class="d-block avatar avatar-xl rounded-circle shadow-sm p-4 ms-auto">
-                        <img class="avatar-img" src="@@autopath/assets/svg/brands/jira-icon.svg" alt="Image Description">
+                        <img class="avatar-img" src="${path}/resources/src/assets/svg/brands/jira-icon.svg" alt="Image Description">
                       </div>
                       <!-- End Logo -->
                     </div>
@@ -674,7 +674,7 @@
                     <div class="col-3 offset-2 my-4">
                       <!-- Logo -->
                       <div class="d-block avatar avatar-xl rounded-circle shadow-sm p-4 ms-auto">
-                        <img class="avatar-img" src="@@autopath/assets/svg/brands/slack-icon.svg" alt="Image Description">
+                        <img class="avatar-img" src="${path}/resources/src/assets/svg/brands/slack-icon.svg" alt="Image Description">
                       </div>
                       <!-- End Logo -->
                     </div>
@@ -686,7 +686,7 @@
                     <div class="col-6">
                       <!-- Logo -->
                       <div class="d-block avatar avatar-lg rounded-circle shadow-sm p-3 ms-auto">
-                        <img class="avatar-img" src="@@autopath/assets/svg/brands/google-adz-icon.svg" alt="Image Description">
+                        <img class="avatar-img" src="${path}/resources/src/assets/svg/brands/google-adz-icon.svg" alt="Image Description">
                       </div>
                       <!-- End Logo -->
                     </div>
@@ -695,7 +695,7 @@
                     <div class="col-6 mt-6">
                       <!-- Logo -->
                       <div class="d-block avatar avatar-xl rounded-circle shadow-sm p-4 ms-auto">
-                        <img class="avatar-img" src="@@autopath/assets/svg/brands/behance-icon.svg" alt="Image Description">
+                        <img class="avatar-img" src="${path}/resources/src/assets/svg/brands/behance-icon.svg" alt="Image Description">
                       </div>
                       <!-- End Logo -->
                     </div>
@@ -753,7 +753,7 @@
                         &lt;div class="col-3 mb-4"&gt;
                           &lt;!-- Logo --&gt;
                           &lt;div class="d-block avatar avatar-lg rounded-circle shadow-sm p-3 mt-n3 ms-5"&gt;
-                            &lt;img class="avatar-img" src="@@autopath/assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
+                            &lt;img class="avatar-img" src="${path}/resources/src/assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
                           &lt;/div&gt;
                           &lt;!-- End Logo --&gt;
                         &lt;/div&gt;
@@ -762,7 +762,7 @@
                         &lt;div class="col-4 mb-4"&gt;
                           &lt;!-- Logo --&gt;
                           &lt;div class="d-block avatar avatar-xl rounded-circle shadow-sm p-4 mx-auto mt-5"&gt;
-                            &lt;img class="avatar-img" src="@@autopath/assets/svg/brands/dropbox-icon.svg" alt="Image Description"&gt;
+                            &lt;img class="avatar-img" src="${path}/resources/src/assets/svg/brands/dropbox-icon.svg" alt="Image Description"&gt;
                           &lt;/div&gt;
                           &lt;!-- End Logo --&gt;
                         &lt;/div&gt;
@@ -771,7 +771,7 @@
                         &lt;div class="col-4 mb-4"&gt;
                           &lt;!-- Logo --&gt;
                           &lt;div class="d-block avatar avatar-xl rounded-circle shadow-sm p-4 ms-auto"&gt;
-                            &lt;img class="avatar-img" src="@@autopath/assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
+                            &lt;img class="avatar-img" src="${path}/resources/src/assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
                           &lt;/div&gt;
                           &lt;!-- End Logo --&gt;
                         &lt;/div&gt;
@@ -783,7 +783,7 @@
                         &lt;div class="col-3 offset-1 my-4"&gt;
                           &lt;!-- Logo --&gt;
                           &lt;div class="d-block avatar avatar-xl rounded-circle shadow-sm p-4 ms-auto"&gt;
-                            &lt;img class="avatar-img" src="@@autopath/assets/svg/brands/jira-icon.svg" alt="Image Description"&gt;
+                            &lt;img class="avatar-img" src="${path}/resources/src/assets/svg/brands/jira-icon.svg" alt="Image Description"&gt;
                           &lt;/div&gt;
                           &lt;!-- End Logo --&gt;
                         &lt;/div&gt;
@@ -792,7 +792,7 @@
                         &lt;div class="col-3 offset-2 my-4"&gt;
                           &lt;!-- Logo --&gt;
                           &lt;div class="d-block avatar avatar-xl rounded-circle shadow-sm p-4 ms-auto"&gt;
-                            &lt;img class="avatar-img" src="@@autopath/assets/svg/brands/slack-icon.svg" alt="Image Description"&gt;
+                            &lt;img class="avatar-img" src="${path}/resources/src/assets/svg/brands/slack-icon.svg" alt="Image Description"&gt;
                           &lt;/div&gt;
                           &lt;!-- End Logo --&gt;
                         &lt;/div&gt;
@@ -804,7 +804,7 @@
                         &lt;div class="col-6"&gt;
                           &lt;!-- Logo --&gt;
                           &lt;div class="d-block avatar avatar-lg rounded-circle shadow-sm p-3 ms-auto"&gt;
-                            &lt;img class="avatar-img" src="@@autopath/assets/svg/brands/google-adz-icon.svg" alt="Image Description"&gt;
+                            &lt;img class="avatar-img" src="${path}/resources/src/assets/svg/brands/google-adz-icon.svg" alt="Image Description"&gt;
                           &lt;/div&gt;
                           &lt;!-- End Logo --&gt;
                         &lt;/div&gt;
@@ -813,7 +813,7 @@
                         &lt;div class="col-6 mt-6"&gt;
                           &lt;!-- Logo --&gt;
                           &lt;div class="d-block avatar avatar-xl rounded-circle shadow-sm p-4 ms-auto"&gt;
-                            &lt;img class="avatar-img" src="@@autopath/assets/svg/brands/behance-icon.svg" alt="Image Description"&gt;
+                            &lt;img class="avatar-img" src="${path}/resources/src/assets/svg/brands/behance-icon.svg" alt="Image Description"&gt;
                           &lt;/div&gt;
                           &lt;!-- End Logo --&gt;
                         &lt;/div&gt;
@@ -840,25 +840,25 @@
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
-  <script src="@@autopath/node_modules/list.js/dist/list.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
-  <script src="@@autopath/node_modules/swiper/swiper-bundle.min.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/list.js/dist/list.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/prism/prism.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
-  <script src="@@autopath/assets/js/hs.list.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
+  <script src="${path}/resources/src/assets/js/hs.list.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -883,7 +883,7 @@
 
       // GET JSON FILE RESULTS
       // =======================================================
-      fetch('@@autopath/assets/json/snippets-search.json')
+      fetch('${path}/resources/src/assets/json/snippets-search.json')
       .then(response => response.json())
       .then(data => {
         snippetsSearch.getItem(0).add(data)

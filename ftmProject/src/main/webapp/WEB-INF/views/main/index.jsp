@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:set var="path" value="${pageContext.request.contextPath}"/>
-<html lang="@@languageDirection.lang">
+<html lang="en">
 <head>
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
@@ -21,13 +21,13 @@
     <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
     <!-- Font -->
-    <link href="@@vars.themeFont" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- CSS Implementing Plugins -->
     <!-- bundlecss:vendor [${path}/resources/src] -->
-    <link rel="stylesheet" href="${path}/resources/src/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
-    <link rel="stylesheet" href="${path}/resources/src/node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.css">
 
     <!-- CSS Unify Template -->
     <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
@@ -38,7 +38,7 @@
 <!-- ========== HEADER ========== -->
 <%--@@include("${path}/resources/src/partials/navbar/main-absolute-top.html", {--%>
 <%--"category": "",--%>
-<%--"link": "index.html"--%>
+<%--"link": "index.jsp"--%>
 <%--})--%>
 <!-- ========== END HEADER ========== -->
 
@@ -423,7 +423,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div class="col mb-5 mb-md-0">
                 <!-- Card -->
-                <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.html">
+                <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.jsp">
                     <div class="card-transition-zoom-item">
                         <img class="card-img" src="${path}/resources/src/assets/img/580x480/img1.jpg" alt="Image Description">
                     </div>
@@ -443,7 +443,7 @@
 
             <div class="col mb-5 mb-md-0">
                 <!-- Card -->
-                <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.html">
+                <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.jsp">
                     <div class="card-pinned card-transition-zoom-item">
                         <img class="card-img" src="${path}/resources/src/assets/img/580x480/img2.jpg" alt="Image Description">
                         <span class="badge bg-dark text-white card-pinned-top-end">Sponsored</span>
@@ -464,7 +464,7 @@
 
             <div class="col">
                 <!-- Card -->
-                <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.html">
+                <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.jsp">
                     <div class="card-transition-zoom-item">
                         <img class="card-img" src="${path}/resources/src/assets/img/580x480/img3.jpg" alt="Image Description">
                     </div>
@@ -489,7 +489,8 @@
 <!-- ========== END MAIN CONTENT ========== -->
 
 <!-- ========== FOOTER ========== -->
-<%--@@include("${path}/resources/src/partials/footer/main.html")--%>
+<%--<%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/>--%>
 <%--<jsp:include page="${path}/resources/src/partials/footer/main.html" flush="true" />--%>
 <!-- ========== END FOOTER ========== -->
 
@@ -500,14 +501,14 @@
 <!-- ========== END SECONDARY CONTENTS ========== -->
 
 <!-- JS Global Compulsory @@deleteLine:build -->
-<script src="${path}/resources/src/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- JS Implementing Plugins -->
 <!-- bundlejs:vendor [${path}/resources/src] -->
 <script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"></script>
 <script src="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
 <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-<script src="${path}/resources/src/node_modules/swiper/swiper-bundle.min.js"></script>
+<script src="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
 <!-- JS Unify -->
 <!-- bundlejs:theme [${path}/resources/src] -->

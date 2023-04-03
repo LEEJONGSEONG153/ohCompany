@@ -35,7 +35,8 @@
 <%--              "link": "@@link"--%>
 <%--            })--%>
                  <jsp:include page="../navbar/navbar-nav-menu.jsp" flush="false" >
-                    <jsp:param name="category" value="" />
+                    <jsp:param name="category" value="${param.category}" />
+                    <jsp:param name="subcategory" value="${param.subcategory}" />
                     <jsp:param name="link" value="${param.link}"/>
                 </jsp:include>
 
@@ -44,7 +45,7 @@
                     <c:choose>
                         <c:when test="${empty param.userName}">
                             <a class="btn btn-ghost-dark me-2 me-lg-0" href="${path}/resources/src/page-login.jsp">Log in</a>
-                            <a class="btn btn-dark d-lg-none" href="${path}/resources/src/page-signup.html">Sign up</a>
+                            <a class="btn btn-dark d-lg-none" href="${path}/resources/src/page-signup.jsp">Sign up</a>
                         </c:when>
                         <c:otherwise>
                            ${param.userName} 안녕하슈
@@ -55,10 +56,10 @@
 
             <!-- Sign up -->
             <li class="nav-item">
-<%--                <a class="btn btn-dark d-none d-lg-inline-block" href="${path}/resources/src/page-signup.html">Sign up</a>--%>
+<%--                <a class="btn btn-dark d-none d-lg-inline-block" href="${path}/resources/src/page-signup.jsp">Sign up</a>--%>
                 <c:choose>
                     <c:when test="${empty param.userName}">
-                        <a class="btn btn-dark d-none d-lg-inline-block" href="${path}/resources/src/page-signup.html">Sign up</a>
+                        <a class="btn btn-dark d-none d-lg-inline-block" href="${path}/resources/src/page-signup.jsp">Sign up</a>
                     </c:when>
                     <c:otherwise>
                         <a class="btn btn-dark d-none d-lg-inline-block" href="/logout">Log out</a>

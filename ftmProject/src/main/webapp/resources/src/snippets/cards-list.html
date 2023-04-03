@@ -9,30 +9,30 @@
   <title>Cards: List - Snippets | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
-  <link rel="stylesheet" href="@@autopath/assets/css/snippets.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/snippets.css">
 </head>
 
 <body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/docs/snippets-navbar.html")
+  @@include("${path}/resources/src/partials/docs/snippets-navbar.html")
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Navbar -->
-    @@include("@@autopath/partials/docs/snippets-sidebar.html", {
+    @@include("${path}/resources/src/partials/docs/snippets-sidebar.html", {
       "category": "cards",
       "link": "cards-list.html"
     })
@@ -87,14 +87,14 @@
 
               <div class="row align-items-md-center">
                 <div class="col-md-6 mb-5 mb-md-0">
-                  <img class="img-fluid rounded-3" src="@@autopath/assets/img/950x950/img2.jpg" alt="Image Description">
+                  <img class="img-fluid rounded-3" src="${path}/resources/src/assets/img/950x950/img2.jpg" alt="Image Description">
                 </div>
                 <!-- End Col -->
 
                 <div class="col-md-6">
                   <div class="ps-lg-7">
                     <div class="mb-3">
-                      <img class="avatar avatar-xl avatar-4x3" src="@@autopath/assets/svg/brands/amazon-dark.svg" alt="Logo">
+                      <img class="avatar avatar-xl avatar-4x3" src="${path}/resources/src/assets/svg/brands/amazon-dark.svg" alt="Logo">
                     </div>
                     <p class="fs-3 text-dark"><em>" Millions turn to Amazon for a great customer experience. "</em></p>
                     <p class="fs-3 text-dark">It takes work to stand out from the pack—work that Amazon is proud to make much easier. Founded in 2003, the company provides people with the tools and templates to build, host, and promote their online brand. Even Amazon is built on Amazon.</p>
@@ -122,14 +122,14 @@
 
                   &lt;div class="row align-items-md-center"&gt;
                     &lt;div class="col-md-6 mb-5 mb-md-0"&gt;
-                      &lt;img class="img-fluid rounded-3" src="@@autopath/assets/img/950x950/img2.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid rounded-3" src="${path}/resources/src/assets/img/950x950/img2.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-md-6"&gt;
                       &lt;div class="ps-lg-7"&gt;
                         &lt;div class="mb-3"&gt;
-                          &lt;img class="avatar avatar-xl avatar-4x3" src="@@autopath/assets/svg/brands/amazon-dark.svg" alt="Logo"&gt;
+                          &lt;img class="avatar avatar-xl avatar-4x3" src="${path}/resources/src/assets/svg/brands/amazon-dark.svg" alt="Logo"&gt;
                         &lt;/div&gt;
                         &lt;p class="fs-3 text-dark"&gt;&lt;em&gt;" Millions turn to Amazon for a great customer experience. "&lt;/em&gt;&lt;/p&gt;
                         &lt;p class="fs-3 text-dark"&gt;It takes work to stand out from the pack—work that Amazon is proud to make much easier. Founded in 2003, the company provides people with the tools and templates to build, host, and promote their online brand. Even Amazon is built on Amazon.&lt;/p&gt;
@@ -181,17 +181,17 @@
                 <div class="row justify-content-lg-between align-items-md-center">
                   <div class="col-md-6 col-lg-5 mb-10 mb-md-0">
                     <div class="position-relative">
-                      <img class="img-fluid rounded-3" src="@@autopath/assets/img/950x950/img8.jpg" alt="Image Description">
+                      <img class="img-fluid rounded-3" src="${path}/resources/src/assets/img/950x950/img8.jpg" alt="Image Description">
 
                       <!-- SVG Shape -->
                       <figure class="position-absolute top-0 end-0 d-none d-lg-block mt-3 me-n7" style="width: 4rem;">
-                        <img class="img-fluid" src="@@autopath/assets/svg/components/pointer-up.svg" alt="Image Description">
+                        <img class="img-fluid" src="${path}/resources/src/assets/svg/components/pointer-up.svg" alt="Image Description">
                       </figure>
                       <!-- End SVG Shape -->
 
                       <!-- SVG Shape -->
                       <figure class="position-absolute bottom-0 start-0 mb-n8 ms-n8" style="width: 12rem;">
-                        <img class="img-fluid" src="@@autopath/assets/svg/components/curved-shape.svg" alt="Image Description">
+                        <img class="img-fluid" src="${path}/resources/src/assets/svg/components/curved-shape.svg" alt="Image Description">
                       </figure>
                       <!-- End SVG Shape -->
                     </div>
@@ -202,7 +202,7 @@
                     <div class="mb-5">
                       <h2 class="h1">Airbnb uses Unify to provide personalized support to 37k customers</h2>
                     </div>
-                    <a class="btn btn-primary btn-pointer" href="@@autopath/page-customer-story.html">Read story</a>
+                    <a class="btn btn-primary btn-pointer" href="${path}/resources/src/page-customer-story.html">Read story</a>
                   </div>
                   <!-- End Col -->
                 </div>
@@ -221,17 +221,17 @@
                     &lt;div class="row justify-content-lg-between align-items-md-center"&gt;
                       &lt;div class="col-md-6 col-lg-5 mb-10 mb-md-0"&gt;
                         &lt;div class="position-relative"&gt;
-                          &lt;img class="img-fluid rounded-3" src="@@autopath/assets/img/950x950/img8.jpg" alt="Image Description"&gt;
+                          &lt;img class="img-fluid rounded-3" src="${path}/resources/src/assets/img/950x950/img8.jpg" alt="Image Description"&gt;
 
                           &lt;!-- SVG Shape --&gt;
                           &lt;figure class="position-absolute top-0 end-0 d-none d-lg-block mt-3 me-n7" style="width: 4rem;"&gt;
-                            &lt;img class="img-fluid" src="@@autopath/assets/svg/components/pointer-up.svg" alt="Image Description"&gt;
+                            &lt;img class="img-fluid" src="${path}/resources/src/assets/svg/components/pointer-up.svg" alt="Image Description"&gt;
                           &lt;/figure&gt;
                           &lt;!-- End SVG Shape --&gt;
 
                           &lt;!-- SVG Shape --&gt;
                           &lt;figure class="position-absolute bottom-0 start-0 mb-n8 ms-n8" style="width: 12rem;"&gt;
-                            &lt;img class="img-fluid" src="@@autopath/assets/svg/components/curved-shape.svg" alt="Image Description"&gt;
+                            &lt;img class="img-fluid" src="${path}/resources/src/assets/svg/components/curved-shape.svg" alt="Image Description"&gt;
                           &lt;/figure&gt;
                           &lt;!-- End SVG Shape --&gt;
                         &lt;/div&gt;
@@ -242,7 +242,7 @@
                         &lt;div class="mb-5"&gt;
                           &lt;h2 class="h1"&gt;Airbnb uses Unify to provide personalized support to 37k customers&lt;/h2&gt;
                         &lt;/div&gt;
-                        &lt;a class="btn btn-primary btn-pointer" href="@@autopath/page-customer-story.html"&gt;Read story&lt;/a&gt;
+                        &lt;a class="btn btn-primary btn-pointer" href="${path}/resources/src/page-customer-story.html"&gt;Read story&lt;/a&gt;
                       &lt;/div&gt;
                       &lt;!-- End Col --&gt;
                     &lt;/div&gt;
@@ -303,7 +303,7 @@
 
               <div class="d-grid gap-3">
                 <!-- Card -->
-                <a class="card" href="@@autopath/page-careers-role-overview.html">
+                <a class="card" href="${path}/resources/src/page-careers-role-overview.html">
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-4 mb-2 mb-md-0">
@@ -332,7 +332,7 @@
                 <!-- End Card -->
 
                 <!-- Card -->
-                <a class="card" href="@@autopath/page-careers-role-overview.html">
+                <a class="card" href="${path}/resources/src/page-careers-role-overview.html">
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-4 mb-2 mb-md-0">
@@ -361,7 +361,7 @@
                 <!-- End Card -->
 
                 <!-- Card -->
-                <a class="card" href="@@autopath/page-careers-role-overview.html">
+                <a class="card" href="${path}/resources/src/page-careers-role-overview.html">
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-4 mb-2 mb-md-0">
@@ -391,7 +391,7 @@
                 <!-- End Card -->
 
                 <!-- Card -->
-                <a class="card" href="@@autopath/page-careers-role-overview.html">
+                <a class="card" href="${path}/resources/src/page-careers-role-overview.html">
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-4 mb-2 mb-md-0">
@@ -420,7 +420,7 @@
                 <!-- End Card -->
 
                 <!-- Card -->
-                <a class="card" href="@@autopath/page-careers-role-overview.html">
+                <a class="card" href="${path}/resources/src/page-careers-role-overview.html">
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-4 mb-2 mb-md-0">
@@ -452,7 +452,7 @@
 
               <div class="w-lg-65 text-center mx-lg-auto mt-7">
                 <p>Don't worry if you don't see any roles you want to apply for now. Register your interest to be notified of any roles that come along that meet your criteria.</p>
-                <a class="btn btn-primary" href="@@autopath/page-contacts.html">Register your interest</a>
+                <a class="btn btn-primary" href="${path}/resources/src/page-contacts.html">Register your interest</a>
               </div>
             </div>
             <!-- End List Directory -->
@@ -480,7 +480,7 @@
 
                   &lt;div class="d-grid gap-3"&gt;
                     &lt;!-- Card --&gt;
-                    &lt;a class="card" href="@@autopath/page-careers-role-overview.html"&gt;
+                    &lt;a class="card" href="${path}/resources/src/page-careers-role-overview.html"&gt;
                       &lt;div class="card-body"&gt;
                         &lt;div class="row"&gt;
                           &lt;div class="col-md-4 mb-2 mb-md-0"&gt;
@@ -509,7 +509,7 @@
                     &lt;!-- End Card --&gt;
 
                     &lt;!-- Card --&gt;
-                    &lt;a class="card" href="@@autopath/page-careers-role-overview.html"&gt;
+                    &lt;a class="card" href="${path}/resources/src/page-careers-role-overview.html"&gt;
                       &lt;div class="card-body"&gt;
                         &lt;div class="row"&gt;
                           &lt;div class="col-md-4 mb-2 mb-md-0"&gt;
@@ -538,7 +538,7 @@
                     &lt;!-- End Card --&gt;
 
                     &lt;!-- Card --&gt;
-                    &lt;a class="card" href="@@autopath/page-careers-role-overview.html"&gt;
+                    &lt;a class="card" href="${path}/resources/src/page-careers-role-overview.html"&gt;
                       &lt;div class="card-body"&gt;
                         &lt;div class="row"&gt;
                           &lt;div class="col-md-4 mb-2 mb-md-0"&gt;
@@ -568,7 +568,7 @@
                     &lt;!-- End Card --&gt;
 
                     &lt;!-- Card --&gt;
-                    &lt;a class="card" href="@@autopath/page-careers-role-overview.html"&gt;
+                    &lt;a class="card" href="${path}/resources/src/page-careers-role-overview.html"&gt;
                       &lt;div class="card-body"&gt;
                         &lt;div class="row"&gt;
                           &lt;div class="col-md-4 mb-2 mb-md-0"&gt;
@@ -597,7 +597,7 @@
                     &lt;!-- End Card --&gt;
 
                     &lt;!-- Card --&gt;
-                    &lt;a class="card" href="@@autopath/page-careers-role-overview.html"&gt;
+                    &lt;a class="card" href="${path}/resources/src/page-careers-role-overview.html"&gt;
                       &lt;div class="card-body"&gt;
                         &lt;div class="row"&gt;
                           &lt;div class="col-md-4 mb-2 mb-md-0"&gt;
@@ -629,7 +629,7 @@
 
                   &lt;div class="w-lg-65 text-center mx-lg-auto mt-7"&gt;
                     &lt;p&gt;Don't worry if you don't see any roles you want to apply for now. Register your interest to be notified of any roles that come along that meet your criteria.&lt;/p&gt;
-                    &lt;a class="btn btn-primary" href="@@autopath/page-contacts.html"&gt;Register your interest&lt;/a&gt;
+                    &lt;a class="btn btn-primary" href="${path}/resources/src/page-contacts.html"&gt;Register your interest&lt;/a&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
                 &lt;!-- End List Directory --&gt;
@@ -676,7 +676,7 @@
                     <div class="card card-borderless card-flush card-stretched-vertical">
                       <div class="row">
                         <div class="col-sm-5">
-                          <img class="card-img" src="@@autopath/assets/img/400x500/img7.jpg" alt="Image Description">
+                          <img class="card-img" src="${path}/resources/src/assets/img/400x500/img7.jpg" alt="Image Description">
                         </div>
                         <!-- End Col -->
 
@@ -688,7 +688,7 @@
                             </div>
 
                             <h4 class="card-title">
-                              <a class="text-dark" href="@@autopath/blog-article.html">Front becomes an official Instagram Marketing Partner</a>
+                              <a class="text-dark" href="${path}/resources/src/blog-article.html">Front becomes an official Instagram Marketing Partner</a>
                             </h4>
                             
                             <p class="card-text">Great news we're eager to share.</p>
@@ -697,13 +697,13 @@
                             <div class="card-footer">
                               <div class="d-flex">
                                 <div class="flex-shrink-0">
-                                  <a class="avatar avatar-circle" href="@@autopath/blog-author-profile.html">
-                                    <img class="avatar-img" src="@@autopath/assets/img/160x160/img3.jpg" alt="Image Description">
+                                  <a class="avatar avatar-circle" href="${path}/resources/src/blog-author-profile.html">
+                                    <img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img3.jpg" alt="Image Description">
                                   </a>
                                 </div>
                               
                                 <div class="flex-grow-1 ms-3">
-                                  <a class="link link-dark fw-medium" href="@@autopath/blog-author-profile.html">Aaron Larsson</a>
+                                  <a class="link link-dark fw-medium" href="${path}/resources/src/blog-author-profile.html">Aaron Larsson</a>
                                   <p class="card-text fs-5">Feb 15, 2021</p>
                                 </div>
                               </div>
@@ -738,7 +738,7 @@
                         &gt;div class="card card-borderless card-flush card-stretched-vertical"&gt;
                           &gt;div class="row"&gt;
                             &gt;div class="col-sm-5"&gt;
-                              &gt;img class="card-img" src="@@autopath/assets/img/400x500/img7.jpg" alt="Image Description"&gt;
+                              &gt;img class="card-img" src="${path}/resources/src/assets/img/400x500/img7.jpg" alt="Image Description"&gt;
                             &gt;/div&gt;
                             &gt;!-- End Col --&gt;
 
@@ -750,7 +750,7 @@
                                 &gt;/div&gt;
 
                                 &gt;h4 class="card-title"&gt;
-                                  &gt;a class="text-dark" href="@@autopath/blog-article.html"&gt;Front becomes an official Instagram Marketing Partner&gt;/a&gt;
+                                  &gt;a class="text-dark" href="${path}/resources/src/blog-article.html"&gt;Front becomes an official Instagram Marketing Partner&gt;/a&gt;
                                 &gt;/h4&gt;
                                 
                                 &gt;p class="card-text"&gt;Great news we're eager to share.&gt;/p&gt;
@@ -759,13 +759,13 @@
                                 &gt;div class="card-footer"&gt;
                                   &gt;div class="d-flex"&gt;
                                     &gt;div class="flex-shrink-0"&gt;
-                                      &gt;a class="avatar avatar-circle" href="@@autopath/blog-author-profile.html"&gt;
-                                        &gt;img class="avatar-img" src="@@autopath/assets/img/160x160/img3.jpg" alt="Image Description"&gt;
+                                      &gt;a class="avatar avatar-circle" href="${path}/resources/src/blog-author-profile.html"&gt;
+                                        &gt;img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img3.jpg" alt="Image Description"&gt;
                                       &gt;/a&gt;
                                     &gt;/div&gt;
                                   
                                     &gt;div class="flex-grow-1 ms-3"&gt;
-                                      &gt;a class="link link-dark fw-medium" href="@@autopath/blog-author-profile.html"&gt;Aaron Larsson&gt;/a&gt;
+                                      &gt;a class="link link-dark fw-medium" href="${path}/resources/src/blog-author-profile.html"&gt;Aaron Larsson&gt;/a&gt;
                                       &gt;p class="card-text fs-5"&gt;Feb 15, 2021&gt;/p&gt;
                                     &gt;/div&gt;
                                   &gt;/div&gt;
@@ -825,13 +825,13 @@
               <div class="row justify-content-lg-between">
                 <div class="col-lg-8">
                   <!-- Card -->
-                  <a class="card card-transition align-items-start flex-wrap flex-row bg-img-start" href="@@autopath/blog-article.html" style="background-image: url(@@autopath/assets/img/900x450/img1.jpg); min-height: 25rem;">
+                  <a class="card card-transition align-items-start flex-wrap flex-row bg-img-start" href="${path}/resources/src/blog-article.html" style="background-image: url(${path}/resources/src/assets/img/900x450/img1.jpg); min-height: 25rem;">
                     <!-- Card Header -->
                     <div class="card-header w-100">
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0">
                           <span class="avatar avatar-sm avatar-circle">
-                            <img class="avatar-img" src="@@autopath/assets/img/160x160/img3.jpg" alt="Image Description">
+                            <img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img3.jpg" alt="Image Description">
                           </span>
                         </div>
 
@@ -867,13 +867,13 @@
                   &lt;div class="row justify-content-lg-between"&gt;
                     &lt;div class="col-lg-8"&gt;
                       &lt;!-- Card --&gt;
-                      &lt;a class="card card-transition align-items-start flex-wrap flex-row bg-img-start" href="@@autopath/blog-article.html" style="background-image: url(@@autopath/assets/img/900x450/img1.jpg); min-height: 25rem;"&gt;
+                      &lt;a class="card card-transition align-items-start flex-wrap flex-row bg-img-start" href="${path}/resources/src/blog-article.html" style="background-image: url(${path}/resources/src/assets/img/900x450/img1.jpg); min-height: 25rem;"&gt;
                         &lt;!-- Card Header --&gt;
                         &lt;div class="card-header w-100"&gt;
                           &lt;div class="d-flex align-items-center"&gt;
                             &lt;div class="flex-shrink-0"&gt;
                               &lt;span class="avatar avatar-sm avatar-circle"&gt;
-                                &lt;img class="avatar-img" src="@@autopath/assets/img/160x160/img3.jpg" alt="Image Description"&gt;
+                                &lt;img class="avatar-img" src="${path}/resources/src/assets/img/160x160/img3.jpg" alt="Image Description"&gt;
                               &lt;/span&gt;
                             &lt;/div&gt;
 
@@ -938,10 +938,10 @@
               <div class="row row-cols-1 row-cols-sm-2 gx-7">
                 <div class="col mb-7 mb-md-0">
                   <!-- Card -->
-                  <a class="card card-ghost h-100" href="@@autopath/blog-article.html">
+                  <a class="card card-ghost h-100" href="${path}/resources/src/blog-article.html">
                     <div class="row">
                       <div class="col-lg-5 mb-3 mb-lg-0">
-                        <img class="card-img" src="@@autopath/assets/img/580x480/img14.jpg" alt="Image Description">
+                        <img class="card-img" src="${path}/resources/src/assets/img/580x480/img14.jpg" alt="Image Description">
                       </div>
                       <!-- End Col -->
 
@@ -960,10 +960,10 @@
 
                 <div class="col mb-7 mb-md-0">
                   <!-- Card -->
-                  <a class="card card-ghost h-100" href="@@autopath/blog-article.html">
+                  <a class="card card-ghost h-100" href="${path}/resources/src/blog-article.html">
                     <div class="row">
                       <div class="col-lg-5 mb-3 mb-lg-0">
-                        <img class="card-img" src="@@autopath/assets/img/580x480/img15.jpg" alt="Image Description">
+                        <img class="card-img" src="${path}/resources/src/assets/img/580x480/img15.jpg" alt="Image Description">
                       </div>
                       <!-- End Col -->
 
@@ -993,10 +993,10 @@
                   &lt;div class="row row-cols-1 row-cols-sm-2 gx-7"&gt;
                     &lt;div class="col mb-7 mb-md-10"&gt;
                       &lt;!-- Card --&gt;
-                      &lt;a class="card card-ghost h-100" href="@@autopath/blog-article.html"&gt;
+                      &lt;a class="card card-ghost h-100" href="${path}/resources/src/blog-article.html"&gt;
                         &lt;div class="row"&gt;
                           &lt;div class="col-lg-5 mb-3 mb-lg-0"&gt;
-                            &lt;img class="card-img" src="@@autopath/assets/img/580x480/img14.jpg" alt="Image Description"&gt;
+                            &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img14.jpg" alt="Image Description"&gt;
                           &lt;/div&gt;
                           &lt;!-- End Col --&gt;
 
@@ -1015,10 +1015,10 @@
 
                     &lt;div class="col mb-7 mb-md-10"&gt;
                       &lt;!-- Card --&gt;
-                      &lt;a class="card card-ghost h-100" href="@@autopath/blog-article.html"&gt;
+                      &lt;a class="card card-ghost h-100" href="${path}/resources/src/blog-article.html"&gt;
                         &lt;div class="row"&gt;
                           &lt;div class="col-lg-5 mb-3 mb-lg-0"&gt;
-                            &lt;img class="card-img" src="@@autopath/assets/img/580x480/img15.jpg" alt="Image Description"&gt;
+                            &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img15.jpg" alt="Image Description"&gt;
                           &lt;/div&gt;
                           &lt;!-- End Col --&gt;
 
@@ -1052,24 +1052,24 @@
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
-  <script src="@@autopath/node_modules/list.js/dist/list.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/list.js/dist/list.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/prism/prism.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
-  <script src="@@autopath/assets/js/hs.list.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
+  <script src="${path}/resources/src/assets/js/hs.list.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -1094,7 +1094,7 @@
 
       // GET JSON FILE RESULTS
       // =======================================================
-      fetch('@@autopath/assets/json/snippets-search.json')
+      fetch('${path}/resources/src/assets/json/snippets-search.json')
       .then(response => response.json())
       .then(data => {
         snippetsSearch.getItem(0).add(data)

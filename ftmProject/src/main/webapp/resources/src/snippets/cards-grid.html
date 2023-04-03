@@ -9,31 +9,31 @@
   <title>Cards: Grid - Snippets | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="@@autopath/node_modules/swiper/swiper-bundle.min.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
-  <link rel="stylesheet" href="@@autopath/assets/css/snippets.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/snippets.css">
 </head>
 
 <body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/docs/snippets-navbar.html")
+  @@include("${path}/resources/src/partials/docs/snippets-navbar.html")
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Navbar -->
-    @@include("@@autopath/partials/docs/snippets-sidebar.html", {
+    @@include("${path}/resources/src/partials/docs/snippets-sidebar.html", {
       "category": "cards",
       "link": "cards-grid.html"
     })
@@ -89,9 +89,9 @@
               <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
                 <div class="col mb-5 mb-md-0">
                   <!-- Card -->
-                  <a class="card card-ghost card-transition-zoom h-100" href="@@autopath/blog-article.html">
+                  <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.html">
                     <div class="card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/img/580x480/img1.jpg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/img/580x480/img1.jpg" alt="Image Description">
                     </div>
 
                     <div class="card-body">
@@ -109,9 +109,9 @@
 
                 <div class="col mb-5 mb-md-0">
                   <!-- Card -->
-                  <a class="card card-ghost card-transition-zoom h-100" href="@@autopath/blog-article.html">
+                  <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.html">
                     <div class="card-pinned card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/img/580x480/img2.jpg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/img/580x480/img2.jpg" alt="Image Description">
                       <span class="badge bg-dark text-white card-pinned-top-end">Sponsored</span>
                     </div>
 
@@ -130,9 +130,9 @@
 
                 <div class="col">
                   <!-- Card -->
-                  <a class="card card-ghost card-transition-zoom h-100" href="@@autopath/blog-article.html">
+                  <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.html">
                     <div class="card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/img/580x480/img3.jpg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/img/580x480/img3.jpg" alt="Image Description">
                     </div>
 
                     <div class="card-body">
@@ -168,9 +168,9 @@
                   &lt;div class="row row-cols-1 row-cols-sm-2 row-cols-md-3"&gt;
                     &lt;div class="col mb-5 mb-md-0"&gt;
                       &lt;!-- Card --&gt;
-                      &lt;a class="card card-ghost card-transition-zoom h-100" href="@@autopath/blog-article.html"&gt;
+                      &lt;a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.html"&gt;
                         &lt;div class="card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/img/580x480/img1.jpg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img1.jpg" alt="Image Description"&gt;
                         &lt;/div&gt;
 
                         &lt;div class="card-body"&gt;
@@ -188,9 +188,9 @@
 
                     &lt;div class="col mb-5 mb-md-0"&gt;
                       &lt;!-- Card --&gt;
-                      &lt;a class="card card-ghost card-transition-zoom h-100" href="@@autopath/blog-article.html"&gt;
+                      &lt;a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.html"&gt;
                         &lt;div class="card-pinned card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/img/580x480/img2.jpg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img2.jpg" alt="Image Description"&gt;
                           &lt;span class="badge bg-dark text-white card-pinned-top-end"&gt;Sponsored&lt;/span&gt;
                         &lt;/div&gt;
 
@@ -209,9 +209,9 @@
 
                     &lt;div class="col"&gt;
                       &lt;!-- Card --&gt;
-                      &lt;a class="card card-ghost card-transition-zoom h-100" href="@@autopath/blog-article.html"&gt;
+                      &lt;a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/blog-article.html"&gt;
                         &lt;div class="card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/img/580x480/img3.jpg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img3.jpg" alt="Image Description"&gt;
                         &lt;/div&gt;
 
                         &lt;div class="card-body"&gt;
@@ -305,7 +305,7 @@
                             <!-- Card -->
                             <a class="card card-transition" href="#">
                               <div class="card-pinned">
-                                <img class="card-img-top" src="@@autopath/assets/svg/components/card-3.svg" alt="Image Description">
+                                <img class="card-img-top" src="${path}/resources/src/assets/svg/components/card-3.svg" alt="Image Description">
                                 <span class="badge bg-dark text-white card-pinned-top-end">Design</span>
                               </div>
                               <div class="card-body">
@@ -323,7 +323,7 @@
                           <!-- Slide -->
                           <div class="swiper-slide pt-4 pb-8">
                             <!-- Card -->
-                            <a class="card card-transition bg-primary" href="#" style="background-image: url(@@autopath/assets/svg/components/wave-pattern-light.svg);">
+                            <a class="card card-transition bg-primary" href="#" style="background-image: url(${path}/resources/src/assets/svg/components/wave-pattern-light.svg);">
                               <div class="card-body">
                                 <span class="card-subtitle text-white mb-3">Product</span>
                                 <h3 class="card-title text-white lh-base">Assessing Constraints: Making Products for all Users</h3>
@@ -341,7 +341,7 @@
                             <!-- Card -->
                             <a class="card card-transition" href="#">
                               <div class="card-pinned">
-                                <img class="card-img-top" src="@@autopath/assets/svg/components/card-1.svg" alt="Image Description">
+                                <img class="card-img-top" src="${path}/resources/src/assets/svg/components/card-1.svg" alt="Image Description">
                                 <span class="badge bg-dark text-white card-pinned-top-end">Design</span>
                               </div>
                               <div class="card-body">
@@ -359,7 +359,7 @@
                           <!-- Slide -->
                           <div class="swiper-slide pt-4 pb-8">
                             <!-- Card -->
-                            <a class="card card-transition bg-warning" href="#" style="background-image: url(@@autopath/assets/svg/components/wave-pattern-2-light.svg);">
+                            <a class="card card-transition bg-warning" href="#" style="background-image: url(${path}/resources/src/assets/svg/components/wave-pattern-2-light.svg);">
                               <div class="card-body">
                                 <span class="card-subtitle text-white mb-3">Insights</span>
                                 <h3 class="card-title text-white lh-base">Making the Brand: Fresh Finds Playlist Collection</h3>
@@ -434,7 +434,7 @@
                                 &lt;!-- Card --&gt;
                                 &lt;a class="card card-transition" href="#"&gt;
                                   &lt;div class="card-pinned"&gt;
-                                    &lt;img class="card-img-top" src="@@autopath/assets/svg/components/card-3.svg" alt="Image Description"&gt;
+                                    &lt;img class="card-img-top" src="${path}/resources/src/assets/svg/components/card-3.svg" alt="Image Description"&gt;
                                     &lt;span class="badge bg-dark text-white card-pinned-top-end"&gt;Design&lt;/span&gt;
                                   &lt;/div&gt;
                                   &lt;div class="card-body"&gt;
@@ -452,7 +452,7 @@
                               &lt;!-- Slide --&gt;
                               &lt;div class="swiper-slide pt-4 pb-8"&gt;
                                 &lt;!-- Card --&gt;
-                                &lt;a class="card card-transition bg-primary" href="#" style="background-image: url(@@autopath/assets/svg/components/wave-pattern-light.svg);"&gt;
+                                &lt;a class="card card-transition bg-primary" href="#" style="background-image: url(${path}/resources/src/assets/svg/components/wave-pattern-light.svg);"&gt;
                                   &lt;div class="card-body"&gt;
                                     &lt;span class="card-subtitle text-white mb-3"&gt;Product&lt;/span&gt;
                                     &lt;h3 class="card-title text-white lh-base"&gt;Assessing Constraints: Making Products for all Users&lt;/h3&gt;
@@ -470,7 +470,7 @@
                                 &lt;!-- Card --&gt;
                                 &lt;a class="card card-transition" href="#"&gt;
                                   &lt;div class="card-pinned"&gt;
-                                    &lt;img class="card-img-top" src="@@autopath/assets/svg/components/card-1.svg" alt="Image Description"&gt;
+                                    &lt;img class="card-img-top" src="${path}/resources/src/assets/svg/components/card-1.svg" alt="Image Description"&gt;
                                     &lt;span class="badge bg-dark text-white card-pinned-top-end"&gt;Design&lt;/span&gt;
                                   &lt;/div&gt;
                                   &lt;div class="card-body"&gt;
@@ -488,7 +488,7 @@
                               &lt;!-- Slide --&gt;
                               &lt;div class="swiper-slide pt-4 pb-8"&gt;
                                 &lt;!-- Card --&gt;
-                                &lt;a class="card card-transition bg-warning" href="#" style="background-image: url(@@autopath/assets/svg/components/wave-pattern-2-light.svg);"&gt;
+                                &lt;a class="card card-transition bg-warning" href="#" style="background-image: url(${path}/resources/src/assets/svg/components/wave-pattern-2-light.svg);"&gt;
                                   &lt;div class="card-body"&gt;
                                     &lt;span class="card-subtitle text-white mb-3"&gt;Insights&lt;/span&gt;
                                     &lt;h3 class="card-title text-white lh-base"&gt;Making the Brand: Fresh Finds Playlist Collection&lt;/h3&gt;
@@ -530,7 +530,7 @@
           <div class="tab-pane fade" id="nav-css2" role="tabpanel" aria-labelledby="nav-cssTab2">
             <pre>
               <code class="language-markup" data-lang="html">
-                &lt;link rel="stylesheet" href="@@autopath/node_modules/swiper/swiper-bundle.min.css"&gt;
+                &lt;link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.css"&gt;
               </code>
             </pre>
           </div>
@@ -539,7 +539,7 @@
             <pre>
               <code class="language-markup" data-lang="html">
                 &lt;!-- JS Implementing Plugins --&gt;
-                &lt;script src="@@autopath/node_modules/swiper/swiper-bundle.min.js"&gt;&lt;/script&gt;
+                &lt;script src="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.js"&gt;&lt;/script&gt;
 
                 &lt;!-- JS Plugins Init. --&gt;
                 &lt;script&gt;
@@ -615,7 +615,7 @@
                   <div class="col-lg-5 align-self-lg-end mb-7 mb-lg-0">
                     <h2>For people and companies who have a story to tell</h2>
                     <div class="d-none d-lg-flex justify-content-center mt-7" style="width: 15rem;">
-                      <img class="img-fluid" src="@@autopath/assets/svg/illustrations/plane.svg" alt="Image Description">
+                      <img class="img-fluid" src="${path}/resources/src/assets/svg/illustrations/plane.svg" alt="Image Description">
                     </div>
                   </div>
                   <!-- End Col -->
@@ -706,7 +706,7 @@
                       &lt;div class="col-lg-5 align-self-lg-end mb-7 mb-lg-0"&gt;
                         &lt;h2&gt;For people and companies who have a story to tell&lt;/h2&gt;
                         &lt;div class="d-none d-lg-flex justify-content-center mt-7" style="width: 15rem;"&gt;
-                          &lt;img class="img-fluid" src="@@autopath/assets/svg/illustrations/plane.svg" alt="Image Description"&gt;
+                          &lt;img class="img-fluid" src="${path}/resources/src/assets/svg/illustrations/plane.svg" alt="Image Description"&gt;
                         &lt;/div&gt;
                       &lt;/div&gt;
                       &lt;!-- End Col --&gt;
@@ -833,12 +833,12 @@
                   <!-- Card -->
                   <a class="card card-ghost card-transition-zoom h-100" href="#">
                     <div class="card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/img/580x480/img1.jpg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/img/580x480/img1.jpg" alt="Image Description">
                     </div>
 
                     <div class="card-body">
                       <div class="mb-3">
-                        <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/fitbit-dark.svg" alt="Logo">
+                        <img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/fitbit-dark.svg" alt="Logo">
                       </div>
                       <h5>Making tracks with global payments</h5>
                     </div>
@@ -855,13 +855,13 @@
                   <!-- Card -->
                   <a class="card card-ghost card-transition-zoom h-100" href="#">
                     <div class="card-pinned card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/img/580x480/img2.jpg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/img/580x480/img2.jpg" alt="Image Description">
                       <span class="badge bg-dark text-white card-pinned-top-end">New startup</span>
                     </div>
 
                     <div class="card-body">
                       <div class="mb-3">
-                        <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/mailchimp-dark.svg" alt="Logo">
+                        <img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/mailchimp-dark.svg" alt="Logo">
                       </div>
                       <h5>The road to global expansion</h5>
                     </div>
@@ -878,12 +878,12 @@
                   <!-- Card -->
                   <a class="card card-ghost card-transition-zoom h-100" href="#">
                     <div class="card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/img/580x480/img4.jpg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/img/580x480/img4.jpg" alt="Image Description">
                     </div>
 
                     <div class="card-body">
                       <div class="mb-3">
-                        <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/capsule-dark.svg" alt="Logo">
+                        <img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/capsule-dark.svg" alt="Logo">
                       </div>
                       <h5>4 questions with Wade Stokes</h5>
                     </div>
@@ -918,12 +918,12 @@
                       &lt;!-- Card --&gt;
                       &lt;a class="card card-ghost card-transition-zoom h-100" href="#"&gt;
                         &lt;div class="card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/img/580x480/img1.jpg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img1.jpg" alt="Image Description"&gt;
                         &lt;/div&gt;
 
                         &lt;div class="card-body"&gt;
                           &lt;div class="mb-3"&gt;
-                            &lt;img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/fitbit-dark.svg" alt="Logo"&gt;
+                            &lt;img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/fitbit-dark.svg" alt="Logo"&gt;
                           &lt;/div&gt;
                           &lt;h5&gt;Making tracks with global payments&lt;/h5&gt;
                         &lt;/div&gt;
@@ -940,13 +940,13 @@
                       &lt;!-- Card --&gt;
                       &lt;a class="card card-ghost card-transition-zoom h-100" href="#"&gt;
                         &lt;div class="card-pinned card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/img/580x480/img2.jpg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img2.jpg" alt="Image Description"&gt;
                           &lt;span class="badge bg-dark text-white card-pinned-top-end"&gt;New startup&lt;/span&gt;
                         &lt;/div&gt;
 
                         &lt;div class="card-body"&gt;
                           &lt;div class="mb-3"&gt;
-                            &lt;img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/mailchimp-dark.svg" alt="Logo"&gt;
+                            &lt;img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/mailchimp-dark.svg" alt="Logo"&gt;
                           &lt;/div&gt;
                           &lt;h5&gt;The road to global expansion&lt;/h5&gt;
                         &lt;/div&gt;
@@ -963,12 +963,12 @@
                       &lt;!-- Card --&gt;
                       &lt;a class="card card-ghost card-transition-zoom h-100" href="#"&gt;
                         &lt;div class="card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/img/580x480/img4.jpg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img4.jpg" alt="Image Description"&gt;
                         &lt;/div&gt;
 
                         &lt;div class="card-body"&gt;
                           &lt;div class="mb-3"&gt;
-                            &lt;img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/capsule-dark.svg" alt="Logo"&gt;
+                            &lt;img class="avatar avatar-lg avatar-4x3" src="${path}/resources/src/assets/svg/brands/capsule-dark.svg" alt="Logo"&gt;
                           &lt;/div&gt;
                           &lt;h5&gt;4 questions with Wade Stokes&lt;/h5&gt;
                         &lt;/div&gt;
@@ -1209,7 +1209,7 @@
                   <!-- Card -->
                   <a class="card card-borderless card-transition-zoom bg-soft-primary h-100" href="#">
                     <div class="card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/svg/components/card-7.svg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/svg/components/card-7.svg" alt="Image Description">
                     </div>
                     <div class="card-body">
                       <span class="card-subtitle text-body"><span class="fw-bold text-dark">6</span> positions</span>
@@ -1224,7 +1224,7 @@
                   <!-- Card -->
                   <a class="card card-borderless card-transition-zoom bg-soft-primary h-100" href="#">
                     <div class="card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/svg/components/card-8.svg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/svg/components/card-8.svg" alt="Image Description">
                     </div>
                     <div class="card-body">
                       <span class="card-subtitle text-body"><span class="fw-bold text-dark">2</span> positions</span>
@@ -1239,7 +1239,7 @@
                   <!-- Card -->
                   <a class="card card-borderless card-transition-zoom bg-soft-primary h-100" href="#">
                     <div class="card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/svg/components/card-10.svg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/svg/components/card-10.svg" alt="Image Description">
                     </div>
                     <div class="card-body">
                       <span class="card-subtitle text-body"><span class="fw-bold text-dark">19</span> positions</span>
@@ -1254,7 +1254,7 @@
                   <!-- Card -->
                   <a class="card card-borderless card-transition-zoom bg-soft-primary h-100" href="#">
                     <div class="card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/svg/components/card-9.svg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/svg/components/card-9.svg" alt="Image Description">
                     </div>
                     <div class="card-body">
                       <span class="card-subtitle text-body"><span class="fw-bold text-dark">25</span> positions</span>
@@ -1287,7 +1287,7 @@
                       &lt;!-- Card --&gt;
                       &lt;a class="card card-borderless card-transition-zoom bg-soft-primary h-100" href="#"&gt;
                         &lt;div class="card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/svg/components/card-7.svg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/svg/components/card-7.svg" alt="Image Description"&gt;
                         &lt;/div&gt;
                         &lt;div class="card-body"&gt;
                           &lt;span class="card-subtitle text-body"&gt;&lt;span class="fw-bold text-dark"&gt;6&lt;/span&gt; positions&lt;/span&gt;
@@ -1302,7 +1302,7 @@
                       &lt;!-- Card --&gt;
                       &lt;a class="card card-borderless card-transition-zoom bg-soft-primary h-100" href="#"&gt;
                         &lt;div class="card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/svg/components/card-8.svg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/svg/components/card-8.svg" alt="Image Description"&gt;
                         &lt;/div&gt;
                         &lt;div class="card-body"&gt;
                           &lt;span class="card-subtitle text-body"&gt;&lt;span class="fw-bold text-dark"&gt;2&lt;/span&gt; positions&lt;/span&gt;
@@ -1317,7 +1317,7 @@
                       &lt;!-- Card --&gt;
                       &lt;a class="card card-borderless card-transition-zoom bg-soft-primary h-100" href="#"&gt;
                         &lt;div class="card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/svg/components/card-10.svg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/svg/components/card-10.svg" alt="Image Description"&gt;
                         &lt;/div&gt;
                         &lt;div class="card-body"&gt;
                           &lt;span class="card-subtitle text-body"&gt;&lt;span class="fw-bold text-dark"&gt;19&lt;/span&gt; positions&lt;/span&gt;
@@ -1332,7 +1332,7 @@
                       &lt;!-- Card --&gt;
                       &lt;a class="card card-borderless card-transition-zoom bg-soft-primary h-100" href="#"&gt;
                         &lt;div class="card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/svg/components/card-9.svg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/svg/components/card-9.svg" alt="Image Description"&gt;
                         &lt;/div&gt;
                         &lt;div class="card-body"&gt;
                           &lt;span class="card-subtitle text-body"&gt;&lt;span class="fw-bold text-dark"&gt;25&lt;/span&gt; positions&lt;/span&gt;
@@ -1391,9 +1391,9 @@
               <div class="row row-cols-1 row-cols-sm-2 gx-7">
                 <div class="col mb-5">
                   <!-- Card -->
-                  <a class="card card-ghost card-transition-zoom h-100" href="@@autopath/portfolio-case-study.html">
+                  <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/portfolio-case-study.html">
                     <div class="card-pinned card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/img/580x480/img23.jpg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/img/580x480/img23.jpg" alt="Image Description">
                       <span class="badge bg-dark text-white card-pinned-top-end">New addition</span>
                     </div>
 
@@ -1408,9 +1408,9 @@
 
                 <div class="col mb-5">
                   <!-- Card -->
-                  <a class="card card-ghost card-transition-zoom h-100" href="@@autopath/portfolio-case-study.html">
+                  <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/portfolio-case-study.html">
                     <div class="card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/img/580x480/img22.jpg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/img/580x480/img22.jpg" alt="Image Description">
                     </div>
 
                     <div class="card-body">
@@ -1424,9 +1424,9 @@
 
                 <div class="col mb-5">
                   <!-- Card -->
-                  <a class="card card-ghost card-transition-zoom h-100" href="@@autopath/portfolio-case-study.html">
+                  <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/portfolio-case-study.html">
                     <div class="card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/img/580x480/img21.jpg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/img/580x480/img21.jpg" alt="Image Description">
                     </div>
 
                     <div class="card-body">
@@ -1440,9 +1440,9 @@
 
                 <div class="col mb-5">
                   <!-- Card -->
-                  <a class="card card-ghost card-transition-zoom h-100" href="@@autopath/portfolio-case-study.html">
+                  <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/portfolio-case-study.html">
                     <div class="card-pinned card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/img/580x480/img20.jpg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/img/580x480/img20.jpg" alt="Image Description">
                       <span class="badge bg-dark text-white card-pinned-top-end">New addition</span>
                     </div>
 
@@ -1457,9 +1457,9 @@
 
                 <div class="col mb-5">
                   <!-- Card -->
-                  <a class="card card-ghost card-transition-zoom h-100" href="@@autopath/portfolio-case-study.html">
+                  <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/portfolio-case-study.html">
                     <div class="card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/img/580x480/img19.jpg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/img/580x480/img19.jpg" alt="Image Description">
                     </div>
 
                     <div class="card-body">
@@ -1473,9 +1473,9 @@
 
                 <div class="col mb-5">
                   <!-- Card -->
-                  <a class="card card-ghost card-transition-zoom h-100" href="@@autopath/portfolio-case-study.html">
+                  <a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/portfolio-case-study.html">
                     <div class="card-transition-zoom-item">
-                      <img class="card-img" src="@@autopath/assets/img/580x480/img24.jpg" alt="Image Description">
+                      <img class="card-img" src="${path}/resources/src/assets/img/580x480/img24.jpg" alt="Image Description">
                     </div>
 
                     <div class="card-body">
@@ -1490,7 +1490,7 @@
               <!-- End Row -->
 
               <div class="text-center">
-                <a class="btn btn-white btn-pointer" href="@@autopath/page-customer-stories.html">View all case studies</a>
+                <a class="btn btn-white btn-pointer" href="${path}/resources/src/page-customer-stories.html">View all case studies</a>
               </div>
             </div>
             <!-- End Card Grid -->
@@ -1510,9 +1510,9 @@
                   &lt;div class="row row-cols-1 row-cols-sm-2 gx-7"&gt;
                     &lt;div class="col mb-5"&gt;
                       &lt;!-- Card --&gt;
-                      &lt;a class="card card-ghost card-transition-zoom h-100" href="@@autopath/portfolio-case-study.html"&gt;
+                      &lt;a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/portfolio-case-study.html"&gt;
                         &lt;div class="card-pinned card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/img/580x480/img23.jpg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img23.jpg" alt="Image Description"&gt;
                           &lt;span class="badge bg-dark text-white card-pinned-top-end"&gt;New addition&lt;/span&gt;
                         &lt;/div&gt;
 
@@ -1527,9 +1527,9 @@
 
                     &lt;div class="col mb-5"&gt;
                       &lt;!-- Card --&gt;
-                      &lt;a class="card card-ghost card-transition-zoom h-100" href="@@autopath/portfolio-case-study.html"&gt;
+                      &lt;a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/portfolio-case-study.html"&gt;
                         &lt;div class="card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/img/580x480/img22.jpg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img22.jpg" alt="Image Description"&gt;
                         &lt;/div&gt;
 
                         &lt;div class="card-body"&gt;
@@ -1543,9 +1543,9 @@
 
                     &lt;div class="col mb-5"&gt;
                       &lt;!-- Card --&gt;
-                      &lt;a class="card card-ghost card-transition-zoom h-100" href="@@autopath/portfolio-case-study.html"&gt;
+                      &lt;a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/portfolio-case-study.html"&gt;
                         &lt;div class="card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/img/580x480/img21.jpg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img21.jpg" alt="Image Description"&gt;
                         &lt;/div&gt;
 
                         &lt;div class="card-body"&gt;
@@ -1559,9 +1559,9 @@
 
                     &lt;div class="col mb-5"&gt;
                       &lt;!-- Card --&gt;
-                      &lt;a class="card card-ghost card-transition-zoom h-100" href="@@autopath/portfolio-case-study.html"&gt;
+                      &lt;a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/portfolio-case-study.html"&gt;
                         &lt;div class="card-pinned card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/img/580x480/img20.jpg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img20.jpg" alt="Image Description"&gt;
                           &lt;span class="badge bg-dark text-white card-pinned-top-end"&gt;New addition&lt;/span&gt;
                         &lt;/div&gt;
 
@@ -1576,9 +1576,9 @@
 
                     &lt;div class="col mb-5"&gt;
                       &lt;!-- Card --&gt;
-                      &lt;a class="card card-ghost card-transition-zoom h-100" href="@@autopath/portfolio-case-study.html"&gt;
+                      &lt;a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/portfolio-case-study.html"&gt;
                         &lt;div class="card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/img/580x480/img19.jpg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img19.jpg" alt="Image Description"&gt;
                         &lt;/div&gt;
 
                         &lt;div class="card-body"&gt;
@@ -1592,9 +1592,9 @@
 
                     &lt;div class="col mb-5"&gt;
                       &lt;!-- Card --&gt;
-                      &lt;a class="card card-ghost card-transition-zoom h-100" href="@@autopath/portfolio-case-study.html"&gt;
+                      &lt;a class="card card-ghost card-transition-zoom h-100" href="${path}/resources/src/portfolio-case-study.html"&gt;
                         &lt;div class="card-transition-zoom-item"&gt;
-                          &lt;img class="card-img" src="@@autopath/assets/img/580x480/img24.jpg" alt="Image Description"&gt;
+                          &lt;img class="card-img" src="${path}/resources/src/assets/img/580x480/img24.jpg" alt="Image Description"&gt;
                         &lt;/div&gt;
 
                         &lt;div class="card-body"&gt;
@@ -1609,7 +1609,7 @@
                   &lt;!-- End Row --&gt;
 
                   &lt;div class="text-center"&gt;
-                    &lt;a class="btn btn-white btn-pointer" href="@@autopath/page-customer-stories.html"&gt;View all case studies&lt;/a&gt;
+                    &lt;a class="btn btn-white btn-pointer" href="${path}/resources/src/page-customer-stories.html"&gt;View all case studies&lt;/a&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
                 &lt;!-- End Card Grid --&gt;
@@ -1627,25 +1627,25 @@
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
-  <script src="@@autopath/node_modules/list.js/dist/list.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
-  <script src="@@autopath/node_modules/swiper/swiper-bundle.min.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/list.js/dist/list.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/prism/prism.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
-  <script src="@@autopath/assets/js/hs.list.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
+  <script src="${path}/resources/src/assets/js/hs.list.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -1670,7 +1670,7 @@
 
       // GET JSON FILE RESULTS
       // =======================================================
-      fetch('@@autopath/assets/json/snippets-search.json')
+      fetch('${path}/resources/src/assets/json/snippets-search.json')
       .then(response => response.json())
       .then(data => {
         snippetsSearch.getItem(0).add(data)

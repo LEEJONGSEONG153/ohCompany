@@ -9,30 +9,30 @@
   <title>Hero Sections - Snippets | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
-  <link rel="stylesheet" href="@@autopath/assets/css/snippets.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/snippets.css">
 </head>
 
 <body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/docs/snippets-navbar.html")
+  @@include("${path}/resources/src/partials/docs/snippets-navbar.html")
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Navbar -->
-    @@include("@@autopath/partials/docs/snippets-sidebar.html", {
+    @@include("${path}/resources/src/partials/docs/snippets-sidebar.html", {
       "category": "",
       "link": "hero-sections.html"
     })
@@ -53,8 +53,8 @@
       <div class="row row-cols-sm-2 row-cols-md-3">
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-landing-corporate.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img1.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-landing-corporate.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img1.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Landing: Corporate</h6>
             </div>
@@ -65,8 +65,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-landing-business.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img2.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-landing-business.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img2.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Landing: Business</h6>
             </div>
@@ -77,8 +77,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-landing-consulting.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img3.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-landing-consulting.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img3.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Landing: Consulting</h6>
             </div>
@@ -89,8 +89,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-landing-saas.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img4.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-landing-saas.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img4.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Landing: SaaS</h6>
             </div>
@@ -101,8 +101,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-landing-services.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img5.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-landing-services.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img5.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Landing: Services</h6>
             </div>
@@ -113,8 +113,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-page-about.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img6.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-page-about.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img6.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Page: About</h6>
             </div>
@@ -125,8 +125,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-page-customer-story.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img7.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-page-customer-story.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img7.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Page: Customer Story</h6>
             </div>
@@ -137,8 +137,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-page-help-center.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img8.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-page-help-center.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img8.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Page: Help Center</h6>
             </div>
@@ -149,8 +149,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-page-careers.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img9.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-page-careers.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img9.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Page: Careers</h6>
             </div>
@@ -161,8 +161,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-page-hire-us.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img10.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-page-hire-us.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img10.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Page: Hire Us</h6>
             </div>
@@ -173,8 +173,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-page-coming-soon.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img11.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-page-coming-soon.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img11.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Page: Coming Soon</h6>
             </div>
@@ -185,8 +185,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-portfolio-modern.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img12.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-portfolio-modern.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img12.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Portfolio: Modern</h6>
             </div>
@@ -197,8 +197,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-portfolio-case-study.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img13.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-portfolio-case-study.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img13.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Portfolio: Case Study</h6>
             </div>
@@ -209,8 +209,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-blog-modern.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img14.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-blog-modern.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img14.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Blog: Modern</h6>
             </div>
@@ -221,8 +221,8 @@
 
         <div class="col mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="@@autopath/snippets/hero-blog-article.html" target="_blank">
-            <img class="card-img-top p-1" src="@@autopath/assets/img/950x455/img15.jpg" alt="Image Description">
+          <a class="card card-transition" href="${path}/resources/src/snippets/hero-blog-article.html" target="_blank">
+            <img class="card-img-top p-1" src="${path}/resources/src/assets/img/950x455/img15.jpg" alt="Image Description">
             <div class="card-body">
               <h6 class="card-text text-inherit">Blog: Article</h6>
             </div>
@@ -239,23 +239,23 @@
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="@@autopath/node_modules/list.js/dist/list.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/list.js/dist/list.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/prism/prism.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
-  <script src="@@autopath/assets/js/hs.list.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
+  <script src="${path}/resources/src/assets/js/hs.list.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -272,7 +272,7 @@
 
       // GET JSON FILE RESULTS
       // =======================================================
-      fetch('@@autopath/assets/json/snippets-search.json')
+      fetch('${path}/resources/src/assets/json/snippets-search.json')
       .then(response => response.json())
       .then(data => {
         snippetsSearch.getItem(0).add(data)

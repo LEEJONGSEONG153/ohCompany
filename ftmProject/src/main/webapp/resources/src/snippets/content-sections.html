@@ -9,30 +9,30 @@
   <title>Content Sections - Snippets | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
-  <link rel="stylesheet" href="@@autopath/assets/css/snippets.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/snippets.css">
 </head>
 
 <body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/docs/snippets-navbar.html")
+  @@include("${path}/resources/src/partials/docs/snippets-navbar.html")
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Navbar -->
-    @@include("@@autopath/partials/docs/snippets-sidebar.html", {
+    @@include("${path}/resources/src/partials/docs/snippets-sidebar.html", {
       "category": "",
       "link": "content-sections.html"
     })
@@ -104,7 +104,7 @@
 
                 <div class="row mb-5">
                   <div class="col-md-9 col-lg-8 offset-md-3">
-                    <img class="img-fluid" src="@@autopath/assets/img/900x600/img1.jpg" alt="Image Description">
+                    <img class="img-fluid" src="${path}/resources/src/assets/img/900x600/img1.jpg" alt="Image Description">
                   </div>
                   <!-- End Col -->
                 </div>
@@ -168,7 +168,7 @@
 
                 <div class="row mb-5">
                   <div class="col-md-9 col-lg-8 offset-md-3">
-                    <img class="img-fluid" src="@@autopath/assets/img/900x600/img1.jpg" alt="Image Description">
+                    <img class="img-fluid" src="${path}/resources/src/assets/img/900x600/img1.jpg" alt="Image Description">
                   </div>
                   <!-- End Col -->
                 </div>
@@ -322,7 +322,7 @@
 
                     &lt;div class="row mb-5"&gt;
                       &lt;div class="col-md-9 col-lg-8 offset-md-3"&gt;
-                        &lt;img class="img-fluid" src="@@autopath/assets/img/900x600/img1.jpg" alt="Image Description"&gt;
+                        &lt;img class="img-fluid" src="${path}/resources/src/assets/img/900x600/img1.jpg" alt="Image Description"&gt;
                       &lt;/div&gt;
                       &lt;!-- End Col --&gt;
                     &lt;/div&gt;
@@ -386,7 +386,7 @@
 
                     &lt;div class="row mb-5"&gt;
                       &lt;div class="col-md-9 col-lg-8 offset-md-3"&gt;
-                        &lt;img class="img-fluid" src="@@autopath/assets/img/900x600/img1.jpg" alt="Image Description"&gt;
+                        &lt;img class="img-fluid" src="${path}/resources/src/assets/img/900x600/img1.jpg" alt="Image Description"&gt;
                       &lt;/div&gt;
                       &lt;!-- End Col --&gt;
                     &lt;/div&gt;
@@ -516,7 +516,7 @@
             <pre>
               <code class="language-markup" data-lang="html">
                 &lt;!-- JS Implementing Plugins --&gt;
-                &lt;script src="@@autopath/assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"&gt;&lt;/script&gt;
+                &lt;script src="${path}/resources/src/assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"&gt;&lt;/script&gt;
 
                 &lt;!-- JS Plugins Init. --&gt;
                 &lt;script&gt;
@@ -639,7 +639,7 @@
                   <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-7">
                       <li class="breadcrumb-item">
-                        <a href="@@autopath/page-help-center.html">Help Center</a>
+                        <a href="${path}/resources/src/page-help-center.html">Help Center</a>
                       </li>
                       <li class="breadcrumb-item active" aria-current="page">Getting started</li>
                     </ol>
@@ -664,7 +664,7 @@
                             <p>You can purchase the themes on Bootstrap Themes via any major credit/debit card (via Stripe) or with your Paypal account. We don't support cryptocurrencies or invoicing at this time.</p>
                           </div>
 
-                          <a class="link" href="@@autopath/page-help-center-article.html">Read more <i class="bi-chevron-right small ms-1"></i></a>
+                          <a class="link" href="${path}/resources/src/page-help-center-article.html">Read more <i class="bi-chevron-right small ms-1"></i></a>
                         </div>
                       </div>
                       <!-- End Media -->
@@ -688,7 +688,7 @@
                             <p>If you'd like a refund please reach out to us at themes@getbootstrap.com. If you need technical help with the theme before a refund please reach out to the seller first and they can get in touch with us if they're unable to resolve the issue.</p>
                           </div>
 
-                          <a class="link" href="@@autopath/page-help-center-article.html">Read more <i class="bi-chevron-right small ms-1"></i></a>
+                          <a class="link" href="${path}/resources/src/page-help-center-article.html">Read more <i class="bi-chevron-right small ms-1"></i></a>
                         </div>
                       </div>
                       <!-- End Media -->
@@ -712,7 +712,7 @@
                             <p>There are three license types - Standard, Multisite, and Extended. We've provided the table below for a quick look at the difference between the them, as well as a few examples of ways each license could be used.</p>
                           </div>
 
-                          <a class="link" href="@@autopath/page-help-center-article.html">Read more <i class="bi-chevron-right small ms-1"></i></a>
+                          <a class="link" href="${path}/resources/src/page-help-center-article.html">Read more <i class="bi-chevron-right small ms-1"></i></a>
                         </div>
                       </div>
                       <!-- End Media -->
@@ -830,7 +830,7 @@
                       &lt;nav aria-label="breadcrumb"&gt;
                         &lt;ol class="breadcrumb mb-7"&gt;
                           &lt;li class="breadcrumb-item"&gt;
-                            &lt;a href="@@autopath/page-help-center.html"&gt;Help Center&lt;/a&gt;
+                            &lt;a href="${path}/resources/src/page-help-center.html"&gt;Help Center&lt;/a&gt;
                           &lt;/li&gt;
                           &lt;li class="breadcrumb-item active" aria-current="page"&gt;Getting started&lt;/li&gt;
                         &lt;/ol&gt;
@@ -855,7 +855,7 @@
                                 &lt;p&gt;You can purchase the themes on Bootstrap Themes via any major credit/debit card (via Stripe) or with your Paypal account. We don't support cryptocurrencies or invoicing at this time.&lt;/p&gt;
                               &lt;/div&gt;
 
-                              &lt;a class="link" href="@@autopath/page-help-center-article.html"&gt;Read more &lt;i class="bi-chevron-right small ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
+                              &lt;a class="link" href="${path}/resources/src/page-help-center-article.html"&gt;Read more &lt;i class="bi-chevron-right small ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
                             &lt;/div&gt;
                           &lt;/div&gt;
                           &lt;!-- End Media --&gt;
@@ -879,7 +879,7 @@
                                 &lt;p&gt;If you'd like a refund please reach out to us at themes@getbootstrap.com. If you need technical help with the theme before a refund please reach out to the seller first and they can get in touch with us if they're unable to resolve the issue.&lt;/p&gt;
                               &lt;/div&gt;
 
-                              &lt;a class="link" href="@@autopath/page-help-center-article.html"&gt;Read more &lt;i class="bi-chevron-right small ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
+                              &lt;a class="link" href="${path}/resources/src/page-help-center-article.html"&gt;Read more &lt;i class="bi-chevron-right small ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
                             &lt;/div&gt;
                           &lt;/div&gt;
                           &lt;!-- End Media --&gt;
@@ -903,7 +903,7 @@
                                 &lt;p&gt;There are three license types - Standard, Multisite, and Extended. We've provided the table below for a quick look at the difference between the them, as well as a few examples of ways each license could be used.&lt;/p&gt;
                               &lt;/div&gt;
 
-                              &lt;a class="link" href="@@autopath/page-help-center-article.html"&gt;Read more &lt;i class="bi-chevron-right small ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
+                              &lt;a class="link" href="${path}/resources/src/page-help-center-article.html"&gt;Read more &lt;i class="bi-chevron-right small ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
                             &lt;/div&gt;
                           &lt;/div&gt;
                           &lt;!-- End Media --&gt;
@@ -950,7 +950,7 @@
             <pre>
               <code class="language-markup" data-lang="html">
                 &lt;!-- JS Implementing Plugins --&gt;
-                &lt;script src="@@autopath/assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"&gt;&lt;/script&gt;
+                &lt;script src="${path}/resources/src/assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"&gt;&lt;/script&gt;
 
                 &lt;!-- JS Plugins Init. --&gt;
                 &lt;script&gt;
@@ -1004,10 +1004,10 @@
                   <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-7">
                       <li class="breadcrumb-item">
-                        <a href="@@autopath/page-help-center.html">Help Center</a>
+                        <a href="${path}/resources/src/page-help-center.html">Help Center</a>
                       </li>
                       <li class="breadcrumb-item">
-                        <a href="@@autopath/page-help-center-categories.html">Getting started</a>
+                        <a href="${path}/resources/src/page-help-center-categories.html">Getting started</a>
                       </li>
                       <li class="breadcrumb-item active" aria-current="page">What's Unify?</li>
                     </ol>
@@ -1022,7 +1022,7 @@
                   <!-- Media -->
                   <div class="d-flex align-items-center mb-4">
                     <div class="flex-shrink-0">
-                      <img class="avatar avatar-circle" src="@@autopath/assets/img/160x160/img10.jpg" alt="Image Description">
+                      <img class="avatar avatar-circle" src="${path}/resources/src/assets/img/160x160/img10.jpg" alt="Image Description">
                     </div>
 
                     <div class="flex-grow-1 ms-3">
@@ -1092,19 +1092,19 @@
                       <!-- List -->
                       <ul class="list-pointer list-pointer-secondary">
                         <li class="list-pointer-item">              
-                          <a class="link link-secondary" href="@@autopath/page-help-center-categories.html">Managing my account</a>
+                          <a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html">Managing my account</a>
                         </li>
                         <li class="list-pointer-item">
-                          <a class="link link-secondary" href="@@autopath/page-help-center-categories.html">Budgeting and Analytics</a>
+                          <a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html">Budgeting and Analytics</a>
                         </li>
                         <li class="list-pointer-item">
-                          <a class="link link-secondary" href="@@autopath/page-help-center-categories.html">Exchanging money</a>
+                          <a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html">Exchanging money</a>
                         </li>
                         <li class="list-pointer-item">              
-                          <a class="link link-secondary" href="@@autopath/page-help-center-categories.html">How do I get help with the theme I purchased?</a>
+                          <a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html">How do I get help with the theme I purchased?</a>
                         </li>
                         <li class="list-pointer-item">
-                          <a class="link link-secondary" href="@@autopath/page-help-center-categories.html">What version of Bootstrap are the themes built on?</a>
+                          <a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html">What version of Bootstrap are the themes built on?</a>
                         </li>
                       </ul>
                       <!-- End List -->
@@ -1135,13 +1135,13 @@
                       <!-- List -->
                       <ul class="list-pointer mb-2">
                         <li class="list-pointer-item">              
-                          <a class="link link-secondary" href="@@autopath/page-help-center-categories.html">What methods of payments are supported?</a>
+                          <a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html">What methods of payments are supported?</a>
                         </li>
                         <li class="list-pointer-item">
-                          <a class="link link-secondary" href="@@autopath/page-help-center-categories.html">How do I get a receipt for my purchase?</a>
+                          <a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html">How do I get a receipt for my purchase?</a>
                         </li>
                         <li class="list-pointer-item">
-                          <a class="link link-secondary" href="@@autopath/page-help-center-categories.html">How can I get a refund?</a>
+                          <a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html">How can I get a refund?</a>
                         </li>
                       </ul>
                       <!-- End List -->
@@ -1152,13 +1152,13 @@
                       <!-- List -->
                       <ul class="list-pointer mb-2">
                         <li class="list-pointer-item">              
-                          <a class="link link-secondary" href="@@autopath/page-help-center-categories.html">Which license do I need?</a>
+                          <a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html">Which license do I need?</a>
                         </li>
                         <li class="list-pointer-item">
-                          <a class="link link-secondary" href="@@autopath/page-help-center-categories.html">How do I get access to a theme I purchased?</a>
+                          <a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html">How do I get access to a theme I purchased?</a>
                         </li>
                         <li class="list-pointer-item">
-                          <a class="link link-secondary" href="@@autopath/page-help-center-categories.html">Upgrade License Type</a>
+                          <a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html">Upgrade License Type</a>
                         </li>
                       </ul>
                       <!-- End List -->
@@ -1185,10 +1185,10 @@
                       &lt;nav aria-label="breadcrumb"&gt;
                         &lt;ol class="breadcrumb mb-7"&gt;
                           &lt;li class="breadcrumb-item"&gt;
-                            &lt;a href="@@autopath/page-help-center.html"&gt;Help Center&lt;/a&gt;
+                            &lt;a href="${path}/resources/src/page-help-center.html"&gt;Help Center&lt;/a&gt;
                           &lt;/li&gt;
                           &lt;li class="breadcrumb-item"&gt;
-                            &lt;a href="@@autopath/page-help-center-categories.html"&gt;Getting started&lt;/a&gt;
+                            &lt;a href="${path}/resources/src/page-help-center-categories.html"&gt;Getting started&lt;/a&gt;
                           &lt;/li&gt;
                           &lt;li class="breadcrumb-item active" aria-current="page"&gt;What's Unify?&lt;/li&gt;
                         &lt;/ol&gt;
@@ -1203,7 +1203,7 @@
                       &lt;!-- Media --&gt;
                       &lt;div class="d-flex align-items-center mb-4"&gt;
                         &lt;div class="flex-shrink-0"&gt;
-                          &lt;img class="avatar avatar-circle" src="@@autopath/assets/img/160x160/img10.jpg" alt="Image Description"&gt;
+                          &lt;img class="avatar avatar-circle" src="${path}/resources/src/assets/img/160x160/img10.jpg" alt="Image Description"&gt;
                         &lt;/div&gt;
 
                         &lt;div class="flex-grow-1 ms-3"&gt;
@@ -1273,19 +1273,19 @@
                           &lt;!-- List --&gt;
                           &lt;ul class="list-pointer list-pointer-secondary"&gt;
                             &lt;li class="list-pointer-item"&gt;              
-                              &lt;a class="link link-secondary" href="@@autopath/page-help-center-categories.html"&gt;Managing my account&lt;/a&gt;
+                              &lt;a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html"&gt;Managing my account&lt;/a&gt;
                             &lt;/li&gt;
                             &lt;li class="list-pointer-item"&gt;
-                              &lt;a class="link link-secondary" href="@@autopath/page-help-center-categories.html"&gt;Budgeting and Analytics&lt;/a&gt;
+                              &lt;a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html"&gt;Budgeting and Analytics&lt;/a&gt;
                             &lt;/li&gt;
                             &lt;li class="list-pointer-item"&gt;
-                              &lt;a class="link link-secondary" href="@@autopath/page-help-center-categories.html"&gt;Exchanging money&lt;/a&gt;
+                              &lt;a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html"&gt;Exchanging money&lt;/a&gt;
                             &lt;/li&gt;
                             &lt;li class="list-pointer-item"&gt;              
-                              &lt;a class="link link-secondary" href="@@autopath/page-help-center-categories.html"&gt;How do I get help with the theme I purchased?&lt;/a&gt;
+                              &lt;a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html"&gt;How do I get help with the theme I purchased?&lt;/a&gt;
                             &lt;/li&gt;
                             &lt;li class="list-pointer-item"&gt;
-                              &lt;a class="link link-secondary" href="@@autopath/page-help-center-categories.html"&gt;What version of Bootstrap are the themes built on?&lt;/a&gt;
+                              &lt;a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html"&gt;What version of Bootstrap are the themes built on?&lt;/a&gt;
                             &lt;/li&gt;
                           &lt;/ul&gt;
                           &lt;!-- End List --&gt;
@@ -1316,13 +1316,13 @@
                           &lt;!-- List --&gt;
                           &lt;ul class="list-pointer mb-2"&gt;
                             &lt;li class="list-pointer-item"&gt;              
-                              &lt;a class="link link-secondary" href="@@autopath/page-help-center-categories.html"&gt;What methods of payments are supported?&lt;/a&gt;
+                              &lt;a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html"&gt;What methods of payments are supported?&lt;/a&gt;
                             &lt;/li&gt;
                             &lt;li class="list-pointer-item"&gt;
-                              &lt;a class="link link-secondary" href="@@autopath/page-help-center-categories.html"&gt;How do I get a receipt for my purchase?&lt;/a&gt;
+                              &lt;a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html"&gt;How do I get a receipt for my purchase?&lt;/a&gt;
                             &lt;/li&gt;
                             &lt;li class="list-pointer-item"&gt;
-                              &lt;a class="link link-secondary" href="@@autopath/page-help-center-categories.html"&gt;How can I get a refund?&lt;/a&gt;
+                              &lt;a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html"&gt;How can I get a refund?&lt;/a&gt;
                             &lt;/li&gt;
                           &lt;/ul&gt;
                           &lt;!-- End List --&gt;
@@ -1333,13 +1333,13 @@
                           &lt;!-- List --&gt;
                           &lt;ul class="list-pointer mb-2"&gt;
                             &lt;li class="list-pointer-item"&gt;              
-                              &lt;a class="link link-secondary" href="@@autopath/page-help-center-categories.html"&gt;Which license do I need?&lt;/a&gt;
+                              &lt;a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html"&gt;Which license do I need?&lt;/a&gt;
                             &lt;/li&gt;
                             &lt;li class="list-pointer-item"&gt;
-                              &lt;a class="link link-secondary" href="@@autopath/page-help-center-categories.html"&gt;How do I get access to a theme I purchased?&lt;/a&gt;
+                              &lt;a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html"&gt;How do I get access to a theme I purchased?&lt;/a&gt;
                             &lt;/li&gt;
                             &lt;li class="list-pointer-item"&gt;
-                              &lt;a class="link link-secondary" href="@@autopath/page-help-center-categories.html"&gt;Upgrade License Type&lt;/a&gt;
+                              &lt;a class="link link-secondary" href="${path}/resources/src/page-help-center-categories.html"&gt;Upgrade License Type&lt;/a&gt;
                             &lt;/li&gt;
                           &lt;/ul&gt;
                           &lt;!-- End List --&gt;
@@ -1392,7 +1392,7 @@
               <div class="row mb-7">
                 <div class="col-md mb-3 mb-md-0">
                   <div class="mb-3">
-                    <a class="link link-secondary" href="@@autopath/page-careers.html"><i class="bi-arrow-left small me-1"></i> Back to Listings</a>
+                    <a class="link link-secondary" href="${path}/resources/src/page-careers.html"><i class="bi-arrow-left small me-1"></i> Back to Listings</a>
                   </div>
 
                   <h1 class="mb-0">Product Manager</h1>
@@ -1400,7 +1400,7 @@
                 <!-- End Col -->
 
                 <div class="col-md-auto align-self-md-end">
-                  <a class="btn btn-primary" href="@@autopath/page-careers-apply.html">Apply now</a>
+                  <a class="btn btn-primary" href="${path}/resources/src/page-careers-apply.html">Apply now</a>
                 </div>
                 <!-- End Col -->
               </div>
@@ -1440,7 +1440,7 @@
                         <h6>This role's hiring manager:</h6>
 
                         <div class="mb-3">
-                          <img class="avatar avatar-xl avatar-circle" src="@@autopath/assets/img/160x160/img10.jpg" alt="Image Description">
+                          <img class="avatar avatar-xl avatar-circle" src="${path}/resources/src/assets/img/160x160/img10.jpg" alt="Image Description">
                         </div>
 
                         <h6>Louise Donadieu</h6>
@@ -1554,7 +1554,7 @@
                   </div>
 
                   <div class="text-center">
-                    <a class="btn btn-primary" href="@@autopath/page-careers-apply.html">Apply now</a>
+                    <a class="btn btn-primary" href="${path}/resources/src/page-careers-apply.html">Apply now</a>
                   </div>
 
                   <!-- End Sticky End Point -->
@@ -1661,7 +1661,7 @@
 
               <div class="w-lg-65 text-center mx-lg-auto">
                 <p>Don't worry if you don't see any roles you want to apply for now. Register your interest to be notified of any roles that come along that meet your criteria.</p>
-                <a class="btn btn-primary" href="@@autopath/page-contacts.html">Register your interest</a>
+                <a class="btn btn-primary" href="${path}/resources/src/page-contacts.html">Register your interest</a>
               </div>
             </div>
             <!-- End Content -->
@@ -1675,7 +1675,7 @@
                   &lt;div class="row mb-7"&gt;
                     &lt;div class="col-md mb-3 mb-md-0"&gt;
                       &lt;div class="mb-3"&gt;
-                        &lt;a class="link link-secondary" href="@@autopath/page-careers.html"&gt;&lt;i class="bi-arrow-left small me-1"&gt;&lt;/i&gt; Back to Listings&lt;/a&gt;
+                        &lt;a class="link link-secondary" href="${path}/resources/src/page-careers.html"&gt;&lt;i class="bi-arrow-left small me-1"&gt;&lt;/i&gt; Back to Listings&lt;/a&gt;
                       &lt;/div&gt;
 
                       &lt;h1 class="mb-0"&gt;Product Manager&lt;/h1&gt;
@@ -1683,7 +1683,7 @@
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-md-auto align-self-md-end"&gt;
-                      &lt;a class="btn btn-primary" href="@@autopath/page-careers-apply.html"&gt;Apply now&lt;/a&gt;
+                      &lt;a class="btn btn-primary" href="${path}/resources/src/page-careers-apply.html"&gt;Apply now&lt;/a&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
                   &lt;/div&gt;
@@ -1723,7 +1723,7 @@
                             &lt;h6&gt;This role's hiring manager:&lt;/h6&gt;
 
                             &lt;div class="mb-3"&gt;
-                              &lt;img class="avatar avatar-xl avatar-circle" src="@@autopath/assets/img/160x160/img10.jpg" alt="Image Description"&gt;
+                              &lt;img class="avatar avatar-xl avatar-circle" src="${path}/resources/src/assets/img/160x160/img10.jpg" alt="Image Description"&gt;
                             &lt;/div&gt;
 
                             &lt;h6&gt;Louise Donadieu&lt;/h6&gt;
@@ -1837,7 +1837,7 @@
                       &lt;/div&gt;
 
                       &lt;div class="text-center"&gt;
-                        &lt;a class="btn btn-primary" href="@@autopath/page-careers-apply.html"&gt;Apply now&lt;/a&gt;
+                        &lt;a class="btn btn-primary" href="${path}/resources/src/page-careers-apply.html"&gt;Apply now&lt;/a&gt;
                       &lt;/div&gt;
 
                       &lt;!-- End Sticky End Point --&gt;
@@ -1944,7 +1944,7 @@
 
                   &lt;div class="w-lg-65 text-center mx-lg-auto"&gt;
                     &lt;p&gt;Don't worry if you don't see any roles you want to apply for now. Register your interest to be notified of any roles that come along that meet your criteria.&lt;/p&gt;
-                    &lt;a class="btn btn-primary" href="@@autopath/page-contacts.html"&gt;Register your interest&lt;/a&gt;
+                    &lt;a class="btn btn-primary" href="${path}/resources/src/page-contacts.html"&gt;Register your interest&lt;/a&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
                 &lt;!-- End Content --&gt;
@@ -2047,17 +2047,17 @@
               <!-- End Row -->
 
               <div class="my-4">
-                <img class="img-fluid" src="@@autopath/assets/img/1920x1080/img8.jpg" alt="Image Description">
+                <img class="img-fluid" src="${path}/resources/src/assets/img/1920x1080/img8.jpg" alt="Image Description">
               </div>
 
               <div class="row mb-7">
                 <div class="col-sm-6 mb-4 mb-sm-0">
-                  <img class="img-fluid" src="@@autopath/assets/img/580x480/img25.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/580x480/img25.jpg" alt="Image Description">
                 </div>
                 <!-- End Col -->
 
                 <div class="col-sm-6">
-                  <img class="img-fluid" src="@@autopath/assets/img/580x480/img26.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/580x480/img26.jpg" alt="Image Description">
                 </div>
                 <!-- End Col -->
               </div>
@@ -2070,17 +2070,17 @@
               </div>
 
               <div class="my-4">
-                <img class="img-fluid" src="@@autopath/assets/img/1920x1080/img9.jpg" alt="Image Description">
+                <img class="img-fluid" src="${path}/resources/src/assets/img/1920x1080/img9.jpg" alt="Image Description">
               </div>
 
               <div class="row mb-7">
                 <div class="col-sm-6 mb-4 mb-sm-0">
-                  <img class="img-fluid" src="@@autopath/assets/img/580x480/img27.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/580x480/img27.jpg" alt="Image Description">
                 </div>
                 <!-- End Col -->
 
                 <div class="col-sm-6">
-                  <img class="img-fluid" src="@@autopath/assets/img/580x480/img28.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/580x480/img28.jpg" alt="Image Description">
                 </div>
                 <!-- End Col -->
               </div>
@@ -2093,7 +2093,7 @@
               </div>
 
               <div class="mt-4 mb-7">
-                <img class="img-fluid" src="@@autopath/assets/img/1920x1080/img10.jpg" alt="Image Description">
+                <img class="img-fluid" src="${path}/resources/src/assets/img/1920x1080/img10.jpg" alt="Image Description">
               </div>
 
               <div class="mb-7">
@@ -2186,7 +2186,7 @@
                 <figcaption class="blockquote-footer">
                   <div class="d-flex align-items-center">
                     <div class="flex-shrink-0">
-                      <img class="avatar avatar-circle" src="@@autopath/assets/img/160x160/img6.jpg" alt="Image Description">
+                      <img class="avatar avatar-circle" src="${path}/resources/src/assets/img/160x160/img6.jpg" alt="Image Description">
                     </div>
                     <div class="flex-grow-1 ms-3">
                       Tobias Lütke
@@ -2270,17 +2270,17 @@
                   &lt;!-- End Row --&gt;
 
                   &lt;div class="my-4"&gt;
-                    &lt;img class="img-fluid" src="@@autopath/assets/img/1920x1080/img8.jpg" alt="Image Description"&gt;
+                    &lt;img class="img-fluid" src="${path}/resources/src/assets/img/1920x1080/img8.jpg" alt="Image Description"&gt;
                   &lt;/div&gt;
 
                   &lt;div class="row mb-7"&gt;
                     &lt;div class="col-sm-6 mb-4 mb-sm-0"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/580x480/img25.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/580x480/img25.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-sm-6"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/580x480/img26.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/580x480/img26.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
                   &lt;/div&gt;
@@ -2293,17 +2293,17 @@
                   &lt;/div&gt;
 
                   &lt;div class="my-4"&gt;
-                    &lt;img class="img-fluid" src="@@autopath/assets/img/1920x1080/img9.jpg" alt="Image Description"&gt;
+                    &lt;img class="img-fluid" src="${path}/resources/src/assets/img/1920x1080/img9.jpg" alt="Image Description"&gt;
                   &lt;/div&gt;
 
                   &lt;div class="row mb-7"&gt;
                     &lt;div class="col-sm-6 mb-4 mb-sm-0"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/580x480/img27.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/580x480/img27.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
 
                     &lt;div class="col-sm-6"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/580x480/img28.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/580x480/img28.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
                   &lt;/div&gt;
@@ -2316,7 +2316,7 @@
                   &lt;/div&gt;
 
                   &lt;div class="mt-4 mb-7"&gt;
-                    &lt;img class="img-fluid" src="@@autopath/assets/img/1920x1080/img10.jpg" alt="Image Description"&gt;
+                    &lt;img class="img-fluid" src="${path}/resources/src/assets/img/1920x1080/img10.jpg" alt="Image Description"&gt;
                   &lt;/div&gt;
 
                   &lt;div class="mb-7"&gt;
@@ -2409,7 +2409,7 @@
                     &lt;figcaption class="blockquote-footer"&gt;
                       &lt;div class="d-flex align-items-center"&gt;
                         &lt;div class="flex-shrink-0"&gt;
-                          &lt;img class="avatar avatar-circle" src="@@autopath/assets/img/160x160/img6.jpg" alt="Image Description"&gt;
+                          &lt;img class="avatar avatar-circle" src="${path}/resources/src/assets/img/160x160/img6.jpg" alt="Image Description"&gt;
                         &lt;/div&gt;
                         &lt;div class="flex-grow-1 ms-3"&gt;
                           Tobias Lütke
@@ -2927,7 +2927,7 @@
 
               <div class="row mb-5">
                 <div class="col-md-10 col-lg-8 offset-md-1 offset-lg-2">
-                  <img class="img-fluid" src="@@autopath/assets/img/1920x1080/img2.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/1920x1080/img2.jpg" alt="Image Description">
                 </div>
                 <!-- End Col -->
               </div>
@@ -2959,7 +2959,7 @@
 
               <div class="row mb-5">
                 <div class="col-md-10 col-lg-8 offset-md-1 offset-lg-2">
-                  <img class="img-fluid" src="@@autopath/assets/img/1920x1080/img3.jpg" alt="Image Description">
+                  <img class="img-fluid" src="${path}/resources/src/assets/img/1920x1080/img3.jpg" alt="Image Description">
                 </div>
                 <!-- End Col -->
               </div>
@@ -3086,7 +3086,7 @@
 
                   &lt;div class="row mb-5"&gt;
                     &lt;div class="col-md-10 col-lg-8 offset-md-1 offset-lg-2"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/1920x1080/img2.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/1920x1080/img2.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
                   &lt;/div&gt;
@@ -3118,7 +3118,7 @@
 
                   &lt;div class="row mb-5"&gt;
                     &lt;div class="col-md-10 col-lg-8 offset-md-1 offset-lg-2"&gt;
-                      &lt;img class="img-fluid" src="@@autopath/assets/img/1920x1080/img3.jpg" alt="Image Description"&gt;
+                      &lt;img class="img-fluid" src="${path}/resources/src/assets/img/1920x1080/img3.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
                     &lt;!-- End Col --&gt;
                   &lt;/div&gt;
@@ -3228,25 +3228,25 @@
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
-  <script src="@@autopath/node_modules/list.js/dist/list.min.js"></script>
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
-  <script src="@@autopath/assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/list.js/dist/list.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/prism/prism.js"></script>
+  <script src="${path}/resources/src/assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
-  <script src="@@autopath/assets/js/hs.list.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
+  <script src="${path}/resources/src/assets/js/hs.list.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -3271,7 +3271,7 @@
 
       // GET JSON FILE RESULTS
       // =======================================================
-      fetch('@@autopath/assets/json/snippets-search.json')
+      fetch('${path}/resources/src/assets/json/snippets-search.json')
       .then(response => response.json())
       .then(data => {
         snippetsSearch.getItem(0).add(data)

@@ -9,25 +9,25 @@
   <title>Hero - Page: About - Snippets | Unify - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="${path}/resources/src/favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.themeFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+  <!-- bundlecss:vendor [${path}/resources/src] -->
+  <link rel="stylesheet" href="${path}/resources/src/dist/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
 
   <!-- CSS Unify Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
-  <link rel="stylesheet" href="@@autopath/assets/css/snippets.css">
+  <!-- bundlecss:theme [${path}/resources/src] @@vars.version -->
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/theme.css">
+  <link rel="stylesheet" href="${path}/resources/src/assets/css/snippets.css">
 </head>
 
 <body>
   <!-- ========== HEADER ========== -->
-  @@include("@@autopath/partials/navbar/main-absolute-top.html", {
+  @@include("${path}/resources/src/partials/navbar/main-absolute-top.html", {
     "category": "",
     "link": ""
   })
@@ -42,7 +42,7 @@
         <p class="lead">We cut through complexity, empowering businesses to challenge the status quo, create unlimited opportunities – and change the world.</p>
       </div>
 
-      <div class="position-relative bg-img-center min-vh-35 min-vh-md-75" style="background-image: url(@@autopath/assets/img/1920x1080/img11.jpg);">
+      <div class="position-relative bg-img-center min-vh-35 min-vh-md-75" style="background-image: url(${path}/resources/src/assets/img/1920x1080/img11.jpg);">
         <div class="position-absolute bottom-0 start-0 start-md-auto end-0 text-center text-md-start p-4 mx-auto mx-md-0" style="max-width: 25rem;">
           <div class="d-inline-block bg-white rounded-3 p-3 p-md-5">
             <div class="d-none d-md-block mb-10">
@@ -92,7 +92,7 @@
                     &lt;p class="lead"&gt;We cut through complexity, empowering businesses to challenge the status quo, create unlimited opportunities – and change the world.&lt;/p&gt;
                   &lt;/div&gt;
 
-                  &lt;div class="position-relative bg-img-center min-vh-35 min-vh-md-75" style="background-image: url(@@autopath/assets/img/1920x1080/img11.jpg);"&gt;
+                  &lt;div class="position-relative bg-img-center min-vh-35 min-vh-md-75" style="background-image: url(${path}/resources/src/assets/img/1920x1080/img11.jpg);"&gt;
                     &lt;div class="position-absolute bottom-0 start-0 start-md-auto end-0 text-center text-md-start p-4 mx-auto mx-md-0" style="max-width: 25rem;"&gt;
                       &lt;div class="d-inline-block bg-white rounded-3 p-3 p-md-5"&gt;
                         &lt;div class="d-none d-md-block mb-10"&gt;
@@ -119,7 +119,7 @@
             <pre>
               <code class="language-markup" data-lang="html">
                 &lt;!-- JS Implementing Plugins --&gt;
-                &lt;script src="@@autopath/node_modules/fslightbox/index.js"&gt;&lt;/script&gt;
+                &lt;script src="${path}/resources/src/dist/assets/vendor/fslightbox/index.js"&gt;&lt;/script&gt;
               </code>
             </pre>
           </div>
@@ -133,21 +133,21 @@
 
   <!-- ========== SECONDARY CONTENTS ========== -->
   <!-- Go To -->
-  @@include("@@autopath/partials/layouts-components/go-to.html")
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+  <%--  @@include("${path}/resources/src/partials/footer/main.html")--%>
+  <jsp:include page="${path}/resources/src/partials/footer/main.jsp"/><!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
-  <script src="@@autopath/node_modules/fslightbox/index.js"></script>
+  <!-- bundlejs:vendor [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="${path}/resources/src/assets/vendor/prism/prism.js"></script>
+  <script src="${path}/resources/src/dist/assets/vendor/fslightbox/index.js"></script>
 
   <!-- JS Unify -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
+  <!-- bundlejs:theme [${path}/resources/src] -->
+  <script src="${path}/resources/src/assets/js/hs.core.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
