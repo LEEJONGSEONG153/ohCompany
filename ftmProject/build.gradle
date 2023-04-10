@@ -33,7 +33,11 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 	//h2 DB
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc' // Jdbc, Driver
-	implementation 'com.h2database:h2' // h2 : implementation
+	//implementation 'com.h2database:h2' // h2 : implementation
+
+	//mysql
+	implementation 'org.springframework.boot:spring-boot-starter'
+	runtimeOnly 'mysql:mysql-connector-java:8.0.21'
 
 	//todo
 	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.3.0'

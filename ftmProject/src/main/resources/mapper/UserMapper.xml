@@ -3,10 +3,10 @@
 <mapper namespace="com.ohCom.ftmProject.domain.user.UserMapper">
 
     <insert id="save"  useGeneratedKeys="true" keyProperty="id">
-        INSERT INTO User(name,email,role) VALUES(#{name}, #{email}, #{role})
+        INSERT INTO MEMBER(name,email,role) VALUES(#{name}, #{email}, #{role})
     </insert>
     <select id="findByEmail" resultType="com.ohCom.ftmProject.domain.user.User">
-        SELECT * FROM User WHERE email = #{email}
+        SELECT * FROM MEMBER WHERE email = #{email}
     </select>
 
 

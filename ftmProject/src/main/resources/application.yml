@@ -7,30 +7,34 @@ spring:
   profiles:
     include: oauth
 
-
-
-  # h2 database web으로 확인
-  .h2:
-    console:
-      enabled: true
-      path: /h2-console
-  # spring - h2 연결
+#  # h2 database web으로 확인
+#  .h2:
+#    console:
+#      enabled: true
+#      path: /h2-console
+#  # spring - h2 연결
+#  datasource:
+#    driverClassName: org.h2.Driver
+#    #url: jdbc:h2.~/spring-qna-db  # embedded Mode : db 데이터 저장 위치 :  ~/spring-qna-db
+#    url: jdbc:h2:mem:test;NON_KEYWORDS=USER
+#
+#
+#    #spring.datasource.url=jdbc:h2:mem:test # In-Memory mode
+#    username: sa
+#    password:
+#  sql:
+#    init:
+#      mode: always
+#  #spring.sql.init.schema-locations=classpath:schema.sql
+#  #spring.sql.init.data-locations=classpath:data.sql
   datasource:
-    driverClassName: org.h2.Driver
-    #url: jdbc:h2.~/spring-qna-db  # embedded Mode : db 데이터 저장 위치 :  ~/spring-qna-db
-    url: jdbc:h2:mem:test;NON_KEYWORDS=USER
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: lee
+    password: Lee1234!
+    url: jdbc:mysql://192.168.56.102:3306/leeDB?characterEncoding=UTF-8&serverTimezone=UTC
 
 
-    #spring.datasource.url=jdbc:h2:mem:test # In-Memory mode
-    username: sa
-    password:
-  sql:
-    init:
-      mode: always
-  #spring.sql.init.schema-locations=classpath:schema.sql
-  #spring.sql.init.data-locations=classpath:data.sql
-
-# model 프로퍼티 camel case 설정
+  # model 프로퍼티 camel case 설정
 #mybatis:
 #  configuration:
 #    map-underscore-to-camel-case: true
@@ -44,7 +48,6 @@ mybatis:
     jdbc-type-for-null: varchar
     default-fetch-size: 500
   mapper-locations: classpath:mapper/*.xml
-
 
 server:
   port: 9090
